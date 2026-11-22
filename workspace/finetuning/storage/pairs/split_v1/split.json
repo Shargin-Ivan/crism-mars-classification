@@ -1,0 +1,250 @@
+{
+  "schema_version": 1,
+  "recipe": {
+    "schema_version": 1,
+    "held_out_scene_id": "hymars_v2_HC",
+    "patch_size": 19,
+    "block_size": 128,
+    "seed": 42,
+    "validation_block_probability": 0.2,
+    "small_class_policy": "protect_full_footprints_in_train_when_no_train_centers",
+    "pairs": [
+      {
+        "pair": {
+          "path": "storage/pairs/hymars_v1/hymars_v2_NF/pair.json",
+          "sha256": "67cc0ea281af49a376e8cc98d1b405f11464b4872344740128ae3ff6a23bfa4d"
+        },
+        "role": "development",
+        "stage": "hymars_full"
+      },
+      {
+        "pair": {
+          "path": "storage/pairs/hymars_v1/hymars_v2_UP/pair.json",
+          "sha256": "915e2f9ffccc53cbf31816b3e3db3bfed9cd8c5e90830ff8376750893704a8ed"
+        },
+        "role": "development",
+        "stage": "hymars_full"
+      },
+      {
+        "pair": {
+          "path": "storage/pairs/hymars_v1/hymars_v2_HC/pair.json",
+          "sha256": "859b525756ca09fcac951c8542c2c16f8528c9fd7ea7a4a30672689355366975"
+        },
+        "role": "held_out_test",
+        "stage": "hymars_full"
+      },
+      {
+        "pair": {
+          "path": "storage/pairs/plebani_09036_v1/pair.json",
+          "sha256": "74f4c427ff95da986f38ce4a9b8297d17a9251941b832df9d18f47270a8a84e7"
+        },
+        "role": "development",
+        "stage": "plebani350"
+      }
+    ],
+    "notes": [
+      "HC is never used to select train/validation blocks.",
+      "Plebani currently contains one spatial scene: within-scene validation is a prototype, not an independent observation-level test.",
+      "The fixed final held-out cube is HC for both stages; NF/UP are development only."
+    ]
+  },
+  "recipe_sha256": "bce88f93bd3dd8a9c49dedea06670c4f7e6c112af3581626b6e9b2ce0e1da592",
+  "class_names": [
+    "CO2 Ice",
+    "H2O Ice",
+    "Gypsum",
+    "Ferric Hydroxysulfate",
+    "Hematite",
+    "Nontronite",
+    "Mg-Smectite",
+    "Prehnite",
+    "Jarosite",
+    "Serpentine",
+    "Alunite",
+    "Akaganeite",
+    "Ca/Fe CO3",
+    "Beidellite",
+    "Kaolinite",
+    "Bassanite",
+    "Epidote",
+    "Montmorillonite",
+    "Rosenite",
+    "Mg Cl salt",
+    "Halloysite",
+    "Illite/Muscovite",
+    "Margarite",
+    "Analcime",
+    "Monohydrated sulfate",
+    "Opal 1",
+    "Opal 2",
+    "Iron Oxide Silicate Sulfate",
+    "MgCO3",
+    "Chlorite",
+    "Clinochlore",
+    "Low Ca Pyroxene",
+    "Olivine Forsterite",
+    "High Ca Pyroxene",
+    "Fe-Olivine",
+    "Chloride",
+    "Artifact",
+    "Neutral",
+    "Plagioclase"
+  ],
+  "pairs": [
+    {
+      "scene_id": "hymars_v2_NF",
+      "role": "development",
+      "stage": "hymars_full",
+      "masks": {
+        "train_roi": {
+          "path": "hymars_v2_NF/train_roi.npy",
+          "sha256": "c7ee6ef65ce5f70ac01da3a0740794b4fba2d10fccbafee627972a5a48fee5a9"
+        },
+        "validation_roi": {
+          "path": "hymars_v2_NF/validation_roi.npy",
+          "sha256": "8a5fb0ddd137fe91199e7146a630e5c1f7b157ce44acaaaef402050121b2f92e"
+        },
+        "train_centers": {
+          "path": "hymars_v2_NF/train_centers.npy",
+          "sha256": "9d0b3be5c9e8fb97a211bfe5fcebddd0d529e3cef20e23fdc4d48fa90d2e429f"
+        },
+        "validation_centers": {
+          "path": "hymars_v2_NF/validation_centers.npy",
+          "sha256": "b484d7a6281604e22614f26f66fbda1001044cb4bf0eb9d7b0b9f39f007ad542"
+        }
+      },
+      "labeled_center_counts": {
+        "train_centers": {
+          "7": 855,
+          "9": 4515,
+          "15": 2915,
+          "16": 925,
+          "21": 172,
+          "28": 4276,
+          "29": 343,
+          "34": 7901,
+          "38": 704
+        },
+        "validation_centers": {
+          "9": 492,
+          "16": 12,
+          "28": 149,
+          "34": 241
+        }
+      },
+      "classes_protected_in_train": [],
+      "center_counts_scope": "geometry_and_labels; spectral eligibility checked by training loader"
+    },
+    {
+      "scene_id": "hymars_v2_UP",
+      "role": "development",
+      "stage": "hymars_full",
+      "masks": {
+        "train_roi": {
+          "path": "hymars_v2_UP/train_roi.npy",
+          "sha256": "956e45e69a40c11d0ccb89a76fdf475001aafc0944ee9eb7b332e7408be3588e"
+        },
+        "validation_roi": {
+          "path": "hymars_v2_UP/validation_roi.npy",
+          "sha256": "1557e129e845a229475c33c87f4639cf0b4c9eb459c5a8b633092843f9caedc8"
+        },
+        "train_centers": {
+          "path": "hymars_v2_UP/train_centers.npy",
+          "sha256": "efa70d6eaa58ddabdf09d1dd3af8539080740f0a26ce6c072bd469f9e5044ca0"
+        },
+        "validation_centers": {
+          "path": "hymars_v2_UP/validation_centers.npy",
+          "sha256": "8578cb25412183e1c109aa03be76bf0366783e621da7aa484aa3d1c7ac694184"
+        }
+      },
+      "labeled_center_counts": {
+        "train_centers": {
+          "6": 1166,
+          "7": 478,
+          "15": 4217,
+          "21": 272,
+          "23": 1458,
+          "24": 244,
+          "31": 3539,
+          "33": 362,
+          "38": 192
+        },
+        "validation_centers": {
+          "7": 24,
+          "15": 709,
+          "23": 293,
+          "31": 928,
+          "33": 66
+        }
+      },
+      "classes_protected_in_train": [],
+      "center_counts_scope": "geometry_and_labels; spectral eligibility checked by training loader"
+    },
+    {
+      "scene_id": "hymars_v2_HC",
+      "role": "held_out_test",
+      "stage": "hymars_full",
+      "masks": {
+        "test_roi": {
+          "path": "hymars_v2_HC/test_roi.npy",
+          "sha256": "18f492aa554408c321b12476bbe77376ed414c27f5018f92293d5b6d45364b79"
+        },
+        "test_centers": {
+          "path": "hymars_v2_HC/test_centers.npy",
+          "sha256": "9b31995c928efeb26a23ed659df56a4ad036edb76be88d8b7cc496965ee3d47a"
+        }
+      },
+      "labeled_center_counts": {
+        "test_centers": {
+          "7": 1560,
+          "9": 8697,
+          "22": 458,
+          "23": 940,
+          "33": 5470,
+          "38": 1472
+        }
+      },
+      "classes_protected_in_train": [],
+      "center_counts_scope": "geometry_and_labels; spectral eligibility checked by training loader"
+    },
+    {
+      "scene_id": "plebani_FRT00009036_dhoundiyal2025",
+      "role": "development",
+      "stage": "plebani350",
+      "masks": {
+        "train_roi": {
+          "path": "plebani_FRT00009036_dhoundiyal2025/train_roi.npy",
+          "sha256": "3321e6f88a5815192ca7975d7a8ceab41460002510492a3be5bcb77c868e8496"
+        },
+        "validation_roi": {
+          "path": "plebani_FRT00009036_dhoundiyal2025/validation_roi.npy",
+          "sha256": "e55bc0fe27b8d4c4b95ff5a6f476d851c7ce81a0d2cd4640676492bdba3c4915"
+        },
+        "train_centers": {
+          "path": "plebani_FRT00009036_dhoundiyal2025/train_centers.npy",
+          "sha256": "c072d0c8c0e23289062977a997dceb019b104471aee477da1308e87cd1d4061d"
+        },
+        "validation_centers": {
+          "path": "plebani_FRT00009036_dhoundiyal2025/validation_centers.npy",
+          "sha256": "536501417c8beaaef2f03ade9fc1c0652c9e4b5fd2d981759654d4ef40fa617f"
+        }
+      },
+      "labeled_center_counts": {
+        "train_centers": {
+          "7": 61,
+          "12": 36,
+          "21": 711
+        },
+        "validation_centers": {
+          "12": 283,
+          "21": 91
+        }
+      },
+      "classes_protected_in_train": [
+        7
+      ],
+      "center_counts_scope": "geometry_and_labels; spectral eligibility checked by training loader"
+    }
+  ],
+  "shared_patch_pixels": 0
+}

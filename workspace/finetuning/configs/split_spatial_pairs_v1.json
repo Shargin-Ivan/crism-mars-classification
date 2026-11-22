@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "held_out_scene_id": "hymars_v2_HC",
+  "patch_size": 19,
+  "block_size": 128,
+  "seed": 42,
+  "validation_block_probability": 0.2,
+  "small_class_policy": "protect_full_footprints_in_train_when_no_train_centers",
+  "pairs": [
+    {
+      "pair": {
+        "path": "storage/pairs/hymars_v1/hymars_v2_NF/pair.json",
+        "sha256": "67cc0ea281af49a376e8cc98d1b405f11464b4872344740128ae3ff6a23bfa4d"
+      },
+      "role": "development",
+      "stage": "hymars_full"
+    },
+    {
+      "pair": {
+        "path": "storage/pairs/hymars_v1/hymars_v2_UP/pair.json",
+        "sha256": "915e2f9ffccc53cbf31816b3e3db3bfed9cd8c5e90830ff8376750893704a8ed"
+      },
+      "role": "development",
+      "stage": "hymars_full"
+    },
+    {
+      "pair": {
+        "path": "storage/pairs/hymars_v1/hymars_v2_HC/pair.json",
+        "sha256": "859b525756ca09fcac951c8542c2c16f8528c9fd7ea7a4a30672689355366975"
+      },
+      "role": "held_out_test",
+      "stage": "hymars_full"
+    },
+    {
+      "pair": {
+        "path": "storage/pairs/plebani_09036_v1/pair.json",
+        "sha256": "74f4c427ff95da986f38ce4a9b8297d17a9251941b832df9d18f47270a8a84e7"
+      },
+      "role": "development",
+      "stage": "plebani350"
+    }
+  ],
+  "notes": [
+    "HC is never used to select train/validation blocks.",
+    "Plebani currently contains one spatial scene: within-scene validation is a prototype, not an independent observation-level test.",
+    "The fixed final held-out cube is HC for both stages; NF/UP are development only."
+  ]
+}

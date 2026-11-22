@@ -1,0 +1,351 @@
+{
+  "run_id": "20261122T124618.613441Z_6ead86e2",
+  "branch_taxonomy": {
+    "sam_original": "finetuning_classes",
+    "sam_denoised": "finetuning_classes",
+    "lwnet_original": "salinas_aviris_land_cover",
+    "lwnet_denoised": "salinas_aviris_land_cover"
+  },
+  "taxonomies": {
+    "finetuning_classes": [
+      {
+        "id": 0,
+        "source": "CO2 Ice",
+        "ru": "Углекислотный лёд",
+        "color": "#1f77b4"
+      },
+      {
+        "id": 1,
+        "source": "H2O Ice",
+        "ru": "Водяной лёд",
+        "color": "#aec7e8"
+      },
+      {
+        "id": 2,
+        "source": "Gypsum",
+        "ru": "Гипс",
+        "color": "#ff7f0e"
+      },
+      {
+        "id": 3,
+        "source": "Ferric Hydroxysulfate",
+        "ru": "Гидроксосульфат железа(III)",
+        "color": "#ffbb78"
+      },
+      {
+        "id": 4,
+        "source": "Hematite",
+        "ru": "Гематит",
+        "color": "#2ca02c"
+      },
+      {
+        "id": 5,
+        "source": "Nontronite",
+        "ru": "Нонтронит",
+        "color": "#98df8a"
+      },
+      {
+        "id": 6,
+        "source": "Mg-Smectite",
+        "ru": "Mg-смектит",
+        "color": "#d62728"
+      },
+      {
+        "id": 7,
+        "source": "Prehnite",
+        "ru": "Пренит",
+        "color": "#ff9896"
+      },
+      {
+        "id": 8,
+        "source": "Jarosite",
+        "ru": "Ярозит",
+        "color": "#9467bd"
+      },
+      {
+        "id": 9,
+        "source": "Serpentine",
+        "ru": "Серпентин",
+        "color": "#c5b0d5"
+      },
+      {
+        "id": 10,
+        "source": "Alunite",
+        "ru": "Алунит",
+        "color": "#8c564b"
+      },
+      {
+        "id": 11,
+        "source": "Akaganeite",
+        "ru": "Акаганеит",
+        "color": "#c49c94"
+      },
+      {
+        "id": 12,
+        "source": "Ca/Fe CO3",
+        "ru": "Fe/Ca-карбонат",
+        "color": "#e377c2"
+      },
+      {
+        "id": 13,
+        "source": "Beidellite",
+        "ru": "Бейделлит",
+        "color": "#f7b6d2"
+      },
+      {
+        "id": 14,
+        "source": "Kaolinite",
+        "ru": "Каолинит",
+        "color": "#7f7f7f"
+      },
+      {
+        "id": 15,
+        "source": "Bassanite",
+        "ru": "Бассанит",
+        "color": "#c7c7c7"
+      },
+      {
+        "id": 16,
+        "source": "Epidote",
+        "ru": "Эпидот",
+        "color": "#bcbd22"
+      },
+      {
+        "id": 17,
+        "source": "Montmorillonite",
+        "ru": "Монтмориллонит",
+        "color": "#dbdb8d"
+      },
+      {
+        "id": 18,
+        "source": "Rosenite",
+        "ru": "Розенит",
+        "color": "#17becf"
+      },
+      {
+        "id": 19,
+        "source": "Mg Cl salt",
+        "ru": "Хлорсодержащая соль магния",
+        "color": "#9edae5"
+      },
+      {
+        "id": 20,
+        "source": "Halloysite",
+        "ru": "Галлуазит",
+        "color": "#393b79"
+      },
+      {
+        "id": 21,
+        "source": "Illite/Muscovite",
+        "ru": "Иллит / мусковит",
+        "color": "#5254a3"
+      },
+      {
+        "id": 22,
+        "source": "Margarite",
+        "ru": "Маргарит",
+        "color": "#6b6ecf"
+      },
+      {
+        "id": 23,
+        "source": "Analcime",
+        "ru": "Анальцим",
+        "color": "#9c9ede"
+      },
+      {
+        "id": 24,
+        "source": "Monohydrated sulfate",
+        "ru": "Моногидрат сульфата",
+        "color": "#637939"
+      },
+      {
+        "id": 25,
+        "source": "Opal 1",
+        "ru": "Опал 1",
+        "color": "#8ca252"
+      },
+      {
+        "id": 26,
+        "source": "Opal 2",
+        "ru": "Опал 2",
+        "color": "#b5cf6b"
+      },
+      {
+        "id": 27,
+        "source": "Iron Oxide Silicate Sulfate",
+        "ru": "Оксид железа, силикат и сульфат",
+        "color": "#cedb9c"
+      },
+      {
+        "id": 28,
+        "source": "MgCO3",
+        "ru": "Mg-карбонат",
+        "color": "#8c6d31"
+      },
+      {
+        "id": 29,
+        "source": "Chlorite",
+        "ru": "Хлорит",
+        "color": "#bd9e39"
+      },
+      {
+        "id": 30,
+        "source": "Clinochlore",
+        "ru": "Клинохлор",
+        "color": "#e7ba52"
+      },
+      {
+        "id": 31,
+        "source": "Low Ca Pyroxene",
+        "ru": "Низкокальциевый пироксен",
+        "color": "#e7cb94"
+      },
+      {
+        "id": 32,
+        "source": "Olivine Forsterite",
+        "ru": "Оливин (форстерит)",
+        "color": "#843c39"
+      },
+      {
+        "id": 33,
+        "source": "High Ca Pyroxene",
+        "ru": "Высококальциевый пироксен",
+        "color": "#ad494a"
+      },
+      {
+        "id": 34,
+        "source": "Fe-Olivine",
+        "ru": "Fe-оливин",
+        "color": "#d6616b"
+      },
+      {
+        "id": 35,
+        "source": "Chloride",
+        "ru": "Хлорид",
+        "color": "#e7969c"
+      },
+      {
+        "id": 36,
+        "source": "Artifact",
+        "ru": "Артефакт",
+        "color": "#7b4173"
+      },
+      {
+        "id": 37,
+        "source": "Neutral",
+        "ru": "Нейтральный спектр",
+        "color": "#a55194"
+      },
+      {
+        "id": 38,
+        "source": "Plagioclase",
+        "ru": "Плагиоклаз",
+        "color": "#ce6dbd"
+      }
+    ],
+    "salinas_aviris_land_cover": [
+      {
+        "id": 0,
+        "source": "Brocoli_green_weeds_1",
+        "ru": "Брокколи с зелёными сорняками, участок 1",
+        "color": "#3182bd"
+      },
+      {
+        "id": 1,
+        "source": "Brocoli_green_weeds_2",
+        "ru": "Брокколи с зелёными сорняками, участок 2",
+        "color": "#6baed6"
+      },
+      {
+        "id": 2,
+        "source": "Fallow",
+        "ru": "Поле под паром",
+        "color": "#9ecae1"
+      },
+      {
+        "id": 3,
+        "source": "Fallow_rough_plow",
+        "ru": "Грубовспаханный пар",
+        "color": "#c6dbef"
+      },
+      {
+        "id": 4,
+        "source": "Fallow_smooth",
+        "ru": "Выровненный пар",
+        "color": "#e6550d"
+      },
+      {
+        "id": 5,
+        "source": "Stubble",
+        "ru": "Стерня",
+        "color": "#fd8d3c"
+      },
+      {
+        "id": 6,
+        "source": "Celery",
+        "ru": "Сельдерей",
+        "color": "#fdae6b"
+      },
+      {
+        "id": 7,
+        "source": "Grapes_untrained",
+        "ru": "Виноград без формировки",
+        "color": "#fdd0a2"
+      },
+      {
+        "id": 8,
+        "source": "Soil_vinyard_develop",
+        "ru": "Почва молодого виноградника",
+        "color": "#31a354"
+      },
+      {
+        "id": 9,
+        "source": "Corn_senesced_green_weeds",
+        "ru": "Увядающая кукуруза с зелёными сорняками",
+        "color": "#74c476"
+      },
+      {
+        "id": 10,
+        "source": "Lettuce_romaine_4wk",
+        "ru": "Салат ромэн, 4 недели",
+        "color": "#a1d99b"
+      },
+      {
+        "id": 11,
+        "source": "Lettuce_romaine_5wk",
+        "ru": "Салат ромэн, 5 недель",
+        "color": "#c7e9c0"
+      },
+      {
+        "id": 12,
+        "source": "Lettuce_romaine_6wk",
+        "ru": "Салат ромэн, 6 недель",
+        "color": "#756bb1"
+      },
+      {
+        "id": 13,
+        "source": "Lettuce_romaine_7wk",
+        "ru": "Салат ромэн, 7 недель",
+        "color": "#9e9ac8"
+      },
+      {
+        "id": 14,
+        "source": "Vinyard_untrained",
+        "ru": "Виноградник без формировки",
+        "color": "#bcbddc"
+      },
+      {
+        "id": 15,
+        "source": "Vinyard_vertical_trellis",
+        "ru": "Виноградник на вертикальной шпалере",
+        "color": "#dadaeb"
+      }
+    ]
+  },
+  "original_npy_sha256": {
+    "sam_original": "939356e6472cba79fc370b5ca7336ab0e78b570bea27c167896a9d9a4c4e101a",
+    "sam_denoised": "4e57859e933bd776ab1964abdb11c9dde89595945870048aec57225670350506",
+    "lwnet_original": "e4397940dcc58e911deb9c3817dfec9d0c0cdc11cf3bb0af3cdba84a1a79681b",
+    "lwnet_denoised": "64cb4dc382039e6f378a89e3f120d926a67274e94b539eab231ef69251c9da39"
+  }
+}

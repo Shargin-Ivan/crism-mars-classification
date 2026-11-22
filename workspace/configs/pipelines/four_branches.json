@@ -1,0 +1,47 @@
+{
+  "schema_version": 2,
+  "configuration_state": "draft",
+  "scene_manifest": null,
+  "taxonomy": null,
+  "preparation": {
+    "spectral_profile": "full_cube",
+    "crop": null,
+    "split_detectors": false,
+    "split_plebani": false,
+    "preserve_channel_order": true
+  },
+  "resources": {
+    "n2n4m_bundle": null,
+    "lwnet_bundle": null,
+    "sam_library": null
+  },
+  "branches": {
+    "sam_original": {"input": "prepared", "classifier": "sam"},
+    "sam_denoised": {"input": "denoised", "classifier": "sam"},
+    "lwnet_original": {"input": "prepared", "classifier": "lwnet"},
+    "lwnet_denoised": {"input": "denoised", "classifier": "lwnet"}
+  },
+  "execution": {
+    "device": "cpu",
+    "gpu_allowed": false,
+    "num_workers": 0,
+    "seed": 0
+  },
+  "sam": {
+    "threshold_radians": 0.15,
+    "min_valid_bands": 2,
+    "min_valid_fraction": 0.5
+  },
+  "n2n4m": {"batch_size": 1000},
+  "lwnet": {"patch_size": 19, "batch_size": 64},
+  "evaluation": {
+    "ground_truth": null,
+    "protocol": "fixed_roi_v1",
+    "unlabeled_id": 0
+  },
+  "stores": {
+    "inputs_root": "../../data/inputs",
+    "resources_root": "../../models",
+    "results_root": "../../output"
+  }
+}

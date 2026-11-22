@@ -1,0 +1,9 @@
+{
+  "source": "https://github.com/hkzhang-git/LWNet/blob/5f1597f/training/transfer_model/Salinas_model.pkl",
+  "architecture": "LWNet_3 with upstream Bottleneck_3, [1,2,2,1], 16-output linear head",
+  "patch_size_evidence": "Upstream data_preprocess/preprocess.py default is 27. The checkpoint contains no CLI log.",
+  "training_preprocessing": "Source code applies scene-wide min-max scaling and zero spatial padding.",
+  "taxonomy_source": "https://www.ehu.eus/ccwintco/index.php/Hyperspectral_Remote_Sensing_Scenes",
+  "output_index": "training/functions_for_training.py subtracts one from integer ground-truth IDs",
+  "transfer_limitations": "Annual AVIRIS calibration approximates the Salinas flight. Sensor response, ground pixel size and radiometry differ. Outputs are terrestrial land-cover analogues."
+}

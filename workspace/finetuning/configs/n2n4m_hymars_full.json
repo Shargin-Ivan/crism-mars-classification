@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "state": "draft",
+  "model": "n2n4m",
+  "stage": "hymars_full",
+  "class_names": [],
+  "held_out_scene_id": "hymars_v2_HC",
+  "held_out_observation_ids": [
+    "FRT0000580C"
+  ],
+  "development_scene_ids": [
+    "hymars_v2_NF",
+    "hymars_v2_UP"
+  ],
+  "datasets": [
+    "storage/prepared/hymars_crism_v1/hymars_v2_NF/train.json",
+    "storage/prepared/hymars_crism_v1/hymars_v2_NF/validation.json",
+    "storage/prepared/hymars_crism_v1/hymars_v2_UP/train.json",
+    "storage/prepared/hymars_crism_v1/hymars_v2_UP/validation.json"
+  ],
+  "initialization": {
+    "checkpoint": null,
+    "kind": "training_checkpoint",
+    "allow_random": false,
+    "reset_classifier": false
+  },
+  "parameters": {
+    "epochs": 20,
+    "batch_size": 128,
+    "learning_rate": 3e-05,
+    "patience": 5,
+    "seed": 42,
+    "device": "cpu",
+    "threads": 2,
+    "max_samples_per_dataset": 10000,
+    "patch_size": 19,
+    "noise_std": 0.01,
+    "band_dropout": 0.1,
+    "min_valid_fraction": 0.5,
+    "normalization": "train_scalar_standardize",
+    "denoising_protocol": "synthetic_proxy",
+    "allow_domain_shift": true
+  }
+}

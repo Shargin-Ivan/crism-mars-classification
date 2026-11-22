@@ -1,0 +1,243 @@
+{
+  "schema_version": 1,
+  "files": {
+    "CDR410803692813_WA0000000L_3.IMG": {
+      "url": "https://pds-geosciences.wustl.edu/mro/mro-m-crism-2-edr-v1/mrocr_0001/cdr/wa/cdr410803692813_wa0000000l_3.img",
+      "bytes": 1123840,
+      "sha256": "f96c49302e852628316f79cb10976820ad7a21c79eb6a18a3d6b3b9f92306c15"
+    },
+    "CDR410803692813_WA0000000L_3.LBL": {
+      "url": "https://pds-geosciences.wustl.edu/mro/mro-m-crism-2-edr-v1/mrocr_0001/cdr/wa/cdr410803692813_wa0000000l_3.lbl",
+      "bytes": 6321,
+      "sha256": "fbe551ae6913879b3a72e490eacb47642dbef9e01fbc65413348ee0e75936192"
+    },
+    "CDR420850327000_WA0000000S_2.IMG": {
+      "url": "https://pds-geosciences.wustl.edu/mro/mro-m-crism-2-edr-v1/mrocr_0001/cdr/wa/cdr420850327000_wa0000000s_2.img",
+      "bytes": 276480,
+      "sha256": "a5c3cd7f0f75401375f6e4c5e5fee3d46bc1d5c574dda0cc64a4e77f294f959e"
+    },
+    "CDR420850327000_WA0000000S_2.LBL": {
+      "url": "https://pds-geosciences.wustl.edu/mro/mro-m-crism-2-edr-v1/mrocr_0001/cdr/wa/cdr420850327000_wa0000000s_2.lbl",
+      "bytes": 6064,
+      "sha256": "7ed0632edc099996de0be00fb77ef295b10eed8cfdf826f2760146d40ba1b20b"
+    },
+    "CDR6_1_0000000000_SW_L_3.LBL": {
+      "url": "https://pds-geosciences.wustl.edu/mro/mro-m-crism-2-edr-v1/mrocr_0001/cdr/sw/cdr6_1_0000000000_sw_l_3.lbl",
+      "bytes": 6442,
+      "sha256": "5a4e21770f0f6ef8ecd0f222e137618449deec9aa1b9b0fb49c6692a5a4dca88"
+    },
+    "CDR6_1_0000000000_SW_L_3.TAB": {
+      "url": "https://pds-geosciences.wustl.edu/mro/mro-m-crism-2-edr-v1/mrocr_0001/cdr/sw/cdr6_1_0000000000_sw_l_3.tab",
+      "bytes": 6720,
+      "sha256": "deebb45b0e8eac0902ce0dd43e3dd21709e14e93f95b68ee02272552cdb95e0d"
+    },
+    "CDR6_2_0850327000_SW_S_2.LBL": {
+      "url": "https://pds-geosciences.wustl.edu/mro/mro-m-crism-2-edr-v1/mrocr_0001/cdr/sw/cdr6_2_0850327000_sw_s_2.lbl",
+      "bytes": 6250,
+      "sha256": "9778fc1a55fc830cc46c973dac40f8423daff0597093c9decb04498c55b6ac33"
+    },
+    "CDR6_2_0850327000_SW_S_2.TAB": {
+      "url": "https://pds-geosciences.wustl.edu/mro/mro-m-crism-2-edr-v1/mrocr_0001/cdr/sw/cdr6_2_0850327000_sw_s_2.tab",
+      "bytes": 6720,
+      "sha256": "82f68fdbcd5e9e71b6c25ab7e29b0d27a941d940fd9829e1bfbfebdfb658dc81"
+    },
+    "FRT0000580C_07_DE164L_DDR1.IMG": {
+      "url": "https://pds-geosciences.wustl.edu/mro/mro-m-crism-6-ddr-v1/mrocr_1001/ddr/2007/2007_110/frt0000580c/frt0000580c_07_de164l_ddr1.img",
+      "bytes": 15052800,
+      "sha256": "d0e1c8412e606dcf1532cd4bafba967d3eba025b7711a9ffbe281bb968d6c664"
+    },
+    "FRT0000580C_07_DE164L_DDR1.LBL": {
+      "url": "https://pds-geosciences.wustl.edu/mro/mro-m-crism-6-ddr-v1/mrocr_1001/ddr/2007/2007_110/frt0000580c/frt0000580c_07_de164l_ddr1.lbl",
+      "bytes": 4763,
+      "sha256": "9f277dae302d48e51f2e2d06574eef372e5a367e0405d76750d7ebafcda9314b"
+    },
+    "FRT0000580C_07_DE164S_DDR1.IMG": {
+      "url": "https://pds-geosciences.wustl.edu/mro/mro-m-crism-6-ddr-v1/mrocr_1001/ddr/2007/2007_110/frt0000580c/frt0000580c_07_de164s_ddr1.img",
+      "bytes": 15052800,
+      "sha256": "b6a769e89af7601587b6c7ffe8beb42dff21a986f3beb9e724aa7d6dcab97810"
+    },
+    "FRT0000580C_07_DE164S_DDR1.LBL": {
+      "url": "https://pds-geosciences.wustl.edu/mro/mro-m-crism-6-ddr-v1/mrocr_1001/ddr/2007/2007_110/frt0000580c/frt0000580c_07_de164s_ddr1.lbl",
+      "bytes": 4763,
+      "sha256": "609e41dc4e0d6caeb7c3c28f13899d27dc67dbcdb75a142e7fa13af959c7dc97"
+    },
+    "FRT0000580C_07_IF164L_TRR3.LBL": {
+      "url": "https://pds-geosciences.wustl.edu/mro/mro-m-crism-3-rdr-targeted-v1/mrocr_2101/trdr/2007/2007_110/frt0000580c/frt0000580c_07_if164l_trr3.lbl",
+      "bytes": 9448,
+      "sha256": "3a8817c7048e816076b97f85dc55c33314d874ebc930e7cc2d69c2f01ec80e4c"
+    },
+    "FRT0000580C_07_IF164L_TRR3_rownum.bin": {
+      "url": "https://pds-geosciences.wustl.edu/mro/mro-m-crism-3-rdr-targeted-v1/mrocr_2101/trdr/2007/2007_110/frt0000580c/frt0000580c_07_if164l_trr3.img",
+      "bytes": 876,
+      "sha256": "506427c76593292b70e1bf1a6c643a948b4bfb6187df94fea5260efdfbc9a162",
+      "byte_offset": 470937600
+    },
+    "FRT0000580C_07_IF164L_TRR3_rows115.bin": {
+      "url": "https://pds-geosciences.wustl.edu/mro/mro-m-crism-3-rdr-targeted-v1/mrocr_2101/trdr/2007/2007_110/frt0000580c/frt0000580c_07_if164l_trr3.img",
+      "bytes": 4485120,
+      "sha256": "a4b7953be109592678e429f856c6b094ff644ba76462a053e1a2cf689662e66c",
+      "byte_offset": 128947200
+    },
+    "FRT0000580C_07_IF164L_TRR3_rows145.bin": {
+      "url": "https://pds-geosciences.wustl.edu/mro/mro-m-crism-3-rdr-targeted-v1/mrocr_2101/trdr/2007/2007_110/frt0000580c/frt0000580c_07_if164l_trr3.img",
+      "bytes": 4485120,
+      "sha256": "1789b00d8b1ea46652b25eeca9dbcb600ed65f4fb7dc649001f8faf71d3cbd7f",
+      "byte_offset": 162585600
+    },
+    "FRT0000580C_07_IF164L_TRR3_rows175.bin": {
+      "url": "https://pds-geosciences.wustl.edu/mro/mro-m-crism-3-rdr-targeted-v1/mrocr_2101/trdr/2007/2007_110/frt0000580c/frt0000580c_07_if164l_trr3.img",
+      "bytes": 4485120,
+      "sha256": "bc4831eec6a4868e83efe780fb795776530bf0439cf64cd245fec932dffd4898",
+      "byte_offset": 196224000
+    },
+    "FRT0000580C_07_IF164L_TRR3_rows205.bin": {
+      "url": "https://pds-geosciences.wustl.edu/mro/mro-m-crism-3-rdr-targeted-v1/mrocr_2101/trdr/2007/2007_110/frt0000580c/frt0000580c_07_if164l_trr3.img",
+      "bytes": 4485120,
+      "sha256": "a64fe0ae78af7814db38caeb678d8aa7ed1438925b263e07abe61f5c3fc2331a",
+      "byte_offset": 229862400
+    },
+    "FRT0000580C_07_IF164L_TRR3_rows235.bin": {
+      "url": "https://pds-geosciences.wustl.edu/mro/mro-m-crism-3-rdr-targeted-v1/mrocr_2101/trdr/2007/2007_110/frt0000580c/frt0000580c_07_if164l_trr3.img",
+      "bytes": 4485120,
+      "sha256": "eec809bcaf484b815c642d92a232638f4d1cf1934b960422de3447eeb8d515bf",
+      "byte_offset": 263500800
+    },
+    "FRT0000580C_07_IF164L_TRR3_rows25.bin": {
+      "url": "https://pds-geosciences.wustl.edu/mro/mro-m-crism-3-rdr-targeted-v1/mrocr_2101/trdr/2007/2007_110/frt0000580c/frt0000580c_07_if164l_trr3.img",
+      "bytes": 4485120,
+      "sha256": "e3b4983ba7fb52babf8e0ed9b7b1422246753e19881d76d8b46e80758b277d10",
+      "byte_offset": 28032000
+    },
+    "FRT0000580C_07_IF164L_TRR3_rows265.bin": {
+      "url": "https://pds-geosciences.wustl.edu/mro/mro-m-crism-3-rdr-targeted-v1/mrocr_2101/trdr/2007/2007_110/frt0000580c/frt0000580c_07_if164l_trr3.img",
+      "bytes": 4485120,
+      "sha256": "1e96607dd9daa12ca2a923eebf16f9d440631e854323acd41c72076edbdf7858",
+      "byte_offset": 297139200
+    },
+    "FRT0000580C_07_IF164L_TRR3_rows295.bin": {
+      "url": "https://pds-geosciences.wustl.edu/mro/mro-m-crism-3-rdr-targeted-v1/mrocr_2101/trdr/2007/2007_110/frt0000580c/frt0000580c_07_if164l_trr3.img",
+      "bytes": 4485120,
+      "sha256": "45817fa4f809071093b0080f18dff8538fd384b4841b3af1f3ad7fcd00a87d6c",
+      "byte_offset": 330777600
+    },
+    "FRT0000580C_07_IF164L_TRR3_rows325.bin": {
+      "url": "https://pds-geosciences.wustl.edu/mro/mro-m-crism-3-rdr-targeted-v1/mrocr_2101/trdr/2007/2007_110/frt0000580c/frt0000580c_07_if164l_trr3.img",
+      "bytes": 4485120,
+      "sha256": "2248e8907892f4e391724b7afedb440057229bff4d6146f202a7db34721def87",
+      "byte_offset": 364416000
+    },
+    "FRT0000580C_07_IF164L_TRR3_rows355.bin": {
+      "url": "https://pds-geosciences.wustl.edu/mro/mro-m-crism-3-rdr-targeted-v1/mrocr_2101/trdr/2007/2007_110/frt0000580c/frt0000580c_07_if164l_trr3.img",
+      "bytes": 4485120,
+      "sha256": "4790ef8dc260828b23864517070a760be4d8e83cf4d33586a0d262d831f1800f",
+      "byte_offset": 398054400
+    },
+    "FRT0000580C_07_IF164L_TRR3_rows385.bin": {
+      "url": "https://pds-geosciences.wustl.edu/mro/mro-m-crism-3-rdr-targeted-v1/mrocr_2101/trdr/2007/2007_110/frt0000580c/frt0000580c_07_if164l_trr3.img",
+      "bytes": 4485120,
+      "sha256": "097197e3ea958e49fe7e7f08197c4b9bee24416e9d64f671fd23b4cf84dff602",
+      "byte_offset": 431692800
+    },
+    "FRT0000580C_07_IF164L_TRR3_rows55.bin": {
+      "url": "https://pds-geosciences.wustl.edu/mro/mro-m-crism-3-rdr-targeted-v1/mrocr_2101/trdr/2007/2007_110/frt0000580c/frt0000580c_07_if164l_trr3.img",
+      "bytes": 4485120,
+      "sha256": "d348007af50ce46073c5bfc14b8e01f5f0dcbec30a0459b2b5a628d9fd6fb57b",
+      "byte_offset": 61670400
+    },
+    "FRT0000580C_07_IF164L_TRR3_rows85.bin": {
+      "url": "https://pds-geosciences.wustl.edu/mro/mro-m-crism-3-rdr-targeted-v1/mrocr_2101/trdr/2007/2007_110/frt0000580c/frt0000580c_07_if164l_trr3.img",
+      "bytes": 4485120,
+      "sha256": "741c484e672b2b6d431465c2d89c9c842ea2fb19840da303fc119a7a2b08b54b",
+      "byte_offset": 95308800
+    },
+    "FRT0000580C_07_IF164S_TRR3.LBL": {
+      "url": "https://pds-geosciences.wustl.edu/mro/mro-m-crism-3-rdr-targeted-v1/mrocr_2101/trdr/2007/2007_110/frt0000580c/frt0000580c_07_if164s_trr3.lbl",
+      "bytes": 8726,
+      "sha256": "b63a82e6a5e16c475b4bc61acd50e8a92c7cc9266afc94968839d93c166b6d72"
+    },
+    "FRT0000580C_07_IF164S_TRR3_rownum.bin": {
+      "url": "https://pds-geosciences.wustl.edu/mro/mro-m-crism-3-rdr-targeted-v1/mrocr_2101/trdr/2007/2007_110/frt0000580c/frt0000580c_07_if164s_trr3.img",
+      "bytes": 214,
+      "sha256": "4080e7212b4574a7c6709f15c4c876f252839fc9180bcae5b335fac3e2c04f27",
+      "byte_offset": 115046400
+    },
+    "FRT0000580C_07_IF164S_TRR3_rows115.bin": {
+      "url": "https://pds-geosciences.wustl.edu/mro/mro-m-crism-3-rdr-targeted-v1/mrocr_2101/trdr/2007/2007_110/frt0000580c/frt0000580c_07_if164s_trr3.img",
+      "bytes": 1095680,
+      "sha256": "01902efd3309bc3ee85643ee90c98bd271a49658bbdc8ee5f5c1c93432ac4d46",
+      "byte_offset": 31500800
+    },
+    "FRT0000580C_07_IF164S_TRR3_rows145.bin": {
+      "url": "https://pds-geosciences.wustl.edu/mro/mro-m-crism-3-rdr-targeted-v1/mrocr_2101/trdr/2007/2007_110/frt0000580c/frt0000580c_07_if164s_trr3.img",
+      "bytes": 1095680,
+      "sha256": "7bcb72c066fb796f2c06234fe405ee7bdddbcde2c997a90b014060478ecf0b7c",
+      "byte_offset": 39718400
+    },
+    "FRT0000580C_07_IF164S_TRR3_rows175.bin": {
+      "url": "https://pds-geosciences.wustl.edu/mro/mro-m-crism-3-rdr-targeted-v1/mrocr_2101/trdr/2007/2007_110/frt0000580c/frt0000580c_07_if164s_trr3.img",
+      "bytes": 1095680,
+      "sha256": "3d7b9278d2f4a2be87b13a20ba0070cef08257524ba529972057156ff6bd60d6",
+      "byte_offset": 47936000
+    },
+    "FRT0000580C_07_IF164S_TRR3_rows205.bin": {
+      "url": "https://pds-geosciences.wustl.edu/mro/mro-m-crism-3-rdr-targeted-v1/mrocr_2101/trdr/2007/2007_110/frt0000580c/frt0000580c_07_if164s_trr3.img",
+      "bytes": 1095680,
+      "sha256": "2950135367f60da9e58ed594e8a8684820f288f739cac0cbef468fa5ac4a8cb0",
+      "byte_offset": 56153600
+    },
+    "FRT0000580C_07_IF164S_TRR3_rows235.bin": {
+      "url": "https://pds-geosciences.wustl.edu/mro/mro-m-crism-3-rdr-targeted-v1/mrocr_2101/trdr/2007/2007_110/frt0000580c/frt0000580c_07_if164s_trr3.img",
+      "bytes": 1095680,
+      "sha256": "2364bcd6fcad3d3c8a8e68d23a199a9b36ecbe5e03df5600db6fce9e21567c97",
+      "byte_offset": 64371200
+    },
+    "FRT0000580C_07_IF164S_TRR3_rows25.bin": {
+      "url": "https://pds-geosciences.wustl.edu/mro/mro-m-crism-3-rdr-targeted-v1/mrocr_2101/trdr/2007/2007_110/frt0000580c/frt0000580c_07_if164s_trr3.img",
+      "bytes": 1095680,
+      "sha256": "d0084a9133a3d945a318966bb3fdb2de78096e8c7fc20916ffdfbae71242ee37",
+      "byte_offset": 6848000
+    },
+    "FRT0000580C_07_IF164S_TRR3_rows265.bin": {
+      "url": "https://pds-geosciences.wustl.edu/mro/mro-m-crism-3-rdr-targeted-v1/mrocr_2101/trdr/2007/2007_110/frt0000580c/frt0000580c_07_if164s_trr3.img",
+      "bytes": 1095680,
+      "sha256": "2227832688a109f8e0c822fa31c94403e4f277af80117d97e8d439c921e6e348",
+      "byte_offset": 72588800
+    },
+    "FRT0000580C_07_IF164S_TRR3_rows295.bin": {
+      "url": "https://pds-geosciences.wustl.edu/mro/mro-m-crism-3-rdr-targeted-v1/mrocr_2101/trdr/2007/2007_110/frt0000580c/frt0000580c_07_if164s_trr3.img",
+      "bytes": 1095680,
+      "sha256": "ffd2d2d0b59c7c49b65b0528192eb4e60e4c2f89374036b79ae6fa008e64c44a",
+      "byte_offset": 80806400
+    },
+    "FRT0000580C_07_IF164S_TRR3_rows325.bin": {
+      "url": "https://pds-geosciences.wustl.edu/mro/mro-m-crism-3-rdr-targeted-v1/mrocr_2101/trdr/2007/2007_110/frt0000580c/frt0000580c_07_if164s_trr3.img",
+      "bytes": 1095680,
+      "sha256": "a1ad27e9c871b2bc34895d555a98f9086647624693b36af21b021c29b7b9a060",
+      "byte_offset": 89024000
+    },
+    "FRT0000580C_07_IF164S_TRR3_rows355.bin": {
+      "url": "https://pds-geosciences.wustl.edu/mro/mro-m-crism-3-rdr-targeted-v1/mrocr_2101/trdr/2007/2007_110/frt0000580c/frt0000580c_07_if164s_trr3.img",
+      "bytes": 1095680,
+      "sha256": "cce3c3c192f1fc72b7d50518d45642aae64834e1ed22805ab63519a5be86dd0b",
+      "byte_offset": 97241600
+    },
+    "FRT0000580C_07_IF164S_TRR3_rows385.bin": {
+      "url": "https://pds-geosciences.wustl.edu/mro/mro-m-crism-3-rdr-targeted-v1/mrocr_2101/trdr/2007/2007_110/frt0000580c/frt0000580c_07_if164s_trr3.img",
+      "bytes": 1095680,
+      "sha256": "8eed94a196066506602f1da8cfd0b9de5c081f0661df673c431f703e66df861e",
+      "byte_offset": 105459200
+    },
+    "FRT0000580C_07_IF164S_TRR3_rows55.bin": {
+      "url": "https://pds-geosciences.wustl.edu/mro/mro-m-crism-3-rdr-targeted-v1/mrocr_2101/trdr/2007/2007_110/frt0000580c/frt0000580c_07_if164s_trr3.img",
+      "bytes": 1095680,
+      "sha256": "853c864dd4f40615671b00d5bf1779ffe46cc73eea9e86f1f9d2937152f9be85",
+      "byte_offset": 15065600
+    },
+    "FRT0000580C_07_IF164S_TRR3_rows85.bin": {
+      "url": "https://pds-geosciences.wustl.edu/mro/mro-m-crism-3-rdr-targeted-v1/mrocr_2101/trdr/2007/2007_110/frt0000580c/frt0000580c_07_if164s_trr3.img",
+      "bytes": 1095680,
+      "sha256": "19f8f1da0ca5d98ef51503311b1efbac940f2cc60d8aa7fd70deb51da7a94db7",
+      "byte_offset": 23283200
+    }
+  }
+}

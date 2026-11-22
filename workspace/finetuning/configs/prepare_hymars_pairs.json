@@ -1,0 +1,102 @@
+{
+  "schema_version": 1,
+  "taxonomy": "configs/research/taxonomy_hymars_plebani_v1.json",
+  "development_scene_ids": [
+    "hymars_v2_NF",
+    "hymars_v2_UP"
+  ],
+  "held_out_scene_id": "hymars_v2_HC",
+  "scenes": [
+    {
+      "scene_id": "hymars_v2_HC",
+      "cube": {
+        "path": "storage/cubes/hymars/holden.mat",
+        "sha256": "0d7d8debafe36e24c1717eca1f804347c080e259ca0cbc6399926daf133d49e2",
+        "format": "mat",
+        "variable": "holden"
+      },
+      "labels": {
+        "path": "storage/cubes/hymars/holden_gt.mat",
+        "sha256": "ca83325a03a03e6644279837b3c5a9e0fe93672f4185584baea62eb9bf9ce2e5",
+        "format": "mat",
+        "variable": "holden_gt"
+      },
+      "expected_shape_hwc": [
+        418,
+        595,
+        440
+      ],
+      "observation_id": "FRT0000580C",
+      "observation_id_source": "user_2026-11-15; PDS product exists; numerical mapping pending",
+      "invalid_values": [
+        65535
+      ],
+      "empty_pixel_all_zero": true,
+      "excluded_measurements": [
+        {
+          "index_hwc": [
+            45,
+            497,
+            342
+          ],
+          "expected_value": 33258.2734375,
+          "reason": "isolated extreme measurement recorded in the prior HyMars audit; value retained, masked only"
+        }
+      ]
+    },
+    {
+      "scene_id": "hymars_v2_NF",
+      "cube": {
+        "path": "storage/cubes/hymars/NiliFossae.mat",
+        "sha256": "8febf00273f3c8dbab730cb0f019b267efdc61d90d2d4ebc7374e4c388f3edac",
+        "format": "mat",
+        "variable": "NiliFossae"
+      },
+      "labels": {
+        "path": "storage/cubes/hymars/NiliFossae_gt.mat",
+        "sha256": "a78dd36f3e27831d96cb6f7284a5ed5a92a6ccc2413bf244c19470822aff0487",
+        "format": "mat",
+        "variable": "NiliFossae_gt"
+      },
+      "expected_shape_hwc": [
+        478,
+        593,
+        425
+      ],
+      "observation_id": "FRT00003E12",
+      "observation_id_source": "user_2026-11-15; PDS product exists; numerical mapping pending",
+      "invalid_values": [
+        65535
+      ],
+      "empty_pixel_all_zero": true,
+      "excluded_measurements": []
+    },
+    {
+      "scene_id": "hymars_v2_UP",
+      "cube": {
+        "path": "storage/cubes/hymars/Utopia.mat",
+        "sha256": "367e772a80276ce17df5ea65cab4681162d57c1790baee0bece0ee795d4f78f4",
+        "format": "mat",
+        "variable": "Utopia"
+      },
+      "labels": {
+        "path": "storage/cubes/hymars/Utopia_gt.mat",
+        "sha256": "b36205d2961ea9b05ad0def060309d9351667ae23b39143e91e446c878685057",
+        "format": "mat",
+        "variable": "Utopia_gt"
+      },
+      "expected_shape_hwc": [
+        478,
+        595,
+        432
+      ],
+      "observation_id": "FRT0000527D",
+      "observation_id_source": "user_2026-11-15; PDS product exists; numerical mapping pending",
+      "invalid_values": [
+        65535
+      ],
+      "empty_pixel_all_zero": true,
+      "excluded_measurements": []
+    }
+  ]
+}

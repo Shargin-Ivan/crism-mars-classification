@@ -1,0 +1,83 @@
+{
+  "schema_version": 1,
+  "state": "ready",
+  "model": "lwnet",
+  "stage": "plebani350",
+  "class_names": [
+    "CO2 Ice",
+    "H2O Ice",
+    "Gypsum",
+    "Ferric Hydroxysulfate",
+    "Hematite",
+    "Nontronite",
+    "Mg-Smectite",
+    "Prehnite",
+    "Jarosite",
+    "Serpentine",
+    "Alunite",
+    "Akaganeite",
+    "Ca/Fe CO3",
+    "Beidellite",
+    "Kaolinite",
+    "Bassanite",
+    "Epidote",
+    "Montmorillonite",
+    "Rosenite",
+    "Mg Cl salt",
+    "Halloysite",
+    "Illite/Muscovite",
+    "Margarite",
+    "Analcime",
+    "Monohydrated sulfate",
+    "Opal 1",
+    "Opal 2",
+    "Iron Oxide Silicate Sulfate",
+    "MgCO3",
+    "Chlorite",
+    "Clinochlore",
+    "Low Ca Pyroxene",
+    "Olivine Forsterite",
+    "High Ca Pyroxene",
+    "Fe-Olivine",
+    "Chloride",
+    "Artifact",
+    "Neutral",
+    "Plagioclase"
+  ],
+  "held_out_scene_id": "hymars_v2_HC",
+  "held_out_observation_ids": [
+    "FRT0000580C"
+  ],
+  "development_scene_ids": [
+    "hymars_v2_NF",
+    "hymars_v2_UP"
+  ],
+  "datasets": [
+    "storage/prepared/lwnet_spectra_v1/train/manifest.json",
+    "storage/prepared/lwnet_spectra_v1/validation/manifest.json"
+  ],
+  "initialization": {
+    "checkpoint": null,
+    "kind": "backbone",
+    "allow_random": true,
+    "reset_classifier": false
+  },
+  "parameters": {
+    "epochs": 20,
+    "batch_size": 128,
+    "learning_rate": 0.0001,
+    "patience": 5,
+    "seed": 42,
+    "device": "cpu",
+    "threads": 2,
+    "max_samples_per_dataset": 10000,
+    "patch_size": 19,
+    "noise_std": 0.01,
+    "band_dropout": 0.1,
+    "min_valid_fraction": 0.5,
+    "normalization": "train_scalar_standardize",
+    "denoising_protocol": "synthetic_proxy",
+    "allow_domain_shift": false
+  },
+  "lwnet_architecture": "shared_spectral_v1"
+}

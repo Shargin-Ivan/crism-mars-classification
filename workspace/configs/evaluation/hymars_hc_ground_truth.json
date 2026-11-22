@@ -1,0 +1,94 @@
+{
+  "schema_version": 1,
+  "scene_id": "hymars_v2_HC",
+  "source_cube": {
+    "artifact_id": "HC_cube",
+    "path": "../../datasets/hymars_v2/holden.mat",
+    "sha256": "0d7d8debafe36e24c1717eca1f804347c080e259ca0cbc6399926daf133d49e2"
+  },
+  "taxonomy": {
+    "taxonomy_id": "finetuning_classes",
+    "version": "4870953e5e8d",
+    "class_names": [
+      "CO2 Ice",
+      "H2O Ice",
+      "Gypsum",
+      "Ferric Hydroxysulfate",
+      "Hematite",
+      "Nontronite",
+      "Mg-Smectite",
+      "Prehnite",
+      "Jarosite",
+      "Serpentine",
+      "Alunite",
+      "Akaganeite",
+      "Ca/Fe CO3",
+      "Beidellite",
+      "Kaolinite",
+      "Bassanite",
+      "Epidote",
+      "Montmorillonite",
+      "Rosenite",
+      "Mg Cl salt",
+      "Halloysite",
+      "Illite/Muscovite",
+      "Margarite",
+      "Analcime",
+      "Monohydrated sulfate",
+      "Opal 1",
+      "Opal 2",
+      "Iron Oxide Silicate Sulfate",
+      "MgCO3",
+      "Chlorite",
+      "Clinochlore",
+      "Low Ca Pyroxene",
+      "Olivine Forsterite",
+      "High Ca Pyroxene",
+      "Fe-Olivine",
+      "Chloride",
+      "Artifact",
+      "Neutral",
+      "Plagioclase"
+    ]
+  },
+  "labels": {
+    "artifact_id": "HC_gt",
+    "path": "../../datasets/hymars_v2/holden_gt.mat",
+    "sha256": "ca83325a03a03e6644279837b3c5a9e0fe93672f4185584baea62eb9bf9ce2e5"
+  },
+  "format": "mat",
+  "variable": "holden_gt",
+  "unlabeled_id": 0,
+  "source_to_class": [
+    [
+      1,
+      23
+    ],
+    [
+      2,
+      38
+    ],
+    [
+      3,
+      7
+    ],
+    [
+      4,
+      33
+    ],
+    [
+      5,
+      9
+    ],
+    [
+      6,
+      22
+    ]
+  ],
+  "roi": null,
+  "held_out_scene_id": "hymars_v2_HC",
+  "development_scene_ids": [
+    "hymars_v2_NF",
+    "hymars_v2_UP"
+  ]
+}

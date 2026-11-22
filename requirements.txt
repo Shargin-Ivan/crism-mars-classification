@@ -1,0 +1,7 @@
+# Direct application dependencies from the checked crism_env; install torch separately.
+numpy==2.4.6
+scipy==1.17.1
+scikit-learn==1.9.1
+matplotlib==3.11.2
+joblib==1.6.0
+spectral==0.25

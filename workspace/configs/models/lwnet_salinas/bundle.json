@@ -1,0 +1,63 @@
+{
+  "bundle_id": "lwnet_salinas_native_v1",
+  "algorithm": "lwnet",
+  "architecture_version": "LWNet_3_Salinas_group4_v1",
+  "weights": {
+    "artifact_id": "upstream_salinas_weights",
+    "path": "../../../LWNet/training/transfer_model/Salinas_model.pkl",
+    "sha256": "a4596ab5ba377e4909a8a29877cf7a416034f4aa982bad981e3fc7b1b2388adb"
+  },
+  "preprocessing": {
+    "artifact_id": "preprocessing",
+    "path": "preprocessing.json",
+    "sha256": "2589550f96d8a09a76e01001705bb2b3a337f1279a499c11544f2031ce1125fb"
+  },
+  "training_manifest": {
+    "artifact_id": "training",
+    "path": "training.json",
+    "sha256": "04c3f38fbf45a625edf36a3d33c4913d05b78921af782ff7e575807ea39e6d11"
+  },
+  "domain": "corrected_if_earth_transfer",
+  "input_layout": "segmented",
+  "spectral_axis": null,
+  "taxonomy": {
+    "taxonomy_id": "salinas_aviris_land_cover",
+    "version": "1",
+    "class_names": [
+      "Brocoli_green_weeds_1",
+      "Brocoli_green_weeds_2",
+      "Fallow",
+      "Fallow_rough_plow",
+      "Fallow_smooth",
+      "Stubble",
+      "Celery",
+      "Grapes_untrained",
+      "Soil_vinyard_develop",
+      "Corn_senesced_green_weeds",
+      "Lettuce_romaine_4wk",
+      "Lettuce_romaine_5wk",
+      "Lettuce_romaine_6wk",
+      "Lettuce_romaine_7wk",
+      "Vinyard_untrained",
+      "Vinyard_vertical_trellis"
+    ]
+  },
+  "output_class_ids": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "mean": 1.047173093130558,
+  "scale": 0.28791707847103876,
+  "sample_count": 163091250,
+  "method": "train_scalar_standardize"
+}

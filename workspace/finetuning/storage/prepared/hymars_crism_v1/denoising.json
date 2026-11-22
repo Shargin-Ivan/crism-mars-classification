@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "recipe": {
+    "schema_version": 1,
+    "split": {
+      "path": "storage/pairs/split_v1/split.json",
+      "sha256": "9abe61b42311729f972e9cb643439e4d10ea9512bdf969094b9cee2654a5f32a"
+    },
+    "plebani_grid": {
+      "path": "configs/plebani350_axis.json",
+      "sha256": "7b58d632080c483896e5202507c7505b60b3bc4f89675ce495570086396e458c"
+    },
+    "held_out_scene_id": "hymars_v2_HC",
+    "held_out_observation_id": "FRT0000580C",
+    "min_valid_fraction": 0.5,
+    "scenes": {
+      "hymars_v2_NF": {
+        "verified_metadata": {
+          "path": "configs/research/hymars_nf_crism_v1.json",
+          "sha256": "a21b2e3a963ea896184c38d9c48774a7dcfe259e9af61d04a1ce56fddb1c0a00"
+        }
+      },
+      "hymars_v2_UP": {
+        "verified_metadata": {
+          "path": "configs/research/hymars_up_crism_v1.json",
+          "sha256": "344466894f044b59c45c54260da98d1716f538c808342793040530bcf54329eb"
+        }
+      }
+    },
+    "stages": [
+      "hymars_full"
+    ],
+    "held_out_fingerprint": {
+      "pair_sha256": "859b525756ca09fcac951c8542c2c16f8528c9fd7ea7a4a30672689355366975",
+      "cube_sha256": "30bb9e2fefc19cc946df21a4475b607eb17bbf35eee9034ec708bba9baa4aeda"
+    }
+  },
+  "recipe_sha256": "467d85b3cc50174e5eb239dcd69dbe40d6ba98d8d3d1ccf1d348863fafd68f58",
+  "held_out_scene_id": "hymars_v2_HC",
+  "held_out_observation_id": "FRT0000580C",
+  "min_valid_fraction": 0.5,
+  "scenes": [
+    {
+      "scene_id": "hymars_v2_NF",
+      "observation_id": "FRT00003E12",
+      "stage": "hymars_full",
+      "physical_metadata_ready": true,
+      "axis_known": true,
+      "source_channels": 425,
+      "selected_channels": 425,
+      "min_valid_channels": 213,
+      "usable_pixels": {
+        "train": 255038,
+        "validation": 28416
+      },
+      "datasets": [
+        "hymars_v2_NF/train.json",
+        "hymars_v2_NF/validation.json"
+      ],
+      "lwnet_datasets": [
+        "hymars_v2_NF/lwnet_train.json",
+        "hymars_v2_NF/lwnet_validation.json"
+      ]
+    },
+    {
+      "scene_id": "hymars_v2_UP",
+      "observation_id": "FRT0000527D",
+      "stage": "hymars_full",
+      "physical_metadata_ready": true,
+      "axis_known": true,
+      "source_channels": 432,
+      "selected_channels": 432,
+      "min_valid_channels": 216,
+      "usable_pixels": {
+        "train": 228986,
+        "validation": 55424
+      },
+      "datasets": [
+        "hymars_v2_UP/train.json",
+        "hymars_v2_UP/validation.json"
+      ],
+      "lwnet_datasets": [
+        "hymars_v2_UP/lwnet_train.json",
+        "hymars_v2_UP/lwnet_validation.json"
+      ]
+    }
+  ]
+}

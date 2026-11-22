@@ -1,0 +1,25 @@
+{
+  "bundle_id": "N2N4M_original_plebani_350",
+  "algorithm": "n2n4m",
+  "architecture_version": "N2N4M_Plebani350_original_v1",
+  "weights": {
+    "artifact_id": "upstream_weights",
+    "path": "../../../n2n4m-main/n2n4m/data/trained_model_weights.pt",
+    "sha256": "8cac162c44891e372834d076b2ff7e0c10536f5e780632895ecae8251bd56bc9"
+  },
+  "preprocessing": {
+    "artifact_id": "upstream_preprocessing",
+    "path": "preprocessing.json",
+    "sha256": "32800f4574de40c4e94d714c1860658d1466a864a03da2579f77d531d3a159ac"
+  },
+  "training_manifest": {
+    "artifact_id": "upstream_training",
+    "path": "training.json",
+    "sha256": "79e582ee73bb70297d0a0fdfcd72ed695277b8b7bd26391f347b5cd3a4a365b5"
+  },
+  "domain": "crism_trr3_if",
+  "input_layout": "segmented",
+  "spectral_axis": null,
+  "taxonomy": null,
+  "output_class_ids": []
+}

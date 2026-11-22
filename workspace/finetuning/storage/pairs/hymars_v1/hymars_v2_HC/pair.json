@@ -1,0 +1,135 @@
+{
+  "schema_version": 1,
+  "format": "spatial_cube_label_pair",
+  "scene_id": "hymars_v2_HC",
+  "role": "held_out_test",
+  "pair_ready": true,
+  "shape_hwc": [
+    418,
+    595,
+    440
+  ],
+  "dtype": "<f8",
+  "class_names": [
+    "CO2 Ice",
+    "H2O Ice",
+    "Gypsum",
+    "Ferric Hydroxysulfate",
+    "Hematite",
+    "Nontronite",
+    "Mg-Smectite",
+    "Prehnite",
+    "Jarosite",
+    "Serpentine",
+    "Alunite",
+    "Akaganeite",
+    "Ca/Fe CO3",
+    "Beidellite",
+    "Kaolinite",
+    "Bassanite",
+    "Epidote",
+    "Montmorillonite",
+    "Rosenite",
+    "Mg Cl salt",
+    "Halloysite",
+    "Illite/Muscovite",
+    "Margarite",
+    "Analcime",
+    "Monohydrated sulfate",
+    "Opal 1",
+    "Opal 2",
+    "Iron Oxide Silicate Sulfate",
+    "MgCO3",
+    "Chlorite",
+    "Clinochlore",
+    "Low Ca Pyroxene",
+    "Olivine Forsterite",
+    "High Ca Pyroxene",
+    "Fe-Olivine",
+    "Chloride",
+    "Artifact",
+    "Neutral",
+    "Plagioclase"
+  ],
+  "ignore_index": -1,
+  "cube": {
+    "path": "cube.npy",
+    "sha256": "30bb9e2fefc19cc946df21a4475b607eb17bbf35eee9034ec708bba9baa4aeda"
+  },
+  "labels": {
+    "path": "labels.npy",
+    "sha256": "c27eb505e860a5c11db45f6f78e6ba5367bf7d1aecb9180bc967668d7efa1d10"
+  },
+  "source_labels": {
+    "path": "source_labels.npy",
+    "sha256": "6b1a15c10151f8ab3c41cfdd898b9f75c6d0118c8b622d6d620f0d257012c0b3"
+  },
+  "valid": {
+    "path": "valid.npy",
+    "sha256": "9c7af7212935ed30ca030d7353eae34f9f5d9da9769335876d372f259c3a6c51"
+  },
+  "source_to_class": {
+    "0": -1,
+    "1": 23,
+    "2": 38,
+    "3": 7,
+    "4": 33,
+    "5": 9,
+    "6": 22
+  },
+  "label_counts": {
+    "-1": 228620,
+    "7": 1560,
+    "9": 8697,
+    "22": 458,
+    "23": 940,
+    "33": 6963,
+    "38": 1472
+  },
+  "invalid_measurements": 1,
+  "spectral_axis": null,
+  "spectral_axis_status": "pending_channel_mapping",
+  "spatial_context": "real",
+  "provenance": {
+    "sources": {
+      "scene_id": "hymars_v2_HC",
+      "cube": {
+        "path": "storage/cubes/hymars/holden.mat",
+        "sha256": "0d7d8debafe36e24c1717eca1f804347c080e259ca0cbc6399926daf133d49e2",
+        "format": "mat",
+        "variable": "holden"
+      },
+      "labels": {
+        "path": "storage/cubes/hymars/holden_gt.mat",
+        "sha256": "ca83325a03a03e6644279837b3c5a9e0fe93672f4185584baea62eb9bf9ce2e5",
+        "format": "mat",
+        "variable": "holden_gt"
+      },
+      "expected_shape_hwc": [
+        418,
+        595,
+        440
+      ],
+      "observation_id": "FRT0000580C",
+      "observation_id_source": "user_2026-11-15; PDS product exists; numerical mapping pending",
+      "invalid_values": [
+        65535
+      ],
+      "empty_pixel_all_zero": true,
+      "excluded_measurements": [
+        {
+          "index_hwc": [
+            45,
+            497,
+            342
+          ],
+          "expected_value": 33258.2734375,
+          "reason": "isolated extreme measurement recorded in the prior HyMars audit; value retained, masked only"
+        }
+      ]
+    },
+    "values_changed": false,
+    "geometry_changed": false,
+    "taxonomy_sha256": "8b5f9b7150ab67bd4c76466b52b01a74a582b544fa693946edc347a304651aae"
+  }
+}

@@ -1,0 +1,380 @@
+{
+  "schema_version": 1,
+  "files": [
+    {
+      "source": "datasets/hymars_v2/holden_gt.mat",
+      "destination": "storage/cubes/hymars/holden_gt.mat",
+      "sha256": "ca83325a03a03e6644279837b3c5a9e0fe93672f4185584baea62eb9bf9ce2e5"
+    },
+    {
+      "source": "datasets/hymars_v2/Utopia_gt.mat",
+      "destination": "storage/cubes/hymars/Utopia_gt.mat",
+      "sha256": "b36205d2961ea9b05ad0def060309d9351667ae23b39143e91e446c878685057"
+    },
+    {
+      "source": "datasets/hymars_v2/NiliFossae_gt.mat",
+      "destination": "storage/cubes/hymars/NiliFossae_gt.mat",
+      "sha256": "a78dd36f3e27831d96cb6f7284a5ed5a92a6ccc2413bf244c19470822aff0487"
+    },
+    {
+      "source": "datasets/hymars_v2/data_description.xlsx",
+      "destination": "storage/cubes/hymars/data_description.xlsx",
+      "sha256": "117021d284ca7c909588af10f79d53bc8fb4e9ad182e1d4d73a4696765293414"
+    },
+    {
+      "source": "datasets/hymars_v2/holden.mat",
+      "destination": "storage/cubes/hymars/holden.mat",
+      "sha256": "0d7d8debafe36e24c1717eca1f804347c080e259ca0cbc6399926daf133d49e2"
+    },
+    {
+      "source": "datasets/hymars_v2/Utopia.mat",
+      "destination": "storage/cubes/hymars/Utopia.mat",
+      "sha256": "367e772a80276ce17df5ea65cab4681162d57c1790baee0bece0ee795d4f78f4"
+    },
+    {
+      "source": "datasets/hymars_v2/NiliFossae.mat",
+      "destination": "storage/cubes/hymars/NiliFossae.mat",
+      "sha256": "8febf00273f3c8dbab730cb0f019b267efdc61d90d2d4ebc7374e4c388f3edac"
+    },
+    {
+      "source": "datasets/CRISM_labeled_pixels_ratioed.mat",
+      "destination": "storage/cubes/plebani/CRISM_labeled_pixels_ratioed.mat",
+      "sha256": "48be36bee0ec6276afdc6ed889f05e5443782d58bd8995dd4614ad46707f8e72"
+    },
+    {
+      "source": "n2n4m-main/n2n4m/data/trained_model_weights.pt",
+      "destination": "storage/initial/n2n4m/trained_model_weights.pt",
+      "sha256": "8cac162c44891e372834d076b2ff7e0c10536f5e780632895ecae8251bd56bc9"
+    },
+    {
+      "source": "n2n4m-main/n2n4m/data/n2n4m_feature_scaler.joblib",
+      "destination": "storage/initial/n2n4m/n2n4m_feature_scaler.joblib",
+      "sha256": "3882e60f38016b8d37fb89f859ed160308f40b57dd7cd8cf4d489396b70ea45c"
+    },
+    {
+      "source": "data/mica/mrocr_8001/data/crism_typespec_al_smectite.lbl",
+      "destination": "storage/references/mica/crism_typespec_al_smectite.lbl",
+      "sha256": "e0cb02dbfbad24f96c1a10a2b58fddfef09aa6c0689efd6422381223ba54b679"
+    },
+    {
+      "source": "data/mica/mrocr_8001/data/crism_typespec_al_smectite.tab",
+      "destination": "storage/references/mica/crism_typespec_al_smectite.tab",
+      "sha256": "68b364417c6d246c7a0d433165a183f60bd7abb5840952f83ef33ff47fed9757"
+    },
+    {
+      "source": "data/mica/mrocr_8001/data/crism_typespec_alunite.lbl",
+      "destination": "storage/references/mica/crism_typespec_alunite.lbl",
+      "sha256": "f2499d9711dcf251c20e9656262f7632c919c0aa2755a7baf72fc627240aabe5"
+    },
+    {
+      "source": "data/mica/mrocr_8001/data/crism_typespec_alunite.tab",
+      "destination": "storage/references/mica/crism_typespec_alunite.tab",
+      "sha256": "4e5e44c4f52f78a9cb42209d610a9bc189a58fcca2bcc1c0ff3b31a099ce0eb9"
+    },
+    {
+      "source": "data/mica/mrocr_8001/data/crism_typespec_analcime.lbl",
+      "destination": "storage/references/mica/crism_typespec_analcime.lbl",
+      "sha256": "d3b30ef4c9cfec0da427cd17b09a0a2df18c50d3eb9a9a13a4685d565046171e"
+    },
+    {
+      "source": "data/mica/mrocr_8001/data/crism_typespec_analcime.tab",
+      "destination": "storage/references/mica/crism_typespec_analcime.tab",
+      "sha256": "577dab9c00917e5461a83a6b40587e666ae0ad1f4693999b58543963e31506bd"
+    },
+    {
+      "source": "data/mica/mrocr_8001/data/crism_typespec_bassanite.lbl",
+      "destination": "storage/references/mica/crism_typespec_bassanite.lbl",
+      "sha256": "f7d71f7901dd5db54a3f8911b05b27aa28332e071f769b40c97f5cf268a3542b"
+    },
+    {
+      "source": "data/mica/mrocr_8001/data/crism_typespec_bassanite.tab",
+      "destination": "storage/references/mica/crism_typespec_bassanite.tab",
+      "sha256": "dfb3311e1084acafeb251dc6a82748b1e22f6f73d9820001ec93580864dc4502"
+    },
+    {
+      "source": "data/mica/mrocr_8001/data/crism_typespec_chloride.lbl",
+      "destination": "storage/references/mica/crism_typespec_chloride.lbl",
+      "sha256": "f8e385edc0a4d82a866d68be534c25d3dee9413d99ec48f2b4264b429e1c158d"
+    },
+    {
+      "source": "data/mica/mrocr_8001/data/crism_typespec_chloride.tab",
+      "destination": "storage/references/mica/crism_typespec_chloride.tab",
+      "sha256": "0b0131b46e2494e98523e822c915cfc74f52cf42b9f9e0bb5a43eec21d89b735"
+    },
+    {
+      "source": "data/mica/mrocr_8001/data/crism_typespec_chlorite.lbl",
+      "destination": "storage/references/mica/crism_typespec_chlorite.lbl",
+      "sha256": "38ddccdbab36263760f9d029ebbbd48898e2cea8822003bcb1aa5c0ada0dcafd"
+    },
+    {
+      "source": "data/mica/mrocr_8001/data/crism_typespec_chlorite.tab",
+      "destination": "storage/references/mica/crism_typespec_chlorite.tab",
+      "sha256": "371b0f3a4d71bddb573cc176f5bf83b9ccff30b5b599f3286188311b544c623f"
+    },
+    {
+      "source": "data/mica/mrocr_8001/data/crism_typespec_co2_ice.lbl",
+      "destination": "storage/references/mica/crism_typespec_co2_ice.lbl",
+      "sha256": "0a5dfc955b6a4dce5c3fc717bf352b8894c30501ebe5eb2cde8d7e235d8bc3dc"
+    },
+    {
+      "source": "data/mica/mrocr_8001/data/crism_typespec_co2_ice.tab",
+      "destination": "storage/references/mica/crism_typespec_co2_ice.tab",
+      "sha256": "c4e829cc202be7810b2a8b573766bd76dcd3c69ad37d67db67c4ae32b3ce6c1b"
+    },
+    {
+      "source": "data/mica/mrocr_8001/data/crism_typespec_epidote.lbl",
+      "destination": "storage/references/mica/crism_typespec_epidote.lbl",
+      "sha256": "1d1723065090c513255b88b35c11b29f35d5c2290b0e79638c3e55b5bfd2bede"
+    },
+    {
+      "source": "data/mica/mrocr_8001/data/crism_typespec_epidote.tab",
+      "destination": "storage/references/mica/crism_typespec_epidote.tab",
+      "sha256": "6386a1434dd045ac417fb0e7bf2419fdca05a42f9a9ecf487fe5c79d93b810c5"
+    },
+    {
+      "source": "data/mica/mrocr_8001/data/crism_typespec_fe_ca_carbonate.lbl",
+      "destination": "storage/references/mica/crism_typespec_fe_ca_carbonate.lbl",
+      "sha256": "2eecb16a64df77f67d5062d44eda297d55fb128c8a8f84a5bfdec8f4b591aaae"
+    },
+    {
+      "source": "data/mica/mrocr_8001/data/crism_typespec_fe_ca_carbonate.tab",
+      "destination": "storage/references/mica/crism_typespec_fe_ca_carbonate.tab",
+      "sha256": "97686ab280db002ea20428effba8b7d5ac72477e2cd36110960a5d45028ed3dd"
+    },
+    {
+      "source": "data/mica/mrocr_8001/data/crism_typespec_fe_olivine.lbl",
+      "destination": "storage/references/mica/crism_typespec_fe_olivine.lbl",
+      "sha256": "cabeef90ca4f4222472a4322a824487a18f025dd5da75b4c6ec115fd176a5123"
+    },
+    {
+      "source": "data/mica/mrocr_8001/data/crism_typespec_fe_olivine.tab",
+      "destination": "storage/references/mica/crism_typespec_fe_olivine.tab",
+      "sha256": "71da999dd99f1e2c1cc63135e9ef2f6ca70961440ba36f7a096be01ae4aa8ce2"
+    },
+    {
+      "source": "data/mica/mrocr_8001/data/crism_typespec_fe_smectite.lbl",
+      "destination": "storage/references/mica/crism_typespec_fe_smectite.lbl",
+      "sha256": "14ed143c831906ac0807b8f3e736e6b845362e8193e3a081c97b84c3bd491544"
+    },
+    {
+      "source": "data/mica/mrocr_8001/data/crism_typespec_fe_smectite.tab",
+      "destination": "storage/references/mica/crism_typespec_fe_smectite.tab",
+      "sha256": "6050fccfbdd6221e4851153d8c44bbbc16a8b3dae821643fc76fbf3fe8a1406c"
+    },
+    {
+      "source": "data/mica/mrocr_8001/data/crism_typespec_gypsum.lbl",
+      "destination": "storage/references/mica/crism_typespec_gypsum.lbl",
+      "sha256": "73837943911af8c2989d3c45464bad460586458bb77f212e00c88bdcb967417a"
+    },
+    {
+      "source": "data/mica/mrocr_8001/data/crism_typespec_gypsum.tab",
+      "destination": "storage/references/mica/crism_typespec_gypsum.tab",
+      "sha256": "9b2ef727a32a40e4e1a1833c6d95d1853bc2004de94bf33165f84127deacd9ff"
+    },
+    {
+      "source": "data/mica/mrocr_8001/data/crism_typespec_h2o_ice.lbl",
+      "destination": "storage/references/mica/crism_typespec_h2o_ice.lbl",
+      "sha256": "8200aed869ebdf74a605f25aef3406f237f1d10e96a7f504e03349983218f65a"
+    },
+    {
+      "source": "data/mica/mrocr_8001/data/crism_typespec_h2o_ice.tab",
+      "destination": "storage/references/mica/crism_typespec_h2o_ice.tab",
+      "sha256": "98486f56faad1dc89ebbc25f87e373ca88f1427b590dd08e3bca95552de77b03"
+    },
+    {
+      "source": "data/mica/mrocr_8001/data/crism_typespec_hcp.lbl",
+      "destination": "storage/references/mica/crism_typespec_hcp.lbl",
+      "sha256": "1187a8868a77ed4979bad614923f09ad33b5ada8157e3ca11bdf2869526881cb"
+    },
+    {
+      "source": "data/mica/mrocr_8001/data/crism_typespec_hcp.tab",
+      "destination": "storage/references/mica/crism_typespec_hcp.tab",
+      "sha256": "67f68983634414f5315e9fa95460e7e6e87f6f47e01579d46d0c65d83d0e5e8a"
+    },
+    {
+      "source": "data/mica/mrocr_8001/data/crism_typespec_hematite.lbl",
+      "destination": "storage/references/mica/crism_typespec_hematite.lbl",
+      "sha256": "bfc8a78c581aa4f25940d0c3caea4f585dca51adc0da1a3d8efe9df5e23c4083"
+    },
+    {
+      "source": "data/mica/mrocr_8001/data/crism_typespec_hematite.tab",
+      "destination": "storage/references/mica/crism_typespec_hematite.tab",
+      "sha256": "8aa45425f861c07ad1367c9fba5258775ac7cc618d78aee38a7f19fc308e02da"
+    },
+    {
+      "source": "data/mica/mrocr_8001/data/crism_typespec_hydrated_silica.lbl",
+      "destination": "storage/references/mica/crism_typespec_hydrated_silica.lbl",
+      "sha256": "fbead2a390195051029d7474cfce228ced3586d9bc1bd14b9f87d92fb026044d"
+    },
+    {
+      "source": "data/mica/mrocr_8001/data/crism_typespec_hydrated_silica.tab",
+      "destination": "storage/references/mica/crism_typespec_hydrated_silica.tab",
+      "sha256": "605f6d58ad13776e4e93e8087c9f98abaf439ef596f550b3a0cb7c2b45bdf47b"
+    },
+    {
+      "source": "data/mica/mrocr_8001/data/crism_typespec_hydrox_fe_sulf.lbl",
+      "destination": "storage/references/mica/crism_typespec_hydrox_fe_sulf.lbl",
+      "sha256": "ccb062a55a224df8af58d7dc1234b7329db1d6de3b57177648715516ccd0f5bc"
+    },
+    {
+      "source": "data/mica/mrocr_8001/data/crism_typespec_hydrox_fe_sulf.tab",
+      "destination": "storage/references/mica/crism_typespec_hydrox_fe_sulf.tab",
+      "sha256": "77a98b8ae02383d492cceab1430f60baa9e589f1438c6900486b57537add1a0e"
+    },
+    {
+      "source": "data/mica/mrocr_8001/data/crism_typespec_illite_muscovite.lbl",
+      "destination": "storage/references/mica/crism_typespec_illite_muscovite.lbl",
+      "sha256": "0af4b51387cecbfbba7741449d1da10fe6cfe124f6ff533aaf4bd45a25b7e3e9"
+    },
+    {
+      "source": "data/mica/mrocr_8001/data/crism_typespec_illite_muscovite.tab",
+      "destination": "storage/references/mica/crism_typespec_illite_muscovite.tab",
+      "sha256": "e73ee99817ecbe75180ac6124f495dc81d5b3ca7a0c3a38cbcef93372abc30d5"
+    },
+    {
+      "source": "data/mica/mrocr_8001/data/crism_typespec_jarosite.lbl",
+      "destination": "storage/references/mica/crism_typespec_jarosite.lbl",
+      "sha256": "8f8297258592bb8bd324bee643e6702f87d407d856fe70740b0ae4c3aae7ced3"
+    },
+    {
+      "source": "data/mica/mrocr_8001/data/crism_typespec_jarosite.tab",
+      "destination": "storage/references/mica/crism_typespec_jarosite.tab",
+      "sha256": "28b7a02d7c268bcee4fbc09fde1670335abb18521c8ab00d2b66ca2b9c151f23"
+    },
+    {
+      "source": "data/mica/mrocr_8001/data/crism_typespec_kaolinite.lbl",
+      "destination": "storage/references/mica/crism_typespec_kaolinite.lbl",
+      "sha256": "d4499cc8d041940d7715e3fec0c4537a91f99d2fc644da52d281975ef6c4b5b2"
+    },
+    {
+      "source": "data/mica/mrocr_8001/data/crism_typespec_kaolinite.tab",
+      "destination": "storage/references/mica/crism_typespec_kaolinite.tab",
+      "sha256": "233633c5591e8e735d0862f78fcbd6ee1f0bfcf980472de7f62d6999f259ffcc"
+    },
+    {
+      "source": "data/mica/mrocr_8001/data/crism_typespec_lcp.lbl",
+      "destination": "storage/references/mica/crism_typespec_lcp.lbl",
+      "sha256": "e39bf19cb48c2b3408a29d626f22746d074491c4da7c79f6d5d7ee2cdd4162a1"
+    },
+    {
+      "source": "data/mica/mrocr_8001/data/crism_typespec_lcp.tab",
+      "destination": "storage/references/mica/crism_typespec_lcp.tab",
+      "sha256": "ec86cee21dc8825216a88f4603c652e9be31ba6f3368d544f77e2c2bb9b74b47"
+    },
+    {
+      "source": "data/mica/mrocr_8001/data/crism_typespec_margarite.lbl",
+      "destination": "storage/references/mica/crism_typespec_margarite.lbl",
+      "sha256": "c44de80457a7c1699c9183ece574000eb2ab47ecbc5d2bf9485d4aa68b7b814c"
+    },
+    {
+      "source": "data/mica/mrocr_8001/data/crism_typespec_margarite.tab",
+      "destination": "storage/references/mica/crism_typespec_margarite.tab",
+      "sha256": "49b09ee4c89835dae703ac8830b0be155b9c4e70d3bbd3eafa5d7b37a2bd79e7"
+    },
+    {
+      "source": "data/mica/mrocr_8001/data/crism_typespec_mg_carbonate.lbl",
+      "destination": "storage/references/mica/crism_typespec_mg_carbonate.lbl",
+      "sha256": "19c87b372daccdd14cb7f6a871a602f0b08afa685180081b8f31aee6095c7b15"
+    },
+    {
+      "source": "data/mica/mrocr_8001/data/crism_typespec_mg_carbonate.tab",
+      "destination": "storage/references/mica/crism_typespec_mg_carbonate.tab",
+      "sha256": "6245a393dd557f21880ef674410d2bc71bd811a79417f06313bab6317ca56bcc"
+    },
+    {
+      "source": "data/mica/mrocr_8001/data/crism_typespec_mg_olivine.lbl",
+      "destination": "storage/references/mica/crism_typespec_mg_olivine.lbl",
+      "sha256": "57c2b08513e223cc6a96769341a94c31c4fcee44b6d21c43a212080b012df424"
+    },
+    {
+      "source": "data/mica/mrocr_8001/data/crism_typespec_mg_olivine.tab",
+      "destination": "storage/references/mica/crism_typespec_mg_olivine.tab",
+      "sha256": "57f45e9af5feb7a81b5c02999d5187d537563e0e84ddba258651ad5c8aa0adbd"
+    },
+    {
+      "source": "data/mica/mrocr_8001/data/crism_typespec_mg_smectite.lbl",
+      "destination": "storage/references/mica/crism_typespec_mg_smectite.lbl",
+      "sha256": "0fb06017bb0a27486792af8688a67b09cbec123d7d36aaf7e15feffa596aa659"
+    },
+    {
+      "source": "data/mica/mrocr_8001/data/crism_typespec_mg_smectite.tab",
+      "destination": "storage/references/mica/crism_typespec_mg_smectite.tab",
+      "sha256": "d93d8f12ba8eff69df2caa159f7fd8b6b894dd604cc70bc7379ca8b2899005b9"
+    },
+    {
+      "source": "data/mica/mrocr_8001/data/crism_typespec_mono_hyd_sulf.lbl",
+      "destination": "storage/references/mica/crism_typespec_mono_hyd_sulf.lbl",
+      "sha256": "ccfbe8edd396e7ad5fb33b7c533d27a1fde7d3ab6eedf5048aab096dc616945a"
+    },
+    {
+      "source": "data/mica/mrocr_8001/data/crism_typespec_mono_hyd_sulf.tab",
+      "destination": "storage/references/mica/crism_typespec_mono_hyd_sulf.tab",
+      "sha256": "5407a2b6e5f7b10160e639d0ac673ca240b02f6a0ed3b44987aa4a0ce5ae33c5"
+    },
+    {
+      "source": "data/mica/mrocr_8001/data/crism_typespec_plagioclase.lbl",
+      "destination": "storage/references/mica/crism_typespec_plagioclase.lbl",
+      "sha256": "4125abcc836f78e21d58ab1398e1b40153495398268e2522e233e2b7fc2ac298"
+    },
+    {
+      "source": "data/mica/mrocr_8001/data/crism_typespec_plagioclase.tab",
+      "destination": "storage/references/mica/crism_typespec_plagioclase.tab",
+      "sha256": "068f12820f4aa7222c4071bd050f0ede7b51de297417210e5b60bce731a70449"
+    },
+    {
+      "source": "data/mica/mrocr_8001/data/crism_typespec_poly_hyd_sulf.lbl",
+      "destination": "storage/references/mica/crism_typespec_poly_hyd_sulf.lbl",
+      "sha256": "9f37b91ee3226104414fbfbdbe189ecbfb9a7bc8feda1b34dd9c0dcab645616b"
+    },
+    {
+      "source": "data/mica/mrocr_8001/data/crism_typespec_poly_hyd_sulf.tab",
+      "destination": "storage/references/mica/crism_typespec_poly_hyd_sulf.tab",
+      "sha256": "40ee9a76c70a399d2efdd92ae012e07a0a8f40d27557a7c73c8676ae85281323"
+    },
+    {
+      "source": "data/mica/mrocr_8001/data/crism_typespec_prehnite.lbl",
+      "destination": "storage/references/mica/crism_typespec_prehnite.lbl",
+      "sha256": "ea00d5555d765bc83af58ae90a71d72835c13488be340a7805458eb4b31717d5"
+    },
+    {
+      "source": "data/mica/mrocr_8001/data/crism_typespec_prehnite.tab",
+      "destination": "storage/references/mica/crism_typespec_prehnite.tab",
+      "sha256": "bb5ff11391c9c72faf87c89a577b479e342f5ed30d0d80d915de41867a6e8b42"
+    },
+    {
+      "source": "data/mica/mrocr_8001/data/crism_typespec_serpentine.lbl",
+      "destination": "storage/references/mica/crism_typespec_serpentine.lbl",
+      "sha256": "953eac9646d59744215dc55ae1569e08a3cea57037f7068fb8c611251c93e04c"
+    },
+    {
+      "source": "data/mica/mrocr_8001/data/crism_typespec_serpentine.tab",
+      "destination": "storage/references/mica/crism_typespec_serpentine.tab",
+      "sha256": "20a44da40a3f664fd97941337d1180ec065043a5683228530fe2458d3b726c7c"
+    },
+    {
+      "source": "data/mica/mrocr_8001/data/crism_typespec_talc.lbl",
+      "destination": "storage/references/mica/crism_typespec_talc.lbl",
+      "sha256": "2696d6c3271c8c60280f67be480de88b0e66767b1dd2596c2b9e5a07d51c0180"
+    },
+    {
+      "source": "data/mica/mrocr_8001/data/crism_typespec_talc.tab",
+      "destination": "storage/references/mica/crism_typespec_talc.tab",
+      "sha256": "b52dbd9569611708a468327035ba5b2b9d5eddb611fb2599ff75fe53e1a6501e"
+    },
+    {
+      "source": "HYMARS_DATA_AUDIT.md",
+      "destination": "storage/references/provenance/HYMARS_DATA_AUDIT.md",
+      "sha256": "4df1efe53f17a3292e033bfbfe3527da9068ac26e86b35648226df6aa1eba88a"
+    },
+    {
+      "source": "HYMARS_PIPELINE_READINESS.md",
+      "destination": "storage/references/provenance/HYMARS_PIPELINE_READINESS.md",
+      "sha256": "d448fa4d209bbb879c0158cf28a757584000fef33f43bc613abe34969b0207d8"
+    },
+    {
+      "source": "configs/taxonomy/hymars_plebani_crosswalk.csv",
+      "destination": "storage/references/provenance/hymars_plebani_crosswalk.csv",
+      "sha256": "92a3879f647a1507803b817c917012b2f04036ffb513f15bd4a06359f2636cdf"
+    }
+  ]
+}

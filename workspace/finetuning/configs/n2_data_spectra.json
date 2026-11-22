@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "mode": "prepared_spectra",
+  "inputs": {
+    "train": "storage/prepared/lwnet_spectra_v1/train/manifest.json",
+    "validation": "storage/prepared/lwnet_spectra_v1/validation/manifest.json"
+  },
+  "held_out_scene_id": "hymars_v2_HC",
+  "held_out_observation_id": "FRT0000580C",
+  "excluded_observation_ids": ["FRT00003E12", "FRT0000527D"],
+  "target_domain": "ratioed_if",
+  "plebani_grid": {"path": "configs/plebani350_axis.json", "sha256": "7b58d632080c483896e5202507c7505b60b3bc4f89675ce495570086396e458c"},
+  "min_valid_fraction": 0.5
+}

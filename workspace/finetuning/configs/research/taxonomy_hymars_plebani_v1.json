@@ -1,0 +1,1160 @@
+{
+  "schema_version": 1,
+  "protocol_id": "taxonomy_hymars_plebani_v1",
+  "status": "project_protocol",
+  "author_consensus": false,
+  "training_ready": false,
+  "path_base": "repository_root",
+  "sources": {
+    "plebani_names": "configs/datasets/plebani_taxonomy_reference.json",
+    "hymars_crosswalk": "configs/taxonomy/hymars_plebani_crosswalk.csv",
+    "plebani_names_source_url": "https://github.com/Banus/crism_ml/blob/master/crism_ml/lab.py",
+    "plebani_names_source_sha256": "d984d9829fa594607c0ac2449e2271cb13f9d86a3231addf70634667e38d6dc9",
+    "plebani_mat_sha256": "48be36bee0ec6276afdc6ed889f05e5443782d58bd8995dd4614ad46707f8e72"
+  },
+  "num_classes": 39,
+  "ignore_index": -1,
+  "unlabeled_policy": {
+    "hymars_gt_zero": -1,
+    "meaning": "unlabeled_not_a_mineral_class",
+    "never_map_to_raw_neutral_or_artifact": true
+  },
+  "hbm_merges_applied": false,
+  "excluded_raw_ids": {
+    "22": {
+      "name": "Epsomite",
+      "reason": "not_observed_in_local_plebani_and_not_present_in_hymars"
+    }
+  },
+  "plebani_raw_to_dense": {
+    "1": 0,
+    "2": 1,
+    "3": 2,
+    "4": 3,
+    "5": 4,
+    "6": 5,
+    "7": 6,
+    "8": 7,
+    "9": 8,
+    "10": 9,
+    "11": 10,
+    "12": 11,
+    "13": 12,
+    "14": 13,
+    "15": 14,
+    "16": 15,
+    "17": 16,
+    "18": 17,
+    "19": 18,
+    "20": 19,
+    "21": 20,
+    "23": 21,
+    "24": 22,
+    "25": 23,
+    "26": 24,
+    "27": 25,
+    "28": 26,
+    "29": 27,
+    "30": 28,
+    "31": 29,
+    "32": 30,
+    "33": 31,
+    "34": 32,
+    "35": 33,
+    "36": 34,
+    "37": 35,
+    "38": 36,
+    "39": 37,
+    "40": 38
+  },
+  "hymars_local_to_dense": {
+    "hymars_v2_HC": {
+      "0": -1,
+      "1": 23,
+      "2": 38,
+      "3": 7,
+      "4": 33,
+      "5": 9,
+      "6": 22
+    },
+    "hymars_v2_NF": {
+      "0": -1,
+      "1": 34,
+      "2": 16,
+      "3": 29,
+      "4": 15,
+      "5": 21,
+      "6": 28,
+      "7": 38,
+      "8": 7,
+      "9": 9
+    },
+    "hymars_v2_UP": {
+      "0": -1,
+      "1": 23,
+      "2": 15,
+      "3": 33,
+      "4": 21,
+      "5": 31,
+      "6": 6,
+      "7": 24,
+      "8": 38,
+      "9": 7
+    }
+  },
+  "classes": [
+    {
+      "dense_id": 0,
+      "name": "CO2 Ice",
+      "plebani_raw_id": 1,
+      "plebani_source_name": "CO2 Ice",
+      "semantic_kind": "ice",
+      "is_unlabeled": false,
+      "mapping_relation": "nominal_name_mapping",
+      "spectral_equivalence_verified": false,
+      "plebani_support": {
+        "observed": true,
+        "spectra_count": 17297,
+        "spectra_count_status": "verified_local_mat_pixlabs",
+        "real_patch_count": null,
+        "real_patch_status": "unverified_requires_observation_and_coordinate_validation"
+      },
+      "hymars_support": []
+    },
+    {
+      "dense_id": 1,
+      "name": "H2O Ice",
+      "plebani_raw_id": 2,
+      "plebani_source_name": "H2O Ice",
+      "semantic_kind": "ice",
+      "is_unlabeled": false,
+      "mapping_relation": "nominal_name_mapping",
+      "spectral_equivalence_verified": false,
+      "plebani_support": {
+        "observed": true,
+        "spectra_count": 5947,
+        "spectra_count_status": "verified_local_mat_pixlabs",
+        "real_patch_count": null,
+        "real_patch_status": "unverified_requires_observation_and_coordinate_validation"
+      },
+      "hymars_support": []
+    },
+    {
+      "dense_id": 2,
+      "name": "Gypsum",
+      "plebani_raw_id": 3,
+      "plebani_source_name": "Gypsum",
+      "semantic_kind": "mineral_or_material",
+      "is_unlabeled": false,
+      "mapping_relation": "nominal_name_mapping",
+      "spectral_equivalence_verified": false,
+      "plebani_support": {
+        "observed": true,
+        "spectra_count": 32163,
+        "spectra_count_status": "verified_local_mat_pixlabs",
+        "real_patch_count": null,
+        "real_patch_status": "unverified_requires_observation_and_coordinate_validation"
+      },
+      "hymars_support": []
+    },
+    {
+      "dense_id": 3,
+      "name": "Ferric Hydroxysulfate",
+      "plebani_raw_id": 4,
+      "plebani_source_name": "Ferric Hydroxysulfate",
+      "semantic_kind": "mineral_or_material",
+      "is_unlabeled": false,
+      "mapping_relation": "nominal_name_mapping",
+      "spectral_equivalence_verified": false,
+      "plebani_support": {
+        "observed": true,
+        "spectra_count": 1195,
+        "spectra_count_status": "verified_local_mat_pixlabs",
+        "real_patch_count": null,
+        "real_patch_status": "unverified_requires_observation_and_coordinate_validation"
+      },
+      "hymars_support": []
+    },
+    {
+      "dense_id": 4,
+      "name": "Hematite",
+      "plebani_raw_id": 5,
+      "plebani_source_name": "Hematite",
+      "semantic_kind": "mineral_or_material",
+      "is_unlabeled": false,
+      "mapping_relation": "nominal_name_mapping",
+      "spectral_equivalence_verified": false,
+      "plebani_support": {
+        "observed": true,
+        "spectra_count": 666,
+        "spectra_count_status": "verified_local_mat_pixlabs",
+        "real_patch_count": null,
+        "real_patch_status": "unverified_requires_observation_and_coordinate_validation"
+      },
+      "hymars_support": []
+    },
+    {
+      "dense_id": 5,
+      "name": "Nontronite",
+      "plebani_raw_id": 6,
+      "plebani_source_name": "Nontronite",
+      "semantic_kind": "mineral_or_material",
+      "is_unlabeled": false,
+      "mapping_relation": "nominal_name_mapping",
+      "spectral_equivalence_verified": false,
+      "plebani_support": {
+        "observed": true,
+        "spectra_count": 77556,
+        "spectra_count_status": "verified_local_mat_pixlabs",
+        "real_patch_count": null,
+        "real_patch_status": "unverified_requires_observation_and_coordinate_validation"
+      },
+      "hymars_support": []
+    },
+    {
+      "dense_id": 6,
+      "name": "Mg-Smectite",
+      "plebani_raw_id": 7,
+      "plebani_source_name": "Saponite",
+      "semantic_kind": "mineral_or_material",
+      "is_unlabeled": false,
+      "mapping_relation": "widening_to_family",
+      "spectral_equivalence_verified": false,
+      "plebani_support": {
+        "observed": true,
+        "spectra_count": 110935,
+        "spectra_count_status": "verified_local_mat_pixlabs",
+        "real_patch_count": null,
+        "real_patch_status": "unverified_requires_observation_and_coordinate_validation"
+      },
+      "hymars_support": [
+        {
+          "scene_id": "hymars_v2_UP",
+          "local_id": 6,
+          "source_name": "Mg-Smectite",
+          "labeled_pixels": 1166,
+          "xlsx_row": 33,
+          "source_match_status": "broad_to_representative",
+          "real_patch_count": null,
+          "real_patch_status": "pending_quality_and_split_roi_validation",
+          "role": "development"
+        }
+      ],
+      "representative_only": true,
+      "exact_synonym": false,
+      "mapping_basis": {
+        "path": "data/mica/mrocr_8001/data/crism_typespec_mg_smectite.lbl",
+        "field": "MRO:TYPESPEC_LAB_ANALOG_ID",
+        "value": "Saponite LASA58",
+        "public_reference": "https://pds-geosciences.wustl.edu/mro/mro-m-crism-4-typespec-v1/mrocr_8001/data/crism_typespec_mg_smectite.lbl"
+      }
+    },
+    {
+      "dense_id": 7,
+      "name": "Prehnite",
+      "plebani_raw_id": 8,
+      "plebani_source_name": "Prehnite",
+      "semantic_kind": "mineral_or_material",
+      "is_unlabeled": false,
+      "mapping_relation": "nominal_name_mapping",
+      "spectral_equivalence_verified": false,
+      "plebani_support": {
+        "observed": true,
+        "spectra_count": 7715,
+        "spectra_count_status": "verified_local_mat_pixlabs",
+        "real_patch_count": null,
+        "real_patch_status": "unverified_requires_observation_and_coordinate_validation"
+      },
+      "hymars_support": [
+        {
+          "scene_id": "hymars_v2_HC",
+          "local_id": 3,
+          "source_name": "Prehnite",
+          "labeled_pixels": 1560,
+          "xlsx_row": 5,
+          "source_match_status": "name_match",
+          "real_patch_count": null,
+          "real_patch_status": "pending_quality_and_split_roi_validation",
+          "role": "held_out_test"
+        },
+        {
+          "scene_id": "hymars_v2_NF",
+          "local_id": 8,
+          "source_name": "Prehnite",
+          "labeled_pixels": 1161,
+          "xlsx_row": 21,
+          "source_match_status": "name_match",
+          "real_patch_count": null,
+          "real_patch_status": "pending_quality_and_split_roi_validation",
+          "role": "development"
+        },
+        {
+          "scene_id": "hymars_v2_UP",
+          "local_id": 9,
+          "source_name": "Prehnite",
+          "labeled_pixels": 594,
+          "xlsx_row": 36,
+          "source_match_status": "name_match",
+          "real_patch_count": null,
+          "real_patch_status": "pending_quality_and_split_roi_validation",
+          "role": "development"
+        }
+      ]
+    },
+    {
+      "dense_id": 8,
+      "name": "Jarosite",
+      "plebani_raw_id": 9,
+      "plebani_source_name": "Jarosite",
+      "semantic_kind": "mineral_or_material",
+      "is_unlabeled": false,
+      "mapping_relation": "nominal_name_mapping",
+      "spectral_equivalence_verified": false,
+      "plebani_support": {
+        "observed": true,
+        "spectra_count": 13133,
+        "spectra_count_status": "verified_local_mat_pixlabs",
+        "real_patch_count": null,
+        "real_patch_status": "unverified_requires_observation_and_coordinate_validation"
+      },
+      "hymars_support": []
+    },
+    {
+      "dense_id": 9,
+      "name": "Serpentine",
+      "plebani_raw_id": 10,
+      "plebani_source_name": "Serpentine",
+      "semantic_kind": "mineral_or_material",
+      "is_unlabeled": false,
+      "mapping_relation": "nominal_name_mapping",
+      "spectral_equivalence_verified": false,
+      "plebani_support": {
+        "observed": true,
+        "spectra_count": 1893,
+        "spectra_count_status": "verified_local_mat_pixlabs",
+        "real_patch_count": null,
+        "real_patch_status": "unverified_requires_observation_and_coordinate_validation"
+      },
+      "hymars_support": [
+        {
+          "scene_id": "hymars_v2_HC",
+          "local_id": 5,
+          "source_name": "Serpentine",
+          "labeled_pixels": 8697,
+          "xlsx_row": 7,
+          "source_match_status": "name_match",
+          "real_patch_count": null,
+          "real_patch_status": "pending_quality_and_split_roi_validation",
+          "role": "held_out_test"
+        },
+        {
+          "scene_id": "hymars_v2_NF",
+          "local_id": 9,
+          "source_name": "Serpentine",
+          "labeled_pixels": 6166,
+          "xlsx_row": 22,
+          "source_match_status": "name_match",
+          "real_patch_count": null,
+          "real_patch_status": "pending_quality_and_split_roi_validation",
+          "role": "development"
+        }
+      ]
+    },
+    {
+      "dense_id": 10,
+      "name": "Alunite",
+      "plebani_raw_id": 11,
+      "plebani_source_name": "Alunite",
+      "semantic_kind": "mineral_or_material",
+      "is_unlabeled": false,
+      "mapping_relation": "nominal_name_mapping",
+      "spectral_equivalence_verified": false,
+      "plebani_support": {
+        "observed": true,
+        "spectra_count": 10323,
+        "spectra_count_status": "verified_local_mat_pixlabs",
+        "real_patch_count": null,
+        "real_patch_status": "unverified_requires_observation_and_coordinate_validation"
+      },
+      "hymars_support": []
+    },
+    {
+      "dense_id": 11,
+      "name": "Akaganeite",
+      "plebani_raw_id": 12,
+      "plebani_source_name": "Akaganeite",
+      "semantic_kind": "mineral_or_material",
+      "is_unlabeled": false,
+      "mapping_relation": "nominal_name_mapping",
+      "spectral_equivalence_verified": false,
+      "plebani_support": {
+        "observed": true,
+        "spectra_count": 819,
+        "spectra_count_status": "verified_local_mat_pixlabs",
+        "real_patch_count": null,
+        "real_patch_status": "unverified_requires_observation_and_coordinate_validation"
+      },
+      "hymars_support": []
+    },
+    {
+      "dense_id": 12,
+      "name": "Ca/Fe CO3",
+      "plebani_raw_id": 13,
+      "plebani_source_name": "Ca/Fe CO3",
+      "semantic_kind": "mineral_or_material",
+      "is_unlabeled": false,
+      "mapping_relation": "nominal_name_mapping",
+      "spectral_equivalence_verified": false,
+      "plebani_support": {
+        "observed": true,
+        "spectra_count": 8113,
+        "spectra_count_status": "verified_local_mat_pixlabs",
+        "real_patch_count": null,
+        "real_patch_status": "unverified_requires_observation_and_coordinate_validation"
+      },
+      "hymars_support": []
+    },
+    {
+      "dense_id": 13,
+      "name": "Beidellite",
+      "plebani_raw_id": 14,
+      "plebani_source_name": "Beidellite",
+      "semantic_kind": "mineral_or_material",
+      "is_unlabeled": false,
+      "mapping_relation": "nominal_name_mapping",
+      "spectral_equivalence_verified": false,
+      "plebani_support": {
+        "observed": true,
+        "spectra_count": 311,
+        "spectra_count_status": "verified_local_mat_pixlabs",
+        "real_patch_count": null,
+        "real_patch_status": "unverified_requires_observation_and_coordinate_validation"
+      },
+      "hymars_support": []
+    },
+    {
+      "dense_id": 14,
+      "name": "Kaolinite",
+      "plebani_raw_id": 15,
+      "plebani_source_name": "Kaolinite",
+      "semantic_kind": "mineral_or_material",
+      "is_unlabeled": false,
+      "mapping_relation": "nominal_name_mapping",
+      "spectral_equivalence_verified": false,
+      "plebani_support": {
+        "observed": true,
+        "spectra_count": 4977,
+        "spectra_count_status": "verified_local_mat_pixlabs",
+        "real_patch_count": null,
+        "real_patch_status": "unverified_requires_observation_and_coordinate_validation"
+      },
+      "hymars_support": []
+    },
+    {
+      "dense_id": 15,
+      "name": "Bassanite",
+      "plebani_raw_id": 16,
+      "plebani_source_name": "Bassanite",
+      "semantic_kind": "mineral_or_material",
+      "is_unlabeled": false,
+      "mapping_relation": "nominal_name_mapping",
+      "spectral_equivalence_verified": false,
+      "plebani_support": {
+        "observed": true,
+        "spectra_count": 130,
+        "spectra_count_status": "verified_local_mat_pixlabs",
+        "real_patch_count": null,
+        "real_patch_status": "unverified_requires_observation_and_coordinate_validation"
+      },
+      "hymars_support": [
+        {
+          "scene_id": "hymars_v2_NF",
+          "local_id": 4,
+          "source_name": "Bassanite",
+          "labeled_pixels": 3286,
+          "xlsx_row": 17,
+          "source_match_status": "name_match",
+          "real_patch_count": null,
+          "real_patch_status": "pending_quality_and_split_roi_validation",
+          "role": "development"
+        },
+        {
+          "scene_id": "hymars_v2_UP",
+          "local_id": 2,
+          "source_name": "Bassanite",
+          "labeled_pixels": 5807,
+          "xlsx_row": 29,
+          "source_match_status": "name_match",
+          "real_patch_count": null,
+          "real_patch_status": "pending_quality_and_split_roi_validation",
+          "role": "development"
+        }
+      ]
+    },
+    {
+      "dense_id": 16,
+      "name": "Epidote",
+      "plebani_raw_id": 17,
+      "plebani_source_name": "Epidote",
+      "semantic_kind": "mineral_or_material",
+      "is_unlabeled": false,
+      "mapping_relation": "nominal_name_mapping",
+      "spectral_equivalence_verified": false,
+      "plebani_support": {
+        "observed": true,
+        "spectra_count": 189,
+        "spectra_count_status": "verified_local_mat_pixlabs",
+        "real_patch_count": null,
+        "real_patch_status": "unverified_requires_observation_and_coordinate_validation"
+      },
+      "hymars_support": [
+        {
+          "scene_id": "hymars_v2_NF",
+          "local_id": 2,
+          "source_name": "Epidote",
+          "labeled_pixels": 996,
+          "xlsx_row": 15,
+          "source_match_status": "name_match",
+          "real_patch_count": null,
+          "real_patch_status": "pending_quality_and_split_roi_validation",
+          "role": "development"
+        }
+      ]
+    },
+    {
+      "dense_id": 17,
+      "name": "Montmorillonite",
+      "plebani_raw_id": 18,
+      "plebani_source_name": "Montmorillonite",
+      "semantic_kind": "mineral_or_material",
+      "is_unlabeled": false,
+      "mapping_relation": "nominal_name_mapping",
+      "spectral_equivalence_verified": false,
+      "plebani_support": {
+        "observed": true,
+        "spectra_count": 8781,
+        "spectra_count_status": "verified_local_mat_pixlabs",
+        "real_patch_count": null,
+        "real_patch_status": "unverified_requires_observation_and_coordinate_validation"
+      },
+      "hymars_support": []
+    },
+    {
+      "dense_id": 18,
+      "name": "Rosenite",
+      "plebani_raw_id": 19,
+      "plebani_source_name": "Rosenite",
+      "semantic_kind": "mineral_or_material",
+      "is_unlabeled": false,
+      "mapping_relation": "nominal_name_mapping",
+      "spectral_equivalence_verified": false,
+      "plebani_support": {
+        "observed": true,
+        "spectra_count": 35425,
+        "spectra_count_status": "verified_local_mat_pixlabs",
+        "real_patch_count": null,
+        "real_patch_status": "unverified_requires_observation_and_coordinate_validation"
+      },
+      "hymars_support": []
+    },
+    {
+      "dense_id": 19,
+      "name": "Mg Cl salt",
+      "plebani_raw_id": 20,
+      "plebani_source_name": "Mg Cl salt",
+      "semantic_kind": "mineral_or_material",
+      "is_unlabeled": false,
+      "mapping_relation": "nominal_name_mapping",
+      "spectral_equivalence_verified": false,
+      "plebani_support": {
+        "observed": true,
+        "spectra_count": 12250,
+        "spectra_count_status": "verified_local_mat_pixlabs",
+        "real_patch_count": null,
+        "real_patch_status": "unverified_requires_observation_and_coordinate_validation"
+      },
+      "hymars_support": []
+    },
+    {
+      "dense_id": 20,
+      "name": "Halloysite",
+      "plebani_raw_id": 21,
+      "plebani_source_name": "Halloysite",
+      "semantic_kind": "mineral_or_material",
+      "is_unlabeled": false,
+      "mapping_relation": "nominal_name_mapping",
+      "spectral_equivalence_verified": false,
+      "plebani_support": {
+        "observed": true,
+        "spectra_count": 35578,
+        "spectra_count_status": "verified_local_mat_pixlabs",
+        "real_patch_count": null,
+        "real_patch_status": "unverified_requires_observation_and_coordinate_validation"
+      },
+      "hymars_support": []
+    },
+    {
+      "dense_id": 21,
+      "name": "Illite/Muscovite",
+      "plebani_raw_id": 23,
+      "plebani_source_name": "Illite/Muscovite",
+      "semantic_kind": "mineral_or_material",
+      "is_unlabeled": false,
+      "mapping_relation": "nominal_name_mapping",
+      "spectral_equivalence_verified": false,
+      "plebani_support": {
+        "observed": true,
+        "spectra_count": 7029,
+        "spectra_count_status": "verified_local_mat_pixlabs",
+        "real_patch_count": null,
+        "real_patch_status": "unverified_requires_observation_and_coordinate_validation"
+      },
+      "hymars_support": [
+        {
+          "scene_id": "hymars_v2_NF",
+          "local_id": 5,
+          "source_name": "Illite/Muscovite",
+          "labeled_pixels": 228,
+          "xlsx_row": 18,
+          "source_match_status": "name_match",
+          "real_patch_count": null,
+          "real_patch_status": "pending_quality_and_split_roi_validation",
+          "role": "development"
+        },
+        {
+          "scene_id": "hymars_v2_UP",
+          "local_id": 4,
+          "source_name": "Illite/Muscovite",
+          "labeled_pixels": 272,
+          "xlsx_row": 31,
+          "source_match_status": "name_match",
+          "real_patch_count": null,
+          "real_patch_status": "pending_quality_and_split_roi_validation",
+          "role": "development"
+        }
+      ]
+    },
+    {
+      "dense_id": 22,
+      "name": "Margarite",
+      "plebani_raw_id": 24,
+      "plebani_source_name": "Margarite",
+      "semantic_kind": "mineral_or_material",
+      "is_unlabeled": false,
+      "mapping_relation": "nominal_name_mapping",
+      "spectral_equivalence_verified": false,
+      "plebani_support": {
+        "observed": true,
+        "spectra_count": 1584,
+        "spectra_count_status": "verified_local_mat_pixlabs",
+        "real_patch_count": null,
+        "real_patch_status": "unverified_requires_observation_and_coordinate_validation"
+      },
+      "hymars_support": [
+        {
+          "scene_id": "hymars_v2_HC",
+          "local_id": 6,
+          "source_name": "Margarite",
+          "labeled_pixels": 458,
+          "xlsx_row": 8,
+          "source_match_status": "name_match",
+          "real_patch_count": null,
+          "real_patch_status": "pending_quality_and_split_roi_validation",
+          "role": "held_out_test"
+        }
+      ]
+    },
+    {
+      "dense_id": 23,
+      "name": "Analcime",
+      "plebani_raw_id": 25,
+      "plebani_source_name": "Analcime",
+      "semantic_kind": "mineral_or_material",
+      "is_unlabeled": false,
+      "mapping_relation": "nominal_name_mapping",
+      "spectral_equivalence_verified": false,
+      "plebani_support": {
+        "observed": true,
+        "spectra_count": 1308,
+        "spectra_count_status": "verified_local_mat_pixlabs",
+        "real_patch_count": null,
+        "real_patch_status": "unverified_requires_observation_and_coordinate_validation"
+      },
+      "hymars_support": [
+        {
+          "scene_id": "hymars_v2_HC",
+          "local_id": 1,
+          "source_name": "Analcime",
+          "labeled_pixels": 940,
+          "xlsx_row": 3,
+          "source_match_status": "name_match",
+          "real_patch_count": null,
+          "real_patch_status": "pending_quality_and_split_roi_validation",
+          "role": "held_out_test"
+        },
+        {
+          "scene_id": "hymars_v2_UP",
+          "local_id": 1,
+          "source_name": "Analcime",
+          "labeled_pixels": 1751,
+          "xlsx_row": 28,
+          "source_match_status": "name_match",
+          "real_patch_count": null,
+          "real_patch_status": "pending_quality_and_split_roi_validation",
+          "role": "development"
+        }
+      ]
+    },
+    {
+      "dense_id": 24,
+      "name": "Monohydrated sulfate",
+      "plebani_raw_id": 26,
+      "plebani_source_name": "Monohydrated sulfate",
+      "semantic_kind": "mineral_or_material",
+      "is_unlabeled": false,
+      "mapping_relation": "nominal_name_mapping",
+      "spectral_equivalence_verified": false,
+      "plebani_support": {
+        "observed": true,
+        "spectra_count": 26441,
+        "spectra_count_status": "verified_local_mat_pixlabs",
+        "real_patch_count": null,
+        "real_patch_status": "unverified_requires_observation_and_coordinate_validation"
+      },
+      "hymars_support": [
+        {
+          "scene_id": "hymars_v2_UP",
+          "local_id": 7,
+          "source_name": "Monohydrated sulfate",
+          "labeled_pixels": 340,
+          "xlsx_row": 34,
+          "source_match_status": "name_match",
+          "real_patch_count": null,
+          "real_patch_status": "pending_quality_and_split_roi_validation",
+          "role": "development"
+        }
+      ]
+    },
+    {
+      "dense_id": 25,
+      "name": "Opal 1",
+      "plebani_raw_id": 27,
+      "plebani_source_name": "Opal 1",
+      "semantic_kind": "mineral_or_material",
+      "is_unlabeled": false,
+      "mapping_relation": "nominal_name_mapping",
+      "spectral_equivalence_verified": false,
+      "plebani_support": {
+        "observed": true,
+        "spectra_count": 21308,
+        "spectra_count_status": "verified_local_mat_pixlabs",
+        "real_patch_count": null,
+        "real_patch_status": "unverified_requires_observation_and_coordinate_validation"
+      },
+      "hymars_support": []
+    },
+    {
+      "dense_id": 26,
+      "name": "Opal 2",
+      "plebani_raw_id": 28,
+      "plebani_source_name": "Opal 2",
+      "semantic_kind": "mineral_or_material",
+      "is_unlabeled": false,
+      "mapping_relation": "nominal_name_mapping",
+      "spectral_equivalence_verified": false,
+      "plebani_support": {
+        "observed": true,
+        "spectra_count": 638,
+        "spectra_count_status": "verified_local_mat_pixlabs",
+        "real_patch_count": null,
+        "real_patch_status": "unverified_requires_observation_and_coordinate_validation"
+      },
+      "hymars_support": []
+    },
+    {
+      "dense_id": 27,
+      "name": "Iron Oxide Silicate Sulfate",
+      "plebani_raw_id": 29,
+      "plebani_source_name": "Iron Oxide Silicate Sulfate",
+      "semantic_kind": "mineral_or_material",
+      "is_unlabeled": false,
+      "mapping_relation": "nominal_name_mapping",
+      "spectral_equivalence_verified": false,
+      "plebani_support": {
+        "observed": true,
+        "spectra_count": 10559,
+        "spectra_count_status": "verified_local_mat_pixlabs",
+        "real_patch_count": null,
+        "real_patch_status": "unverified_requires_observation_and_coordinate_validation"
+      },
+      "hymars_support": []
+    },
+    {
+      "dense_id": 28,
+      "name": "MgCO3",
+      "plebani_raw_id": 30,
+      "plebani_source_name": "MgCO3",
+      "semantic_kind": "mineral_or_material",
+      "is_unlabeled": false,
+      "mapping_relation": "nominal_name_mapping",
+      "spectral_equivalence_verified": false,
+      "plebani_support": {
+        "observed": true,
+        "spectra_count": 37473,
+        "spectra_count_status": "verified_local_mat_pixlabs",
+        "real_patch_count": null,
+        "real_patch_status": "unverified_requires_observation_and_coordinate_validation"
+      },
+      "hymars_support": [
+        {
+          "scene_id": "hymars_v2_NF",
+          "local_id": 6,
+          "source_name": "Mg-Carbonate",
+          "labeled_pixels": 4867,
+          "xlsx_row": 19,
+          "source_match_status": "name_match",
+          "real_patch_count": null,
+          "real_patch_status": "pending_quality_and_split_roi_validation",
+          "role": "development"
+        }
+      ]
+    },
+    {
+      "dense_id": 29,
+      "name": "Chlorite",
+      "plebani_raw_id": 31,
+      "plebani_source_name": "Chlorite",
+      "semantic_kind": "mineral_or_material",
+      "is_unlabeled": false,
+      "mapping_relation": "nominal_name_mapping",
+      "spectral_equivalence_verified": false,
+      "plebani_support": {
+        "observed": true,
+        "spectra_count": 39242,
+        "spectra_count_status": "verified_local_mat_pixlabs",
+        "real_patch_count": null,
+        "real_patch_status": "unverified_requires_observation_and_coordinate_validation"
+      },
+      "hymars_support": [
+        {
+          "scene_id": "hymars_v2_NF",
+          "local_id": 3,
+          "source_name": "Chlorite",
+          "labeled_pixels": 386,
+          "xlsx_row": 16,
+          "source_match_status": "name_match",
+          "real_patch_count": null,
+          "real_patch_status": "pending_quality_and_split_roi_validation",
+          "role": "development"
+        }
+      ]
+    },
+    {
+      "dense_id": 30,
+      "name": "Clinochlore",
+      "plebani_raw_id": 32,
+      "plebani_source_name": "Clinochlore",
+      "semantic_kind": "mineral_or_material",
+      "is_unlabeled": false,
+      "mapping_relation": "nominal_name_mapping",
+      "spectral_equivalence_verified": false,
+      "plebani_support": {
+        "observed": true,
+        "spectra_count": 18693,
+        "spectra_count_status": "verified_local_mat_pixlabs",
+        "real_patch_count": null,
+        "real_patch_status": "unverified_requires_observation_and_coordinate_validation"
+      },
+      "hymars_support": []
+    },
+    {
+      "dense_id": 31,
+      "name": "Low Ca Pyroxene",
+      "plebani_raw_id": 33,
+      "plebani_source_name": "Low Ca Pyroxene",
+      "semantic_kind": "mineral_or_material",
+      "is_unlabeled": false,
+      "mapping_relation": "nominal_name_mapping",
+      "spectral_equivalence_verified": false,
+      "plebani_support": {
+        "observed": true,
+        "spectra_count": 32130,
+        "spectra_count_status": "verified_local_mat_pixlabs",
+        "real_patch_count": null,
+        "real_patch_status": "unverified_requires_observation_and_coordinate_validation"
+      },
+      "hymars_support": [
+        {
+          "scene_id": "hymars_v2_UP",
+          "local_id": 5,
+          "source_name": "Low-Ca Pyroxene",
+          "labeled_pixels": 6774,
+          "xlsx_row": 32,
+          "source_match_status": "name_match",
+          "real_patch_count": null,
+          "real_patch_status": "pending_quality_and_split_roi_validation",
+          "role": "development"
+        }
+      ]
+    },
+    {
+      "dense_id": 32,
+      "name": "Olivine Forsterite",
+      "plebani_raw_id": 34,
+      "plebani_source_name": "Olivine Forsterite",
+      "semantic_kind": "mineral_or_material",
+      "is_unlabeled": false,
+      "mapping_relation": "nominal_name_mapping",
+      "spectral_equivalence_verified": false,
+      "plebani_support": {
+        "observed": true,
+        "spectra_count": 80,
+        "spectra_count_status": "verified_local_mat_pixlabs",
+        "real_patch_count": null,
+        "real_patch_status": "unverified_requires_observation_and_coordinate_validation"
+      },
+      "hymars_support": []
+    },
+    {
+      "dense_id": 33,
+      "name": "High Ca Pyroxene",
+      "plebani_raw_id": 35,
+      "plebani_source_name": "High Ca Pyroxene",
+      "semantic_kind": "mineral_or_material",
+      "is_unlabeled": false,
+      "mapping_relation": "nominal_name_mapping",
+      "spectral_equivalence_verified": false,
+      "plebani_support": {
+        "observed": true,
+        "spectra_count": 849,
+        "spectra_count_status": "verified_local_mat_pixlabs",
+        "real_patch_count": null,
+        "real_patch_status": "unverified_requires_observation_and_coordinate_validation"
+      },
+      "hymars_support": [
+        {
+          "scene_id": "hymars_v2_HC",
+          "local_id": 4,
+          "source_name": "High-Ca Pyroxene",
+          "labeled_pixels": 6963,
+          "xlsx_row": 6,
+          "source_match_status": "name_match",
+          "real_patch_count": null,
+          "real_patch_status": "pending_quality_and_split_roi_validation",
+          "role": "held_out_test"
+        },
+        {
+          "scene_id": "hymars_v2_UP",
+          "local_id": 3,
+          "source_name": "High-Ca Pyroxene",
+          "labeled_pixels": 432,
+          "xlsx_row": 30,
+          "source_match_status": "name_match",
+          "real_patch_count": null,
+          "real_patch_status": "pending_quality_and_split_roi_validation",
+          "role": "development"
+        }
+      ]
+    },
+    {
+      "dense_id": 34,
+      "name": "Fe-Olivine",
+      "plebani_raw_id": 36,
+      "plebani_source_name": "Olivine Fayalite",
+      "semantic_kind": "mineral_or_material",
+      "is_unlabeled": false,
+      "mapping_relation": "widening_to_family",
+      "spectral_equivalence_verified": false,
+      "plebani_support": {
+        "observed": true,
+        "spectra_count": 2098,
+        "spectra_count_status": "verified_local_mat_pixlabs",
+        "real_patch_count": null,
+        "real_patch_status": "unverified_requires_observation_and_coordinate_validation"
+      },
+      "hymars_support": [
+        {
+          "scene_id": "hymars_v2_NF",
+          "local_id": 1,
+          "source_name": "Fe-Olivine",
+          "labeled_pixels": 8563,
+          "xlsx_row": 14,
+          "source_match_status": "broad_to_representative",
+          "real_patch_count": null,
+          "real_patch_status": "pending_quality_and_split_roi_validation",
+          "role": "development"
+        }
+      ],
+      "representative_only": true,
+      "exact_synonym": false,
+      "mapping_basis": {
+        "path": "data/mica/mrocr_8001/data/crism_typespec_fe_olivine.lbl",
+        "field": "MRO:TYPESPEC_LAB_ANALOG_ID",
+        "value": "Fayalite LAPO05",
+        "public_reference": "https://pds-geosciences.wustl.edu/mro/mro-m-crism-4-typespec-v1/mrocr_8001/data/crism_typespec_fe_olivine.lbl"
+      }
+    },
+    {
+      "dense_id": 35,
+      "name": "Chloride",
+      "plebani_raw_id": 37,
+      "plebani_source_name": "Chloride",
+      "semantic_kind": "mineral_or_material",
+      "is_unlabeled": false,
+      "mapping_relation": "nominal_name_mapping",
+      "spectral_equivalence_verified": false,
+      "plebani_support": {
+        "observed": true,
+        "spectra_count": 1262,
+        "spectra_count_status": "verified_local_mat_pixlabs",
+        "real_patch_count": null,
+        "real_patch_status": "unverified_requires_observation_and_coordinate_validation"
+      },
+      "hymars_support": []
+    },
+    {
+      "dense_id": 36,
+      "name": "Artifact",
+      "plebani_raw_id": 38,
+      "plebani_source_name": "Artifact",
+      "semantic_kind": "nuisance",
+      "is_unlabeled": false,
+      "mapping_relation": "nominal_name_mapping",
+      "spectral_equivalence_verified": false,
+      "plebani_support": {
+        "observed": true,
+        "spectra_count": 509,
+        "spectra_count_status": "verified_local_mat_pixlabs",
+        "real_patch_count": null,
+        "real_patch_status": "unverified_requires_observation_and_coordinate_validation"
+      },
+      "hymars_support": [],
+      "is_mineral": false
+    },
+    {
+      "dense_id": 37,
+      "name": "Neutral",
+      "plebani_raw_id": 39,
+      "plebani_source_name": "Neutral",
+      "semantic_kind": "neutral",
+      "is_unlabeled": false,
+      "mapping_relation": "nominal_name_mapping",
+      "spectral_equivalence_verified": false,
+      "plebani_support": {
+        "observed": true,
+        "spectra_count": 5814,
+        "spectra_count_status": "verified_local_mat_pixlabs",
+        "real_patch_count": 0,
+        "real_patch_status": "unavailable_missing_coordinates",
+        "spatial_coordinates_status": "missing_zero_zero_placeholder",
+        "coordinate_placeholder": [
+          0,
+          0
+        ],
+        "spectra_only": true
+      },
+      "hymars_support": [],
+      "is_mineral": false
+    },
+    {
+      "dense_id": 38,
+      "name": "Plagioclase",
+      "plebani_raw_id": 40,
+      "plebani_source_name": "Feldspar Plagioclase",
+      "semantic_kind": "mineral_or_material",
+      "is_unlabeled": false,
+      "mapping_relation": "nominal_name_mapping",
+      "spectral_equivalence_verified": false,
+      "plebani_support": {
+        "observed": false,
+        "spectra_count": 0,
+        "spectra_count_status": "defined_but_absent",
+        "real_patch_count": 0,
+        "real_patch_status": "absent_from_plebani"
+      },
+      "hymars_support": [
+        {
+          "scene_id": "hymars_v2_HC",
+          "local_id": 2,
+          "source_name": "Plagioclase",
+          "labeled_pixels": 1472,
+          "xlsx_row": 4,
+          "source_match_status": "defined_but_absent",
+          "real_patch_count": null,
+          "real_patch_status": "pending_quality_and_split_roi_validation",
+          "role": "held_out_test"
+        },
+        {
+          "scene_id": "hymars_v2_NF",
+          "local_id": 7,
+          "source_name": "Plagioclase",
+          "labeled_pixels": 1057,
+          "xlsx_row": 20,
+          "source_match_status": "defined_but_absent",
+          "real_patch_count": null,
+          "real_patch_status": "pending_quality_and_split_roi_validation",
+          "role": "development"
+        },
+        {
+          "scene_id": "hymars_v2_UP",
+          "local_id": 8,
+          "source_name": "Plagioclase",
+          "labeled_pixels": 202,
+          "xlsx_row": 35,
+          "source_match_status": "defined_but_absent",
+          "real_patch_count": null,
+          "real_patch_status": "pending_quality_and_split_roi_validation",
+          "role": "development"
+        }
+      ]
+    }
+  ],
+  "limitations": [
+    "Nominal mappings do not establish spectral or distributional equivalence.",
+    "Widening Saponite and Olivine Fayalite to families is this project protocol, not an author-approved synonym claim.",
+    "Plebani spectra counts are not counts of recoverable real spatial patches.",
+    "HyMars labeled-pixel counts are inventory counts, not usable training counts; HC is held out.",
+    "Wavelengths, detector mappings, observation lineage, patch quality and exact split ROIs remain unresolved."
+  ],
+  "class_names": [
+    "CO2 Ice",
+    "H2O Ice",
+    "Gypsum",
+    "Ferric Hydroxysulfate",
+    "Hematite",
+    "Nontronite",
+    "Mg-Smectite",
+    "Prehnite",
+    "Jarosite",
+    "Serpentine",
+    "Alunite",
+    "Akaganeite",
+    "Ca/Fe CO3",
+    "Beidellite",
+    "Kaolinite",
+    "Bassanite",
+    "Epidote",
+    "Montmorillonite",
+    "Rosenite",
+    "Mg Cl salt",
+    "Halloysite",
+    "Illite/Muscovite",
+    "Margarite",
+    "Analcime",
+    "Monohydrated sulfate",
+    "Opal 1",
+    "Opal 2",
+    "Iron Oxide Silicate Sulfate",
+    "MgCO3",
+    "Chlorite",
+    "Clinochlore",
+    "Low Ca Pyroxene",
+    "Olivine Forsterite",
+    "High Ca Pyroxene",
+    "Fe-Olivine",
+    "Chloride",
+    "Artifact",
+    "Neutral",
+    "Plagioclase"
+  ]
+}

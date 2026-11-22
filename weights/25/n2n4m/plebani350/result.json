@@ -1,0 +1,15 @@
+{
+  "status": "completed",
+  "best_epoch": 14,
+  "best_validation_loss": 0.017609918405115603,
+  "checkpoint": {
+    "path": "best_epoch_0014.pt",
+    "sha256": "738ed8ee7954b5a2d8b95c2a189b2a1fcb5c2b7d220fb1dd8f706d8418e2ee89"
+  },
+  "export": {
+    "path": "model.ts",
+    "sha256": "9cd92ab4cd91816d3e8a7291dbdf15fd982eddfc04777efbfe0ab848dbaea0a4"
+  },
+  "metric_scope": "development_validation_only",
+  "epochs": 25
+}

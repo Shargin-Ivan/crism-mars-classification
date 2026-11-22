@@ -1,0 +1,7 @@
+{
+  "origin": "N2N4M distributed checkpoint and fitted RobustScaler",
+  "native_input": "CRISM L TRR3 I/F, 350 Plebani wavelengths",
+  "upstream_training": "n2n4m-main/scripts/train.py",
+  "upstream_inference": "n2n4m-main/n2n4m/n2n4m_denoise.py",
+  "transfer": "Corrected dimensionless I/F is mapped to the native Plebani positions. Missing native inputs use the frozen fitted band medians; only measured positions receive model output. No further training. Transfer accuracy has not been established."
+}

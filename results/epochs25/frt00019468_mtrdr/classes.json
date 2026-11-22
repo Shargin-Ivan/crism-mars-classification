@@ -1,0 +1,253 @@
+{
+  "run_id": "20261122T141139.033893Z_07dd74d2",
+  "branch_taxonomy": {
+    "sam_original": "finetuning_classes",
+    "sam_denoised": "finetuning_classes",
+    "lwnet_original": "finetuning_classes",
+    "lwnet_denoised": "finetuning_classes"
+  },
+  "taxonomies": {
+    "finetuning_classes": [
+      {
+        "id": 0,
+        "source": "CO2 Ice",
+        "ru": "Углекислотный лёд",
+        "color": "#1f77b4"
+      },
+      {
+        "id": 1,
+        "source": "H2O Ice",
+        "ru": "Водяной лёд",
+        "color": "#aec7e8"
+      },
+      {
+        "id": 2,
+        "source": "Gypsum",
+        "ru": "Гипс",
+        "color": "#ff7f0e"
+      },
+      {
+        "id": 3,
+        "source": "Ferric Hydroxysulfate",
+        "ru": "Гидроксосульфат железа(III)",
+        "color": "#ffbb78"
+      },
+      {
+        "id": 4,
+        "source": "Hematite",
+        "ru": "Гематит",
+        "color": "#2ca02c"
+      },
+      {
+        "id": 5,
+        "source": "Nontronite",
+        "ru": "Нонтронит",
+        "color": "#98df8a"
+      },
+      {
+        "id": 6,
+        "source": "Mg-Smectite",
+        "ru": "Mg-смектит",
+        "color": "#d62728"
+      },
+      {
+        "id": 7,
+        "source": "Prehnite",
+        "ru": "Пренит",
+        "color": "#ff9896"
+      },
+      {
+        "id": 8,
+        "source": "Jarosite",
+        "ru": "Ярозит",
+        "color": "#9467bd"
+      },
+      {
+        "id": 9,
+        "source": "Serpentine",
+        "ru": "Серпентин",
+        "color": "#c5b0d5"
+      },
+      {
+        "id": 10,
+        "source": "Alunite",
+        "ru": "Алунит",
+        "color": "#8c564b"
+      },
+      {
+        "id": 11,
+        "source": "Akaganeite",
+        "ru": "Акаганеит",
+        "color": "#c49c94"
+      },
+      {
+        "id": 12,
+        "source": "Ca/Fe CO3",
+        "ru": "Fe/Ca-карбонат",
+        "color": "#e377c2"
+      },
+      {
+        "id": 13,
+        "source": "Beidellite",
+        "ru": "Бейделлит",
+        "color": "#f7b6d2"
+      },
+      {
+        "id": 14,
+        "source": "Kaolinite",
+        "ru": "Каолинит",
+        "color": "#7f7f7f"
+      },
+      {
+        "id": 15,
+        "source": "Bassanite",
+        "ru": "Бассанит",
+        "color": "#c7c7c7"
+      },
+      {
+        "id": 16,
+        "source": "Epidote",
+        "ru": "Эпидот",
+        "color": "#bcbd22"
+      },
+      {
+        "id": 17,
+        "source": "Montmorillonite",
+        "ru": "Монтмориллонит",
+        "color": "#dbdb8d"
+      },
+      {
+        "id": 18,
+        "source": "Rosenite",
+        "ru": "Розенит",
+        "color": "#17becf"
+      },
+      {
+        "id": 19,
+        "source": "Mg Cl salt",
+        "ru": "Хлорсодержащая соль магния",
+        "color": "#9edae5"
+      },
+      {
+        "id": 20,
+        "source": "Halloysite",
+        "ru": "Галлуазит",
+        "color": "#393b79"
+      },
+      {
+        "id": 21,
+        "source": "Illite/Muscovite",
+        "ru": "Иллит / мусковит",
+        "color": "#5254a3"
+      },
+      {
+        "id": 22,
+        "source": "Margarite",
+        "ru": "Маргарит",
+        "color": "#6b6ecf"
+      },
+      {
+        "id": 23,
+        "source": "Analcime",
+        "ru": "Анальцим",
+        "color": "#9c9ede"
+      },
+      {
+        "id": 24,
+        "source": "Monohydrated sulfate",
+        "ru": "Моногидрат сульфата",
+        "color": "#637939"
+      },
+      {
+        "id": 25,
+        "source": "Opal 1",
+        "ru": "Опал 1",
+        "color": "#8ca252"
+      },
+      {
+        "id": 26,
+        "source": "Opal 2",
+        "ru": "Опал 2",
+        "color": "#b5cf6b"
+      },
+      {
+        "id": 27,
+        "source": "Iron Oxide Silicate Sulfate",
+        "ru": "Оксид железа, силикат и сульфат",
+        "color": "#cedb9c"
+      },
+      {
+        "id": 28,
+        "source": "MgCO3",
+        "ru": "Mg-карбонат",
+        "color": "#8c6d31"
+      },
+      {
+        "id": 29,
+        "source": "Chlorite",
+        "ru": "Хлорит",
+        "color": "#bd9e39"
+      },
+      {
+        "id": 30,
+        "source": "Clinochlore",
+        "ru": "Клинохлор",
+        "color": "#e7ba52"
+      },
+      {
+        "id": 31,
+        "source": "Low Ca Pyroxene",
+        "ru": "Низкокальциевый пироксен",
+        "color": "#e7cb94"
+      },
+      {
+        "id": 32,
+        "source": "Olivine Forsterite",
+        "ru": "Оливин (форстерит)",
+        "color": "#843c39"
+      },
+      {
+        "id": 33,
+        "source": "High Ca Pyroxene",
+        "ru": "Высококальциевый пироксен",
+        "color": "#ad494a"
+      },
+      {
+        "id": 34,
+        "source": "Fe-Olivine",
+        "ru": "Fe-оливин",
+        "color": "#d6616b"
+      },
+      {
+        "id": 35,
+        "source": "Chloride",
+        "ru": "Хлорид",
+        "color": "#e7969c"
+      },
+      {
+        "id": 36,
+        "source": "Artifact",
+        "ru": "Артефакт",
+        "color": "#7b4173"
+      },
+      {
+        "id": 37,
+        "source": "Neutral",
+        "ru": "Нейтральный спектр",
+        "color": "#a55194"
+      },
+      {
+        "id": 38,
+        "source": "Plagioclase",
+        "ru": "Плагиоклаз",
+        "color": "#ce6dbd"
+      }
+    ]
+  },
+  "original_npy_sha256": {
+    "sam_original": "939356e6472cba79fc370b5ca7336ab0e78b570bea27c167896a9d9a4c4e101a",
+    "sam_denoised": "e45c374836474c30d93aa14caa2c622b96d32addec6054fe893acf4aadeae504",
+    "lwnet_original": "b0f7700e14a6351a9dd95de029f473ba42c1e7daa283646475d06c57adcf70c3",
+    "lwnet_denoised": "b1c17accadc71143b3648f3392a2526c239d1342bba86e5a0d8c32927f0b3920"
+  }
+}

@@ -1,0 +1,157 @@
+branch_id,class_name,class_id,support,predicted,tp,fp,fn,precision,recall,f1,rejected,rejection_rate,class_name_ru
+sam_original,CO2 Ice,0,0,0,0,0,0,,,,0,,Углекислотный лёд
+sam_original,H2O Ice,1,0,0,0,0,0,,,,0,,Водяной лёд
+sam_original,Gypsum,2,0,0,0,0,0,,,,0,,Гипс
+sam_original,Ferric Hydroxysulfate,3,0,0,0,0,0,,,,0,,Гидроксосульфат железа(III)
+sam_original,Hematite,4,0,0,0,0,0,,,,0,,Гематит
+sam_original,Nontronite,5,0,0,0,0,0,,,,0,,Нонтронит
+sam_original,Mg-Smectite,6,0,19,0,19,0,0.0,,0.0,0,,Mg-смектит
+sam_original,Prehnite,7,1560,981,821,160,739,0.836901121304791,0.5262820512820513,0.6462022825659189,0,0.0,Пренит
+sam_original,Jarosite,8,0,0,0,0,0,,,,0,,Ярозит
+sam_original,Serpentine,9,8697,6830,6830,0,1867,1.0,0.7853282741175118,0.8797578411798802,0,0.0,Серпентин
+sam_original,Alunite,10,0,0,0,0,0,,,,0,,Алунит
+sam_original,Akaganeite,11,0,0,0,0,0,,,,0,,Акаганеит
+sam_original,Ca/Fe CO3,12,0,0,0,0,0,,,,0,,Fe/Ca-карбонат
+sam_original,Beidellite,13,0,0,0,0,0,,,,0,,Бейделлит
+sam_original,Kaolinite,14,0,0,0,0,0,,,,0,,Каолинит
+sam_original,Bassanite,15,0,0,0,0,0,,,,0,,Бассанит
+sam_original,Epidote,16,0,0,0,0,0,,,,0,,Эпидот
+sam_original,Montmorillonite,17,0,0,0,0,0,,,,0,,Монтмориллонит
+sam_original,Rosenite,18,0,0,0,0,0,,,,0,,Розенит
+sam_original,Mg Cl salt,19,0,0,0,0,0,,,,0,,Хлорсодержащая соль магния
+sam_original,Halloysite,20,0,0,0,0,0,,,,0,,Галлуазит
+sam_original,Illite/Muscovite,21,0,1,0,1,0,0.0,,0.0,0,,Иллит / мусковит
+sam_original,Margarite,22,458,595,203,392,255,0.3411764705882353,0.4432314410480349,0.3855650522317189,0,0.0,Маргарит
+sam_original,Analcime,23,940,1827,921,906,19,0.5041050903119869,0.9797872340425532,0.6657029273581496,0,0.0,Анальцим
+sam_original,Monohydrated sulfate,24,0,0,0,0,0,,,,0,,Моногидрат сульфата
+sam_original,Opal 1,25,0,0,0,0,0,,,,0,,Опал 1
+sam_original,Opal 2,26,0,0,0,0,0,,,,0,,Опал 2
+sam_original,Iron Oxide Silicate Sulfate,27,0,0,0,0,0,,,,0,,"Оксид железа, силикат и сульфат"
+sam_original,MgCO3,28,0,0,0,0,0,,,,0,,Mg-карбонат
+sam_original,Chlorite,29,0,0,0,0,0,,,,0,,Хлорит
+sam_original,Clinochlore,30,0,0,0,0,0,,,,0,,Клинохлор
+sam_original,Low Ca Pyroxene,31,0,0,0,0,0,,,,0,,Низкокальциевый пироксен
+sam_original,Olivine Forsterite,32,0,0,0,0,0,,,,0,,Оливин (форстерит)
+sam_original,High Ca Pyroxene,33,6963,8658,6926,1732,37,0.7999537999538,0.9946861984776677,0.8867550092823763,0,0.0,Высококальциевый пироксен
+sam_original,Fe-Olivine,34,0,0,0,0,0,,,,0,,Fe-оливин
+sam_original,Chloride,35,0,0,0,0,0,,,,0,,Хлорид
+sam_original,Artifact,36,0,0,0,0,0,,,,0,,Артефакт
+sam_original,Neutral,37,0,0,0,0,0,,,,0,,Нейтральный спектр
+sam_original,Plagioclase,38,1472,1179,1145,34,327,0.9711620016963528,0.7778532608695652,0.8638249717087891,0,0.0,Плагиоклаз
+sam_denoised,CO2 Ice,0,0,0,0,0,0,,,,0,,Углекислотный лёд
+sam_denoised,H2O Ice,1,0,0,0,0,0,,,,0,,Водяной лёд
+sam_denoised,Gypsum,2,0,0,0,0,0,,,,0,,Гипс
+sam_denoised,Ferric Hydroxysulfate,3,0,0,0,0,0,,,,0,,Гидроксосульфат железа(III)
+sam_denoised,Hematite,4,0,0,0,0,0,,,,0,,Гематит
+sam_denoised,Nontronite,5,0,0,0,0,0,,,,0,,Нонтронит
+sam_denoised,Mg-Smectite,6,0,549,0,549,0,0.0,,0.0,0,,Mg-смектит
+sam_denoised,Prehnite,7,1560,92,92,0,1468,1.0,0.05897435897435897,0.11138014527845036,0,0.0,Пренит
+sam_denoised,Jarosite,8,0,0,0,0,0,,,,0,,Ярозит
+sam_denoised,Serpentine,9,8697,124,124,0,8573,1.0,0.014257790042543406,0.028114726221516836,0,0.0,Серпентин
+sam_denoised,Alunite,10,0,0,0,0,0,,,,0,,Алунит
+sam_denoised,Akaganeite,11,0,0,0,0,0,,,,0,,Акаганеит
+sam_denoised,Ca/Fe CO3,12,0,0,0,0,0,,,,0,,Fe/Ca-карбонат
+sam_denoised,Beidellite,13,0,0,0,0,0,,,,0,,Бейделлит
+sam_denoised,Kaolinite,14,0,0,0,0,0,,,,0,,Каолинит
+sam_denoised,Bassanite,15,0,0,0,0,0,,,,0,,Бассанит
+sam_denoised,Epidote,16,0,0,0,0,0,,,,0,,Эпидот
+sam_denoised,Montmorillonite,17,0,0,0,0,0,,,,0,,Монтмориллонит
+sam_denoised,Rosenite,18,0,0,0,0,0,,,,0,,Розенит
+sam_denoised,Mg Cl salt,19,0,0,0,0,0,,,,0,,Хлорсодержащая соль магния
+sam_denoised,Halloysite,20,0,0,0,0,0,,,,0,,Галлуазит
+sam_denoised,Illite/Muscovite,21,0,23,0,23,0,0.0,,0.0,0,,Иллит / мусковит
+sam_denoised,Margarite,22,458,7234,195,7039,263,0.026956040917887752,0.425764192139738,0.05070202808112324,0,0.0,Маргарит
+sam_denoised,Analcime,23,940,2024,405,1619,535,0.20009881422924902,0.4308510638297872,0.2732793522267207,0,0.0,Анальцим
+sam_denoised,Monohydrated sulfate,24,0,0,0,0,0,,,,0,,Моногидрат сульфата
+sam_denoised,Opal 1,25,0,0,0,0,0,,,,0,,Опал 1
+sam_denoised,Opal 2,26,0,0,0,0,0,,,,0,,Опал 2
+sam_denoised,Iron Oxide Silicate Sulfate,27,0,0,0,0,0,,,,0,,"Оксид железа, силикат и сульфат"
+sam_denoised,MgCO3,28,0,0,0,0,0,,,,0,,Mg-карбонат
+sam_denoised,Chlorite,29,0,0,0,0,0,,,,0,,Хлорит
+sam_denoised,Clinochlore,30,0,0,0,0,0,,,,0,,Клинохлор
+sam_denoised,Low Ca Pyroxene,31,0,0,0,0,0,,,,0,,Низкокальциевый пироксен
+sam_denoised,Olivine Forsterite,32,0,0,0,0,0,,,,0,,Оливин (форстерит)
+sam_denoised,High Ca Pyroxene,33,6963,3225,1669,1556,5294,0.5175193798449612,0.2396955335343961,0.3276403612092658,0,0.0,Высококальциевый пироксен
+sam_denoised,Fe-Olivine,34,0,0,0,0,0,,,,0,,Fe-оливин
+sam_denoised,Chloride,35,0,287,0,287,0,0.0,,0.0,0,,Хлорид
+sam_denoised,Artifact,36,0,0,0,0,0,,,,0,,Артефакт
+sam_denoised,Neutral,37,0,0,0,0,0,,,,0,,Нейтральный спектр
+sam_denoised,Plagioclase,38,1472,6532,1177,5355,295,0.18018983466013472,0.7995923913043478,0.29410294852573715,0,0.0,Плагиоклаз
+lwnet_original,CO2 Ice,0,0,0,0,0,0,,,,0,,Углекислотный лёд
+lwnet_original,H2O Ice,1,0,0,0,0,0,,,,0,,Водяной лёд
+lwnet_original,Gypsum,2,0,0,0,0,0,,,,0,,Гипс
+lwnet_original,Ferric Hydroxysulfate,3,0,0,0,0,0,,,,0,,Гидроксосульфат железа(III)
+lwnet_original,Hematite,4,0,0,0,0,0,,,,0,,Гематит
+lwnet_original,Nontronite,5,0,0,0,0,0,,,,0,,Нонтронит
+lwnet_original,Mg-Smectite,6,0,426,0,426,0,0.0,,0.0,0,,Mg-смектит
+lwnet_original,Prehnite,7,1560,1281,63,1218,1497,0.04918032786885246,0.04038461538461539,0.044350580781414996,0,0.0,Пренит
+lwnet_original,Jarosite,8,0,0,0,0,0,,,,0,,Ярозит
+lwnet_original,Serpentine,9,8697,0,0,0,8697,,0.0,0.0,0,0.0,Серпентин
+lwnet_original,Alunite,10,0,0,0,0,0,,,,0,,Алунит
+lwnet_original,Akaganeite,11,0,0,0,0,0,,,,0,,Акаганеит
+lwnet_original,Ca/Fe CO3,12,0,0,0,0,0,,,,0,,Fe/Ca-карбонат
+lwnet_original,Beidellite,13,0,0,0,0,0,,,,0,,Бейделлит
+lwnet_original,Kaolinite,14,0,0,0,0,0,,,,0,,Каолинит
+lwnet_original,Bassanite,15,0,243,0,243,0,0.0,,0.0,0,,Бассанит
+lwnet_original,Epidote,16,0,0,0,0,0,,,,0,,Эпидот
+lwnet_original,Montmorillonite,17,0,0,0,0,0,,,,0,,Монтмориллонит
+lwnet_original,Rosenite,18,0,0,0,0,0,,,,0,,Розенит
+lwnet_original,Mg Cl salt,19,0,0,0,0,0,,,,0,,Хлорсодержащая соль магния
+lwnet_original,Halloysite,20,0,0,0,0,0,,,,0,,Галлуазит
+lwnet_original,Illite/Muscovite,21,0,0,0,0,0,,,,0,,Иллит / мусковит
+lwnet_original,Margarite,22,458,0,0,0,458,,0.0,0.0,0,0.0,Маргарит
+lwnet_original,Analcime,23,940,762,354,408,586,0.4645669291338583,0.37659574468085105,0.41598119858989424,0,0.0,Анальцим
+lwnet_original,Monohydrated sulfate,24,0,0,0,0,0,,,,0,,Моногидрат сульфата
+lwnet_original,Opal 1,25,0,0,0,0,0,,,,0,,Опал 1
+lwnet_original,Opal 2,26,0,0,0,0,0,,,,0,,Опал 2
+lwnet_original,Iron Oxide Silicate Sulfate,27,0,0,0,0,0,,,,0,,"Оксид железа, силикат и сульфат"
+lwnet_original,MgCO3,28,0,0,0,0,0,,,,0,,Mg-карбонат
+lwnet_original,Chlorite,29,0,0,0,0,0,,,,0,,Хлорит
+lwnet_original,Clinochlore,30,0,0,0,0,0,,,,0,,Клинохлор
+lwnet_original,Low Ca Pyroxene,31,0,0,0,0,0,,,,0,,Низкокальциевый пироксен
+lwnet_original,Olivine Forsterite,32,0,0,0,0,0,,,,0,,Оливин (форстерит)
+lwnet_original,High Ca Pyroxene,33,6963,13190,4252,8938,2711,0.32236542835481424,0.6106563262961368,0.4219719148513869,1493,0.21441907223897747,Высококальциевый пироксен
+lwnet_original,Fe-Olivine,34,0,217,0,217,0,0.0,,0.0,0,,Fe-оливин
+lwnet_original,Chloride,35,0,0,0,0,0,,,,0,,Хлорид
+lwnet_original,Artifact,36,0,0,0,0,0,,,,0,,Артефакт
+lwnet_original,Neutral,37,0,0,0,0,0,,,,0,,Нейтральный спектр
+lwnet_original,Plagioclase,38,1472,2478,1455,1023,17,0.5871670702179177,0.9884510869565217,0.7367088607594937,0,0.0,Плагиоклаз
+lwnet_denoised,CO2 Ice,0,0,0,0,0,0,,,,0,,Углекислотный лёд
+lwnet_denoised,H2O Ice,1,0,0,0,0,0,,,,0,,Водяной лёд
+lwnet_denoised,Gypsum,2,0,0,0,0,0,,,,0,,Гипс
+lwnet_denoised,Ferric Hydroxysulfate,3,0,0,0,0,0,,,,0,,Гидроксосульфат железа(III)
+lwnet_denoised,Hematite,4,0,0,0,0,0,,,,0,,Гематит
+lwnet_denoised,Nontronite,5,0,0,0,0,0,,,,0,,Нонтронит
+lwnet_denoised,Mg-Smectite,6,0,1992,0,1992,0,0.0,,0.0,0,,Mg-смектит
+lwnet_denoised,Prehnite,7,1560,0,0,0,1560,,0.0,0.0,0,0.0,Пренит
+lwnet_denoised,Jarosite,8,0,0,0,0,0,,,,0,,Ярозит
+lwnet_denoised,Serpentine,9,8697,0,0,0,8697,,0.0,0.0,0,0.0,Серпентин
+lwnet_denoised,Alunite,10,0,0,0,0,0,,,,0,,Алунит
+lwnet_denoised,Akaganeite,11,0,0,0,0,0,,,,0,,Акаганеит
+lwnet_denoised,Ca/Fe CO3,12,0,0,0,0,0,,,,0,,Fe/Ca-карбонат
+lwnet_denoised,Beidellite,13,0,0,0,0,0,,,,0,,Бейделлит
+lwnet_denoised,Kaolinite,14,0,0,0,0,0,,,,0,,Каолинит
+lwnet_denoised,Bassanite,15,0,2,0,2,0,0.0,,0.0,0,,Бассанит
+lwnet_denoised,Epidote,16,0,0,0,0,0,,,,0,,Эпидот
+lwnet_denoised,Montmorillonite,17,0,0,0,0,0,,,,0,,Монтмориллонит
+lwnet_denoised,Rosenite,18,0,0,0,0,0,,,,0,,Розенит
+lwnet_denoised,Mg Cl salt,19,0,0,0,0,0,,,,0,,Хлорсодержащая соль магния
+lwnet_denoised,Halloysite,20,0,0,0,0,0,,,,0,,Галлуазит
+lwnet_denoised,Illite/Muscovite,21,0,13,0,13,0,0.0,,0.0,0,,Иллит / мусковит
+lwnet_denoised,Margarite,22,458,0,0,0,458,,0.0,0.0,0,0.0,Маргарит
+lwnet_denoised,Analcime,23,940,1092,0,1092,940,0.0,0.0,0.0,0,0.0,Анальцим
+lwnet_denoised,Monohydrated sulfate,24,0,0,0,0,0,,,,0,,Моногидрат сульфата
+lwnet_denoised,Opal 1,25,0,0,0,0,0,,,,0,,Опал 1
+lwnet_denoised,Opal 2,26,0,0,0,0,0,,,,0,,Опал 2
+lwnet_denoised,Iron Oxide Silicate Sulfate,27,0,0,0,0,0,,,,0,,"Оксид железа, силикат и сульфат"
+lwnet_denoised,MgCO3,28,0,0,0,0,0,,,,0,,Mg-карбонат
+lwnet_denoised,Chlorite,29,0,0,0,0,0,,,,0,,Хлорит
+lwnet_denoised,Clinochlore,30,0,0,0,0,0,,,,0,,Клинохлор
+lwnet_denoised,Low Ca Pyroxene,31,0,4,0,4,0,0.0,,0.0,0,,Низкокальциевый пироксен
+lwnet_denoised,Olivine Forsterite,32,0,0,0,0,0,,,,0,,Оливин (форстерит)
+lwnet_denoised,High Ca Pyroxene,33,6963,8908,21,8887,6942,0.0023574315222272117,0.003015941404566997,0.0026463360846827547,1493,0.21441907223897747,Высококальциевый пироксен
+lwnet_denoised,Fe-Olivine,34,0,0,0,0,0,,,,0,,Fe-оливин
+lwnet_denoised,Chloride,35,0,0,0,0,0,,,,0,,Хлорид
+lwnet_denoised,Artifact,36,0,0,0,0,0,,,,0,,Артефакт
+lwnet_denoised,Neutral,37,0,0,0,0,0,,,,0,,Нейтральный спектр
+lwnet_denoised,Plagioclase,38,1472,6586,779,5807,693,0.11828120255086547,0.5292119565217391,0.1933482253660958,0,0.0,Плагиоклаз

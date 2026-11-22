@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "state": "ready",
+  "model": "n2n4m",
+  "stage": "plebani350",
+  "class_names": [],
+  "held_out_scene_id": "hymars_v2_HC",
+  "held_out_observation_ids": [
+    "FRT0000580C"
+  ],
+  "development_scene_ids": [
+    "hymars_v2_NF",
+    "hymars_v2_UP"
+  ],
+  "datasets": [
+    "storage/prepared/n2_spectra_v1/train/manifest.json",
+    "storage/prepared/n2_spectra_v1/validation/manifest.json"
+  ],
+  "initialization": {
+    "checkpoint": {
+      "path": "storage/initial/n2n4m/trained_model_weights.pt",
+      "sha256": "8cac162c44891e372834d076b2ff7e0c10536f5e780632895ecae8251bd56bc9"
+    },
+    "kind": "backbone",
+    "allow_random": false,
+    "reset_classifier": false
+  },
+  "parameters": {
+    "epochs": 20,
+    "batch_size": 128,
+    "learning_rate": 0.0001,
+    "patience": 5,
+    "seed": 42,
+    "device": "cpu",
+    "threads": 2,
+    "max_samples_per_dataset": 10000,
+    "patch_size": 19,
+    "noise_std": 0.01,
+    "band_dropout": 0.1,
+    "min_valid_fraction": 0.5,
+    "normalization": "train_scalar_standardize",
+    "denoising_protocol": "synthetic_proxy",
+    "allow_domain_shift": false
+  }
+}

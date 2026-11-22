@@ -1,0 +1,208 @@
+{
+  "scene": {
+    "path": "configs/scenes/hymars_hc.json",
+    "sha256": "b3b90442c9b06e1b5e5a635f47d034900e2c3fa76880460001df0701c6ea807d"
+  },
+  "taxonomy": {
+    "path": "configs/evaluation/hymars_plebani_taxonomy.json",
+    "sha256": "861283cc042434b24b3015a9f568e5db3b727ebd5e8ed95fe03173979f8269d4"
+  },
+  "detector_table": {
+    "path": "output/hymars_metadata_20261115/frt0000580c_07_wv164j_ter3.tab",
+    "sha256": "30cc6e5c1e36ef72956bac3dfd7272f135fb13c7e18a170bfa7aecdd6b6c2105"
+  },
+  "volume": "MROCR_8001",
+  "dataset": "MRO-M-CRISM-4-TYPESPEC-V1.0",
+  "catalog": {
+    "path": "data/mica/mrocr_8001/catalog/dataset.cat",
+    "sha256": "716e030a1b488b8799886db3315442fa212a1f4d9ea6a3950100b21897b38832"
+  },
+  "products": {
+    "al_smectite": {
+      "class_name": "Montmorillonite",
+      "reason": "PDS Al-smectite type with named montmorillonite laboratory analog.",
+      "table_sha256": "68b364417c6d246c7a0d433165a183f60bd7abb5840952f83ef33ff47fed9757",
+      "label_sha256": "e0cb02dbfbad24f96c1a10a2b58fddfef09aa6c0689efd6422381223ba54b679"
+    },
+    "alunite": {
+      "class_name": "Alunite",
+      "reason": "PDS phase corresponds to the canonical class.",
+      "table_sha256": "4e5e44c4f52f78a9cb42209d610a9bc189a58fcca2bcc1c0ff3b31a099ce0eb9",
+      "label_sha256": "f2499d9711dcf251c20e9656262f7632c919c0aa2755a7baf72fc627240aabe5"
+    },
+    "analcime": {
+      "class_name": "Analcime",
+      "reason": "PDS phase corresponds to the canonical class.",
+      "table_sha256": "577dab9c00917e5461a83a6b40587e666ae0ad1f4693999b58543963e31506bd",
+      "label_sha256": "d3b30ef4c9cfec0da427cd17b09a0a2df18c50d3eb9a9a13a4685d565046171e"
+    },
+    "bassanite": {
+      "class_name": "Bassanite",
+      "reason": "PDS phase corresponds to the canonical class.",
+      "table_sha256": "dfb3311e1084acafeb251dc6a82748b1e22f6f73d9820001ec93580864dc4502",
+      "label_sha256": "f7d71f7901dd5db54a3f8911b05b27aa28332e071f769b40c97f5cf268a3542b"
+    },
+    "chloride": {
+      "class_name": "Chloride",
+      "reason": "PDS phase corresponds to the canonical class.",
+      "table_sha256": "0b0131b46e2494e98523e822c915cfc74f52cf42b9f9e0bb5a43eec21d89b735",
+      "label_sha256": "f8e385edc0a4d82a866d68be534c25d3dee9413d99ec48f2b4264b429e1c158d"
+    },
+    "chlorite": {
+      "class_name": "Chlorite",
+      "reason": "PDS phase corresponds to the canonical class.",
+      "table_sha256": "371b0f3a4d71bddb573cc176f5bf83b9ccff30b5b599f3286188311b544c623f",
+      "label_sha256": "38ddccdbab36263760f9d029ebbbd48898e2cea8822003bcb1aa5c0ada0dcafd"
+    },
+    "co2_ice": {
+      "class_name": "CO2 Ice",
+      "reason": "PDS phase corresponds to the canonical class.",
+      "table_sha256": "c4e829cc202be7810b2a8b573766bd76dcd3c69ad37d67db67c4ae32b3ce6c1b",
+      "label_sha256": "0a5dfc955b6a4dce5c3fc717bf352b8894c30501ebe5eb2cde8d7e235d8bc3dc"
+    },
+    "epidote": {
+      "class_name": "Epidote",
+      "reason": "PDS phase corresponds to the canonical class.",
+      "table_sha256": "6386a1434dd045ac417fb0e7bf2419fdca05a42f9a9ecf487fe5c79d93b810c5",
+      "label_sha256": "1d1723065090c513255b88b35c11b29f35d5c2290b0e79638c3e55b5bfd2bede"
+    },
+    "fe_ca_carbonate": {
+      "class_name": "Ca/Fe CO3",
+      "reason": "PDS phase corresponds to the canonical class.",
+      "table_sha256": "97686ab280db002ea20428effba8b7d5ac72477e2cd36110960a5d45028ed3dd",
+      "label_sha256": "2eecb16a64df77f67d5062d44eda297d55fb128c8a8f84a5bfdec8f4b591aaae"
+    },
+    "fe_olivine": {
+      "class_name": "Fe-Olivine",
+      "reason": "PDS phase corresponds to the canonical class.",
+      "table_sha256": "71da999dd99f1e2c1cc63135e9ef2f6ca70961440ba36f7a096be01ae4aa8ce2",
+      "label_sha256": "cabeef90ca4f4222472a4322a824487a18f025dd5da75b4c6ec115fd176a5123"
+    },
+    "fe_smectite": {
+      "class_name": "Nontronite",
+      "reason": "PDS Fe-smectite type with named nontronite laboratory analog.",
+      "table_sha256": "6050fccfbdd6221e4851153d8c44bbbc16a8b3dae821643fc76fbf3fe8a1406c",
+      "label_sha256": "14ed143c831906ac0807b8f3e736e6b845362e8193e3a081c97b84c3bd491544"
+    },
+    "gypsum": {
+      "class_name": "Gypsum",
+      "reason": "PDS phase corresponds to the canonical class.",
+      "table_sha256": "9b2ef727a32a40e4e1a1833c6d95d1853bc2004de94bf33165f84127deacd9ff",
+      "label_sha256": "73837943911af8c2989d3c45464bad460586458bb77f212e00c88bdcb967417a"
+    },
+    "h2o_ice": {
+      "class_name": "H2O Ice",
+      "reason": "PDS phase corresponds to the canonical class.",
+      "table_sha256": "98486f56faad1dc89ebbc25f87e373ca88f1427b590dd08e3bca95552de77b03",
+      "label_sha256": "8200aed869ebdf74a605f25aef3406f237f1d10e96a7f504e03349983218f65a"
+    },
+    "hcp": {
+      "class_name": "High Ca Pyroxene",
+      "reason": "PDS phase corresponds to the canonical class.",
+      "table_sha256": "67f68983634414f5315e9fa95460e7e6e87f6f47e01579d46d0c65d83d0e5e8a",
+      "label_sha256": "1187a8868a77ed4979bad614923f09ad33b5ada8157e3ca11bdf2869526881cb"
+    },
+    "hematite": {
+      "class_name": "Hematite",
+      "reason": "PDS phase corresponds to the canonical class.",
+      "table_sha256": "8aa45425f861c07ad1367c9fba5258775ac7cc618d78aee38a7f19fc308e02da",
+      "label_sha256": "bfc8a78c581aa4f25940d0c3caea4f585dca51adc0da1a3d8efe9df5e23c4083"
+    },
+    "hydrated_silica": {
+      "class_name": null,
+      "reason": "Generic hydrated silica does not distinguish Opal 1 from Opal 2.",
+      "table_sha256": "605f6d58ad13776e4e93e8087c9f98abaf439ef596f550b3a0cb7c2b45bdf47b",
+      "label_sha256": "fbead2a390195051029d7474cfce228ced3586d9bc1bd14b9f87d92fb026044d"
+    },
+    "hydrox_fe_sulf": {
+      "class_name": "Ferric Hydroxysulfate",
+      "reason": "PDS hydroxylated Fe-sulfate type with named ferric hydroxysulfate analog.",
+      "table_sha256": "77a98b8ae02383d492cceab1430f60baa9e589f1438c6900486b57537add1a0e",
+      "label_sha256": "ccb062a55a224df8af58d7dc1234b7329db1d6de3b57177648715516ccd0f5bc"
+    },
+    "illite_muscovite": {
+      "class_name": "Illite/Muscovite",
+      "reason": "PDS phase corresponds to the canonical class.",
+      "table_sha256": "e73ee99817ecbe75180ac6124f495dc81d5b3ca7a0c3a38cbcef93372abc30d5",
+      "label_sha256": "0af4b51387cecbfbba7741449d1da10fe6cfe124f6ff533aaf4bd45a25b7e3e9"
+    },
+    "jarosite": {
+      "class_name": "Jarosite",
+      "reason": "PDS phase corresponds to the canonical class.",
+      "table_sha256": "28b7a02d7c268bcee4fbc09fde1670335abb18521c8ab00d2b66ca2b9c151f23",
+      "label_sha256": "8f8297258592bb8bd324bee643e6702f87d407d856fe70740b0ae4c3aae7ced3"
+    },
+    "kaolinite": {
+      "class_name": "Kaolinite",
+      "reason": "PDS phase corresponds to the canonical class.",
+      "table_sha256": "233633c5591e8e735d0862f78fcbd6ee1f0bfcf980472de7f62d6999f259ffcc",
+      "label_sha256": "d4499cc8d041940d7715e3fec0c4537a91f99d2fc644da52d281975ef6c4b5b2"
+    },
+    "lcp": {
+      "class_name": "Low Ca Pyroxene",
+      "reason": "PDS phase corresponds to the canonical class.",
+      "table_sha256": "ec86cee21dc8825216a88f4603c652e9be31ba6f3368d544f77e2c2bb9b74b47",
+      "label_sha256": "e39bf19cb48c2b3408a29d626f22746d074491c4da7c79f6d5d7ee2cdd4162a1"
+    },
+    "margarite": {
+      "class_name": "Margarite",
+      "reason": "PDS phase corresponds to the canonical class.",
+      "table_sha256": "49b09ee4c89835dae703ac8830b0be155b9c4e70d3bbd3eafa5d7b37a2bd79e7",
+      "label_sha256": "c44de80457a7c1699c9183ece574000eb2ab47ecbc5d2bf9485d4aa68b7b814c"
+    },
+    "mg_carbonate": {
+      "class_name": "MgCO3",
+      "reason": "PDS phase corresponds to the canonical class.",
+      "table_sha256": "6245a393dd557f21880ef674410d2bc71bd811a79417f06313bab6317ca56bcc",
+      "label_sha256": "19c87b372daccdd14cb7f6a871a602f0b08afa685180081b8f31aee6095c7b15"
+    },
+    "mg_olivine": {
+      "class_name": "Olivine Forsterite",
+      "reason": "PDS Mg-olivine type with named forsterite laboratory analog.",
+      "table_sha256": "57f45e9af5feb7a81b5c02999d5187d537563e0e84ddba258651ad5c8aa0adbd",
+      "label_sha256": "57c2b08513e223cc6a96769341a94c31c4fcee44b6d21c43a212080b012df424"
+    },
+    "mg_smectite": {
+      "class_name": "Mg-Smectite",
+      "reason": "PDS phase corresponds to the canonical class.",
+      "table_sha256": "d93d8f12ba8eff69df2caa159f7fd8b6b894dd604cc70bc7379ca8b2899005b9",
+      "label_sha256": "0fb06017bb0a27486792af8688a67b09cbec123d7d36aaf7e15feffa596aa659"
+    },
+    "mono_hyd_sulf": {
+      "class_name": "Monohydrated sulfate",
+      "reason": "PDS phase corresponds to the canonical class.",
+      "table_sha256": "5407a2b6e5f7b10160e639d0ac673ca240b02f6a0ed3b44987aa4a0ce5ae33c5",
+      "label_sha256": "ccfbe8edd396e7ad5fb33b7c533d27a1fde7d3ab6eedf5048aab096dc616945a"
+    },
+    "plagioclase": {
+      "class_name": "Plagioclase",
+      "reason": "PDS phase corresponds to the canonical class.",
+      "table_sha256": "068f12820f4aa7222c4071bd050f0ede7b51de297417210e5b60bce731a70449",
+      "label_sha256": "4125abcc836f78e21d58ab1398e1b40153495398268e2522e233e2b7fc2ac298"
+    },
+    "poly_hyd_sulf": {
+      "class_name": null,
+      "reason": "Polyhydrated sulfate is broader than the named target sulfate classes.",
+      "table_sha256": "40ee9a76c70a399d2efdd92ae012e07a0a8f40d27557a7c73c8676ae85281323",
+      "label_sha256": "9f37b91ee3226104414fbfbdbe189ecbfb9a7bc8feda1b34dd9c0dcab645616b"
+    },
+    "prehnite": {
+      "class_name": "Prehnite",
+      "reason": "PDS phase corresponds to the canonical class.",
+      "table_sha256": "bb5ff11391c9c72faf87c89a577b479e342f5ed30d0d80d915de41867a6e8b42",
+      "label_sha256": "ea00d5555d765bc83af58ae90a71d72835c13488be340a7805458eb4b31717d5"
+    },
+    "serpentine": {
+      "class_name": "Serpentine",
+      "reason": "PDS phase corresponds to the canonical class.",
+      "table_sha256": "20a44da40a3f664fd97941337d1180ec065043a5683228530fe2458d3b726c7c",
+      "label_sha256": "953eac9646d59744215dc55ae1569e08a3cea57037f7068fb8c611251c93e04c"
+    },
+    "talc": {
+      "class_name": null,
+      "reason": "No talc class in target taxonomy.",
+      "table_sha256": "b52dbd9569611708a468327035ba5b2b9d5eddb611fb2599ff75fe53e1a6501e",
+      "label_sha256": "2696d6c3271c8c60280f67be480de88b0e66767b1dd2596c2b9e5a07d51c0180"
+    }
+  }
+}

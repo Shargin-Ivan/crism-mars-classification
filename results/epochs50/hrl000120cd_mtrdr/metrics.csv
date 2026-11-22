@@ -1,0 +1,5 @@
+branch_id,status,reason_code,coverage_all,coverage_valid,predicted_pixels,compactness_px,salt_pepper_fraction,gt_oa,gt_macro_f1,gt_kappa,gt_prediction_coverage,gt_n_evaluated,gt_status,sam_agreement_status,sam_agreement_on_joint,sam_joint_coverage,sam_kappa_on_joint,sam_macro_f1_on_joint,sam_adjusted_rand,sam_normalized_mutual_info
+sam_original,completed,,0.6769740328563858,1.0,127745,79.9906073888541,0.045988341282458926,,,,,,ground_truth_missing,evaluated,1.0,1.0,1.0,1.0,,
+sam_denoised,completed,,0.6113089560148384,0.9030020744451838,115354,6071.263157894737,0.0,,,,,,ground_truth_missing,evaluated,0.0,0.9030020744451838,0.0,0.0,,
+lwnet_original,completed,,0.6751245363010069,0.9972679948334573,127396,509.584,0.01036036036036036,,,,,,ground_truth_missing,evaluated,0.03191622970893906,0.9972679948334573,0.024435594064657996,0.028257122711004157,,
+lwnet_denoised,completed,,0.6751245363010069,0.9972679948334573,127396,592.5395348837209,0.007329093799682035,,,,,,ground_truth_missing,evaluated,0.0006044145813055354,0.9972679948334573,-0.0003480342727220143,0.00011033826559710197,,

@@ -1,0 +1,84 @@
+{
+  "schema_version": 2,
+  "configuration_state": "ready",
+  "scene_manifest": {
+    "artifact_id": "FRT00019468_MTRDR",
+    "path": "../scenes/frt00019468_mtrdr.json",
+    "sha256": "37863d93cf9d8e61b2603560b3110a34d4c597b22b4beb7c5fd9660a13433414"
+  },
+  "taxonomy": {
+    "artifact_id": "hymars_plebani_taxonomy",
+    "path": "../evaluation/hymars_plebani_taxonomy.json",
+    "sha256": "861283cc042434b24b3015a9f568e5db3b727ebd5e8ed95fe03173979f8269d4"
+  },
+  "preparation": {
+    "spectral_profile": "full_cube",
+    "crop": null,
+    "split_detectors": false,
+    "split_plebani": false,
+    "preserve_channel_order": true
+  },
+  "resources": {
+    "n2n4m_bundle": {
+      "artifact_id": "N2N4M_original_plebani_350",
+      "path": "../models/n2n4m_pretrained/bundle.json",
+      "sha256": "2eed09eada341324a62d959970eef62bc720fb76aeec5fe208479afbc25ca4d6"
+    },
+    "lwnet_bundle": {
+      "artifact_id": "lwnet_salinas_native_v1",
+      "path": "../models/lwnet_salinas/bundle.json",
+      "sha256": "c7039c53e008016721e093812bcc84a88187217eb6203e1b31e70633254a141d"
+    },
+    "sam_library": {
+      "artifact_id": "mica_crism_corrected_if_v1",
+      "path": "../../models/mica_crism_corrected_if_v1/library.json",
+      "sha256": "3e43946a34553fd88f216ae96b69d10604722fbb5d1c7b63112d88df64300292"
+    }
+  },
+  "branches": {
+    "sam_original": {
+      "input": "prepared",
+      "classifier": "sam"
+    },
+    "sam_denoised": {
+      "input": "denoised",
+      "classifier": "sam"
+    },
+    "lwnet_original": {
+      "input": "prepared",
+      "classifier": "lwnet"
+    },
+    "lwnet_denoised": {
+      "input": "denoised",
+      "classifier": "lwnet"
+    }
+  },
+  "execution": {
+    "device": "cuda:0",
+    "gpu_allowed": true,
+    "num_workers": 0,
+    "seed": 0
+  },
+  "sam": {
+    "threshold_radians": 0.15,
+    "min_valid_bands": 2,
+    "min_valid_fraction": 0.5
+  },
+  "n2n4m": {
+    "batch_size": 512
+  },
+  "lwnet": {
+    "patch_size": 19,
+    "batch_size": 32
+  },
+  "evaluation": {
+    "ground_truth": null,
+    "protocol": "fixed_roi_v1",
+    "unlabeled_id": 0
+  },
+  "stores": {
+    "inputs_root": "../../data/inputs",
+    "resources_root": "../../models",
+    "results_root": "../../output"
+  }
+}

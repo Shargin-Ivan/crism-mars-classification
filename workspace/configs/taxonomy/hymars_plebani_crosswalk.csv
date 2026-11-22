@@ -1,0 +1,25 @@
+scene,source_id,source_name,pixels,xlsx_row,plebani_raw_id,plebani_name,plebani_local_pixels,match_status
+HC,1,Analcime,940,3,25,Analcime,1308,name_match
+HC,2,Plagioclase,1472,4,40,Feldspar Plagioclase,0,defined_but_absent
+HC,3,Prehnite,1560,5,8,Prehnite,7715,name_match
+HC,4,High-Ca Pyroxene,6963,6,35,High Ca Pyroxene,849,name_match
+HC,5,Serpentine,8697,7,10,Serpentine,1893,name_match
+HC,6,Margarite,458,8,24,Margarite,1584,name_match
+NF,1,Fe-Olivine,8563,14,36,Olivine Fayalite,2098,broad_to_representative
+NF,2,Epidote,996,15,17,Epidote,189,name_match
+NF,3,Chlorite,386,16,31,Chlorite,39242,name_match
+NF,4,Bassanite,3286,17,16,Bassanite,130,name_match
+NF,5,Illite/Muscovite,228,18,23,Illite/Muscovite,7029,name_match
+NF,6,Mg-Carbonate,4867,19,30,MgCO3,37473,name_match
+NF,7,Plagioclase,1057,20,40,Feldspar Plagioclase,0,defined_but_absent
+NF,8,Prehnite,1161,21,8,Prehnite,7715,name_match
+NF,9,Serpentine,6166,22,10,Serpentine,1893,name_match
+UP,1,Analcime,1751,28,25,Analcime,1308,name_match
+UP,2,Bassanite,5807,29,16,Bassanite,130,name_match
+UP,3,High-Ca Pyroxene,432,30,35,High Ca Pyroxene,849,name_match
+UP,4,Illite/Muscovite,272,31,23,Illite/Muscovite,7029,name_match
+UP,5,Low-Ca Pyroxene,6774,32,33,Low Ca Pyroxene,32130,name_match
+UP,6,Mg-Smectite,1166,33,7,Saponite,110935,broad_to_representative
+UP,7,Monohydrated sulfate,340,34,26,Monohydrated sulfate,26441,name_match
+UP,8,Plagioclase,202,35,40,Feldspar Plagioclase,0,defined_but_absent
+UP,9,Prehnite,594,36,8,Prehnite,7715,name_match

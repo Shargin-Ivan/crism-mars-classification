@@ -1,0 +1,1866 @@
+{
+  "schema_version": 1,
+  "total_bytes": 14615800757,
+  "files": [
+    {
+      "path": "LWNet/training/models/models_lw_3D.py",
+      "size": 7364,
+      "sha256": "f2c57d24ed1d5c90e68109987d87e030fa5d98e6d2f80a2f448475ab1a3fde64"
+    },
+    {
+      "path": "LWNet/training/transfer_model/Salinas_model.pkl",
+      "size": 4232037,
+      "sha256": "a4596ab5ba377e4909a8a29877cf7a416034f4aa982bad981e3fc7b1b2388adb"
+    },
+    {
+      "path": "analysis/__init__.py",
+      "size": 102,
+      "sha256": "c9820f3f9999bb4dc5853680286259702831879a34e94077735cec95e88ee701"
+    },
+    {
+      "path": "analysis/visualize_comparison.py",
+      "size": 26313,
+      "sha256": "6af47b94aab73742e118a22a3213e4f7f05ca82ec336493f0c3fca8ca9215f49"
+    },
+    {
+      "path": "analysis/whole_cube.py",
+      "size": 15330,
+      "sha256": "a99af0da06bd13c596f65e93acfd17ad62d27198eb769da2a295fa808ff36ed9"
+    },
+    {
+      "path": "configs/datasets/plebani_taxonomy_reference.json",
+      "size": 1367,
+      "sha256": "0a8cbcd748351c0f0479706737cc159619f3c3b4ad43dfd82392ce67efc97099"
+    },
+    {
+      "path": "configs/evaluation/hymars_hc_ground_truth.json",
+      "size": 1747,
+      "sha256": "df5b8db031083ee2007aa072b9fab9ee54dc08af67e6d08ed17fc866edb50b82"
+    },
+    {
+      "path": "configs/evaluation/hymars_hc_mica_sources.json",
+      "size": 10285,
+      "sha256": "b459b999036bed0df1e2de2d6f3019887df32a9209ffcd7d82d5f0d5df153be9"
+    },
+    {
+      "path": "configs/evaluation/hymars_plebani_taxonomy.json",
+      "size": 815,
+      "sha256": "861283cc042434b24b3015a9f568e5db3b727ebd5e8ed95fe03173979f8269d4"
+    },
+    {
+      "path": "configs/models/lwnet_salinas/aviris_1998.json",
+      "size": 2886,
+      "sha256": "b91d5f76218eae8939803ce81c41d17483a9dacebc351e521c4bb77bb6151cdf"
+    },
+    {
+      "path": "configs/models/lwnet_salinas/bundle.json",
+      "size": 1481,
+      "sha256": "c7039c53e008016721e093812bcc84a88187217eb6203e1b31e70633254a141d"
+    },
+    {
+      "path": "configs/models/lwnet_salinas/preprocessing.json",
+      "size": 3812,
+      "sha256": "2589550f96d8a09a76e01001705bb2b3a337f1279a499c11544f2031ce1125fb"
+    },
+    {
+      "path": "configs/models/lwnet_salinas/training.json",
+      "size": 813,
+      "sha256": "04c3f38fbf45a625edf36a3d33c4913d05b78921af782ff7e575807ea39e6d11"
+    },
+    {
+      "path": "configs/models/n2n4m_pretrained/bundle.json",
+      "size": 838,
+      "sha256": "2eed09eada341324a62d959970eef62bc720fb76aeec5fe208479afbc25ca4d6"
+    },
+    {
+      "path": "configs/models/n2n4m_pretrained/preprocessing.json",
+      "size": 5943,
+      "sha256": "32800f4574de40c4e94d714c1860658d1466a864a03da2579f77d531d3a159ac"
+    },
+    {
+      "path": "configs/models/n2n4m_pretrained/training.json",
+      "size": 506,
+      "sha256": "79e582ee73bb70297d0a0fdfcd72ed695277b8b7bd26391f347b5cd3a4a365b5"
+    },
+    {
+      "path": "configs/pipelines/four_branches.json",
+      "size": 1185,
+      "sha256": "dc82c6b45c853e02e71e7dd5ecc5759bcd1431a0491dfc12e22323c21de64a91"
+    },
+    {
+      "path": "configs/pipelines/pretrained_gpu_frt00019468_mtrdr.json",
+      "size": 2221,
+      "sha256": "827732aee43dd1a391b036891ffb3031e37c18bcc3d687fe4d4a0ffcd89ad8ed"
+    },
+    {
+      "path": "configs/pipelines/pretrained_gpu_hrl000120cd_mtrdr.json",
+      "size": 2221,
+      "sha256": "50d8d70dfb2fd2ae7d9b7f1f1c52e48586fc23436250b4f5dc70cb306ed9c84a"
+    },
+    {
+      "path": "configs/pipelines/pretrained_gpu_hymars_hc.json",
+      "size": 2400,
+      "sha256": "aa0d89a541f3f232206131b0100c8b17844364be1c163d656e80b0183d1c60de"
+    },
+    {
+      "path": "configs/scenes/frt00019468_mtrdr.json",
+      "size": 15891,
+      "sha256": "37863d93cf9d8e61b2603560b3110a34d4c597b22b4beb7c5fd9660a13433414"
+    },
+    {
+      "path": "configs/scenes/hrl000120cd_mtrdr.json",
+      "size": 15889,
+      "sha256": "6c381dd6ec9ab2fca0fc87e27a47c06d44b8759c6af75d38ba213d0dfcb47ba1"
+    },
+    {
+      "path": "configs/scenes/hymars_hc.json",
+      "size": 11858,
+      "sha256": "b3b90442c9b06e1b5e5a635f47d034900e2c3fa76880460001df0701c6ea807d"
+    },
+    {
+      "path": "configs/taxonomy/hymars_plebani_crosswalk.csv",
+      "size": 1526,
+      "sha256": "92a3879f647a1507803b817c917012b2f04036ffb513f15bd4a06359f2636cdf"
+    },
+    {
+      "path": "data/mica/mrocr_8001/catalog/dataset.cat",
+      "size": 8060,
+      "sha256": "716e030a1b488b8799886db3315442fa212a1f4d9ea6a3950100b21897b38832"
+    },
+    {
+      "path": "data/mica/mrocr_8001/data/crism_typespec_al_smectite.lbl",
+      "size": 5455,
+      "sha256": "e0cb02dbfbad24f96c1a10a2b58fddfef09aa6c0689efd6422381223ba54b679"
+    },
+    {
+      "path": "data/mica/mrocr_8001/data/crism_typespec_al_smectite.tab",
+      "size": 30240,
+      "sha256": "68b364417c6d246c7a0d433165a183f60bd7abb5840952f83ef33ff47fed9757"
+    },
+    {
+      "path": "data/mica/mrocr_8001/data/crism_typespec_alunite.lbl",
+      "size": 5429,
+      "sha256": "f2499d9711dcf251c20e9656262f7632c919c0aa2755a7baf72fc627240aabe5"
+    },
+    {
+      "path": "data/mica/mrocr_8001/data/crism_typespec_alunite.tab",
+      "size": 30240,
+      "sha256": "4e5e44c4f52f78a9cb42209d610a9bc189a58fcca2bcc1c0ff3b31a099ce0eb9"
+    },
+    {
+      "path": "data/mica/mrocr_8001/data/crism_typespec_analcime.lbl",
+      "size": 5485,
+      "sha256": "d3b30ef4c9cfec0da427cd17b09a0a2df18c50d3eb9a9a13a4685d565046171e"
+    },
+    {
+      "path": "data/mica/mrocr_8001/data/crism_typespec_analcime.tab",
+      "size": 30240,
+      "sha256": "577dab9c00917e5461a83a6b40587e666ae0ad1f4693999b58543963e31506bd"
+    },
+    {
+      "path": "data/mica/mrocr_8001/data/crism_typespec_bassanite.lbl",
+      "size": 5453,
+      "sha256": "f7d71f7901dd5db54a3f8911b05b27aa28332e071f769b40c97f5cf268a3542b"
+    },
+    {
+      "path": "data/mica/mrocr_8001/data/crism_typespec_bassanite.tab",
+      "size": 30240,
+      "sha256": "dfb3311e1084acafeb251dc6a82748b1e22f6f73d9820001ec93580864dc4502"
+    },
+    {
+      "path": "data/mica/mrocr_8001/data/crism_typespec_chloride.lbl",
+      "size": 5484,
+      "sha256": "f8e385edc0a4d82a866d68be534c25d3dee9413d99ec48f2b4264b429e1c158d"
+    },
+    {
+      "path": "data/mica/mrocr_8001/data/crism_typespec_chloride.tab",
+      "size": 30240,
+      "sha256": "0b0131b46e2494e98523e822c915cfc74f52cf42b9f9e0bb5a43eec21d89b735"
+    },
+    {
+      "path": "data/mica/mrocr_8001/data/crism_typespec_chlorite.lbl",
+      "size": 5444,
+      "sha256": "38ddccdbab36263760f9d029ebbbd48898e2cea8822003bcb1aa5c0ada0dcafd"
+    },
+    {
+      "path": "data/mica/mrocr_8001/data/crism_typespec_chlorite.tab",
+      "size": 30240,
+      "sha256": "371b0f3a4d71bddb573cc176f5bf83b9ccff30b5b599f3286188311b544c623f"
+    },
+    {
+      "path": "data/mica/mrocr_8001/data/crism_typespec_co2_ice.lbl",
+      "size": 5397,
+      "sha256": "0a5dfc955b6a4dce5c3fc717bf352b8894c30501ebe5eb2cde8d7e235d8bc3dc"
+    },
+    {
+      "path": "data/mica/mrocr_8001/data/crism_typespec_co2_ice.tab",
+      "size": 30240,
+      "sha256": "c4e829cc202be7810b2a8b573766bd76dcd3c69ad37d67db67c4ae32b3ce6c1b"
+    },
+    {
+      "path": "data/mica/mrocr_8001/data/crism_typespec_epidote.lbl",
+      "size": 5609,
+      "sha256": "1d1723065090c513255b88b35c11b29f35d5c2290b0e79638c3e55b5bfd2bede"
+    },
+    {
+      "path": "data/mica/mrocr_8001/data/crism_typespec_epidote.tab",
+      "size": 30240,
+      "sha256": "6386a1434dd045ac417fb0e7bf2419fdca05a42f9a9ecf487fe5c79d93b810c5"
+    },
+    {
+      "path": "data/mica/mrocr_8001/data/crism_typespec_fe_ca_carbonate.lbl",
+      "size": 5598,
+      "sha256": "2eecb16a64df77f67d5062d44eda297d55fb128c8a8f84a5bfdec8f4b591aaae"
+    },
+    {
+      "path": "data/mica/mrocr_8001/data/crism_typespec_fe_ca_carbonate.tab",
+      "size": 30240,
+      "sha256": "97686ab280db002ea20428effba8b7d5ac72477e2cd36110960a5d45028ed3dd"
+    },
+    {
+      "path": "data/mica/mrocr_8001/data/crism_typespec_fe_olivine.lbl",
+      "size": 5467,
+      "sha256": "cabeef90ca4f4222472a4322a824487a18f025dd5da75b4c6ec115fd176a5123"
+    },
+    {
+      "path": "data/mica/mrocr_8001/data/crism_typespec_fe_olivine.tab",
+      "size": 30240,
+      "sha256": "71da999dd99f1e2c1cc63135e9ef2f6ca70961440ba36f7a096be01ae4aa8ce2"
+    },
+    {
+      "path": "data/mica/mrocr_8001/data/crism_typespec_fe_smectite.lbl",
+      "size": 5449,
+      "sha256": "14ed143c831906ac0807b8f3e736e6b845362e8193e3a081c97b84c3bd491544"
+    },
+    {
+      "path": "data/mica/mrocr_8001/data/crism_typespec_fe_smectite.tab",
+      "size": 30240,
+      "sha256": "6050fccfbdd6221e4851153d8c44bbbc16a8b3dae821643fc76fbf3fe8a1406c"
+    },
+    {
+      "path": "data/mica/mrocr_8001/data/crism_typespec_gypsum.lbl",
+      "size": 5427,
+      "sha256": "73837943911af8c2989d3c45464bad460586458bb77f212e00c88bdcb967417a"
+    },
+    {
+      "path": "data/mica/mrocr_8001/data/crism_typespec_gypsum.tab",
+      "size": 30240,
+      "sha256": "9b2ef727a32a40e4e1a1833c6d95d1853bc2004de94bf33165f84127deacd9ff"
+    },
+    {
+      "path": "data/mica/mrocr_8001/data/crism_typespec_h2o_ice.lbl",
+      "size": 5455,
+      "sha256": "8200aed869ebdf74a605f25aef3406f237f1d10e96a7f504e03349983218f65a"
+    },
+    {
+      "path": "data/mica/mrocr_8001/data/crism_typespec_h2o_ice.tab",
+      "size": 30240,
+      "sha256": "98486f56faad1dc89ebbc25f87e373ca88f1427b590dd08e3bca95552de77b03"
+    },
+    {
+      "path": "data/mica/mrocr_8001/data/crism_typespec_hcp.lbl",
+      "size": 5454,
+      "sha256": "1187a8868a77ed4979bad614923f09ad33b5ada8157e3ca11bdf2869526881cb"
+    },
+    {
+      "path": "data/mica/mrocr_8001/data/crism_typespec_hcp.tab",
+      "size": 30240,
+      "sha256": "67f68983634414f5315e9fa95460e7e6e87f6f47e01579d46d0c65d83d0e5e8a"
+    },
+    {
+      "path": "data/mica/mrocr_8001/data/crism_typespec_hematite.lbl",
+      "size": 5474,
+      "sha256": "bfc8a78c581aa4f25940d0c3caea4f585dca51adc0da1a3d8efe9df5e23c4083"
+    },
+    {
+      "path": "data/mica/mrocr_8001/data/crism_typespec_hematite.tab",
+      "size": 30240,
+      "sha256": "8aa45425f861c07ad1367c9fba5258775ac7cc618d78aee38a7f19fc308e02da"
+    },
+    {
+      "path": "data/mica/mrocr_8001/data/crism_typespec_hydrated_silica.lbl",
+      "size": 5504,
+      "sha256": "fbead2a390195051029d7474cfce228ced3586d9bc1bd14b9f87d92fb026044d"
+    },
+    {
+      "path": "data/mica/mrocr_8001/data/crism_typespec_hydrated_silica.tab",
+      "size": 30240,
+      "sha256": "605f6d58ad13776e4e93e8087c9f98abaf439ef596f550b3a0cb7c2b45bdf47b"
+    },
+    {
+      "path": "data/mica/mrocr_8001/data/crism_typespec_hydrox_fe_sulf.lbl",
+      "size": 5449,
+      "sha256": "ccb062a55a224df8af58d7dc1234b7329db1d6de3b57177648715516ccd0f5bc"
+    },
+    {
+      "path": "data/mica/mrocr_8001/data/crism_typespec_hydrox_fe_sulf.tab",
+      "size": 30240,
+      "sha256": "77a98b8ae02383d492cceab1430f60baa9e589f1438c6900486b57537add1a0e"
+    },
+    {
+      "path": "data/mica/mrocr_8001/data/crism_typespec_illite_muscovite.lbl",
+      "size": 5469,
+      "sha256": "0af4b51387cecbfbba7741449d1da10fe6cfe124f6ff533aaf4bd45a25b7e3e9"
+    },
+    {
+      "path": "data/mica/mrocr_8001/data/crism_typespec_illite_muscovite.tab",
+      "size": 30240,
+      "sha256": "e73ee99817ecbe75180ac6124f495dc81d5b3ca7a0c3a38cbcef93372abc30d5"
+    },
+    {
+      "path": "data/mica/mrocr_8001/data/crism_typespec_jarosite.lbl",
+      "size": 5434,
+      "sha256": "8f8297258592bb8bd324bee643e6702f87d407d856fe70740b0ae4c3aae7ced3"
+    },
+    {
+      "path": "data/mica/mrocr_8001/data/crism_typespec_jarosite.tab",
+      "size": 30240,
+      "sha256": "28b7a02d7c268bcee4fbc09fde1670335abb18521c8ab00d2b66ca2b9c151f23"
+    },
+    {
+      "path": "data/mica/mrocr_8001/data/crism_typespec_kaolinite.lbl",
+      "size": 5446,
+      "sha256": "d4499cc8d041940d7715e3fec0c4537a91f99d2fc644da52d281975ef6c4b5b2"
+    },
+    {
+      "path": "data/mica/mrocr_8001/data/crism_typespec_kaolinite.tab",
+      "size": 30240,
+      "sha256": "233633c5591e8e735d0862f78fcbd6ee1f0bfcf980472de7f62d6999f259ffcc"
+    },
+    {
+      "path": "data/mica/mrocr_8001/data/crism_typespec_lcp.lbl",
+      "size": 5461,
+      "sha256": "e39bf19cb48c2b3408a29d626f22746d074491c4da7c79f6d5d7ee2cdd4162a1"
+    },
+    {
+      "path": "data/mica/mrocr_8001/data/crism_typespec_lcp.tab",
+      "size": 30240,
+      "sha256": "ec86cee21dc8825216a88f4603c652e9be31ba6f3368d544f77e2c2bb9b74b47"
+    },
+    {
+      "path": "data/mica/mrocr_8001/data/crism_typespec_margarite.lbl",
+      "size": 5468,
+      "sha256": "c44de80457a7c1699c9183ece574000eb2ab47ecbc5d2bf9485d4aa68b7b814c"
+    },
+    {
+      "path": "data/mica/mrocr_8001/data/crism_typespec_margarite.tab",
+      "size": 30240,
+      "sha256": "49b09ee4c89835dae703ac8830b0be155b9c4e70d3bbd3eafa5d7b37a2bd79e7"
+    },
+    {
+      "path": "data/mica/mrocr_8001/data/crism_typespec_mg_carbonate.lbl",
+      "size": 5455,
+      "sha256": "19c87b372daccdd14cb7f6a871a602f0b08afa685180081b8f31aee6095c7b15"
+    },
+    {
+      "path": "data/mica/mrocr_8001/data/crism_typespec_mg_carbonate.tab",
+      "size": 30240,
+      "sha256": "6245a393dd557f21880ef674410d2bc71bd811a79417f06313bab6317ca56bcc"
+    },
+    {
+      "path": "data/mica/mrocr_8001/data/crism_typespec_mg_olivine.lbl",
+      "size": 5464,
+      "sha256": "57c2b08513e223cc6a96769341a94c31c4fcee44b6d21c43a212080b012df424"
+    },
+    {
+      "path": "data/mica/mrocr_8001/data/crism_typespec_mg_olivine.tab",
+      "size": 30240,
+      "sha256": "57f45e9af5feb7a81b5c02999d5187d537563e0e84ddba258651ad5c8aa0adbd"
+    },
+    {
+      "path": "data/mica/mrocr_8001/data/crism_typespec_mg_smectite.lbl",
+      "size": 5456,
+      "sha256": "0fb06017bb0a27486792af8688a67b09cbec123d7d36aaf7e15feffa596aa659"
+    },
+    {
+      "path": "data/mica/mrocr_8001/data/crism_typespec_mg_smectite.tab",
+      "size": 30240,
+      "sha256": "d93d8f12ba8eff69df2caa159f7fd8b6b894dd604cc70bc7379ca8b2899005b9"
+    },
+    {
+      "path": "data/mica/mrocr_8001/data/crism_typespec_mono_hyd_sulf.lbl",
+      "size": 5457,
+      "sha256": "ccfbe8edd396e7ad5fb33b7c533d27a1fde7d3ab6eedf5048aab096dc616945a"
+    },
+    {
+      "path": "data/mica/mrocr_8001/data/crism_typespec_mono_hyd_sulf.tab",
+      "size": 30240,
+      "sha256": "5407a2b6e5f7b10160e639d0ac673ca240b02f6a0ed3b44987aa4a0ce5ae33c5"
+    },
+    {
+      "path": "data/mica/mrocr_8001/data/crism_typespec_plagioclase.lbl",
+      "size": 5474,
+      "sha256": "4125abcc836f78e21d58ab1398e1b40153495398268e2522e233e2b7fc2ac298"
+    },
+    {
+      "path": "data/mica/mrocr_8001/data/crism_typespec_plagioclase.tab",
+      "size": 30240,
+      "sha256": "068f12820f4aa7222c4071bd050f0ede7b51de297417210e5b60bce731a70449"
+    },
+    {
+      "path": "data/mica/mrocr_8001/data/crism_typespec_poly_hyd_sulf.lbl",
+      "size": 5472,
+      "sha256": "9f37b91ee3226104414fbfbdbe189ecbfb9a7bc8feda1b34dd9c0dcab645616b"
+    },
+    {
+      "path": "data/mica/mrocr_8001/data/crism_typespec_poly_hyd_sulf.tab",
+      "size": 30240,
+      "sha256": "40ee9a76c70a399d2efdd92ae012e07a0a8f40d27557a7c73c8676ae85281323"
+    },
+    {
+      "path": "data/mica/mrocr_8001/data/crism_typespec_prehnite.lbl",
+      "size": 5470,
+      "sha256": "ea00d5555d765bc83af58ae90a71d72835c13488be340a7805458eb4b31717d5"
+    },
+    {
+      "path": "data/mica/mrocr_8001/data/crism_typespec_prehnite.tab",
+      "size": 30240,
+      "sha256": "bb5ff11391c9c72faf87c89a577b479e342f5ed30d0d80d915de41867a6e8b42"
+    },
+    {
+      "path": "data/mica/mrocr_8001/data/crism_typespec_serpentine.lbl",
+      "size": 5450,
+      "sha256": "953eac9646d59744215dc55ae1569e08a3cea57037f7068fb8c611251c93e04c"
+    },
+    {
+      "path": "data/mica/mrocr_8001/data/crism_typespec_serpentine.tab",
+      "size": 30240,
+      "sha256": "20a44da40a3f664fd97941337d1180ec065043a5683228530fe2458d3b726c7c"
+    },
+    {
+      "path": "data/mica/mrocr_8001/data/crism_typespec_talc.lbl",
+      "size": 5442,
+      "sha256": "2696d6c3271c8c60280f67be480de88b0e66767b1dd2596c2b9e5a07d51c0180"
+    },
+    {
+      "path": "data/mica/mrocr_8001/data/crism_typespec_talc.tab",
+      "size": 30240,
+      "sha256": "b52dbd9569611708a468327035ba5b2b9d5eddb611fb2599ff75fe53e1a6501e"
+    },
+    {
+      "path": "data/raw/frt00019468_07_if168j_mtr3.hdr",
+      "size": 14783,
+      "sha256": "0aba122899539cfa1b310897eff3300a5cf39bf4ecc76d85354d74296ec1648b"
+    },
+    {
+      "path": "data/raw/frt00019468_07_if168j_mtr3.img",
+      "size": 3227024448,
+      "sha256": "68579bcd66dea41642a844975e119a52c44da76a06dd7bf2dcba1fd4c7b4d572"
+    },
+    {
+      "path": "data/raw/frt00019468_07_if168j_mtr3.lbl",
+      "size": 6184,
+      "sha256": "eedee642cd4705bcdc03683045f5e03f349e4c69ef36bf9b81b72b32bddb6e2f"
+    },
+    {
+      "path": "data/raw/frt00019468_07_wv168j_mtr3.lbl",
+      "size": 4333,
+      "sha256": "474b0164977788b52e51df961af24a0bc86f733ca46fc6bde87544a0dd65b84b"
+    },
+    {
+      "path": "data/raw/frt00019468_07_wv168j_mtr3.tab",
+      "size": 14670,
+      "sha256": "bc54157f4c376e5f4cb4242e091978b9efd2bb2b8a72a71fb39a1c8b61f146b3"
+    },
+    {
+      "path": "data/raw/hrl000120cd_07_if180j_mtr3.hdr",
+      "size": 14925,
+      "sha256": "4b7c404de6fbfeb741e6ea42b4f8f44f06c77e6dc5c32632fdb47878eb66ac7f"
+    },
+    {
+      "path": "data/raw/hrl000120cd_07_if180j_mtr3.img",
+      "size": 369097200,
+      "sha256": "fc0ae9795487c40fe122847fde774fac93852126608e9f90a9e807d7ffbefa77"
+    },
+    {
+      "path": "data/raw/hrl000120cd_07_if180j_mtr3.lbl",
+      "size": 6181,
+      "sha256": "fb9c618c944569f72083295804a4e95431b34502e767b8c71499da40bc71972b"
+    },
+    {
+      "path": "data/raw/hrl000120cd_07_wv180j_mtr3.lbl",
+      "size": 4333,
+      "sha256": "d9995d9d3302d77aeeecc72894eab89b92d63e9f7bebad26c00658124c45b233"
+    },
+    {
+      "path": "data/raw/hrl000120cd_07_wv180j_mtr3.tab",
+      "size": 14670,
+      "sha256": "bc54157f4c376e5f4cb4242e091978b9efd2bb2b8a72a71fb39a1c8b61f146b3"
+    },
+    {
+      "path": "datasets/hymars_v2/data_description.xlsx",
+      "size": 10299,
+      "sha256": "117021d284ca7c909588af10f79d53bc8fb4e9ad182e1d4d73a4696765293414"
+    },
+    {
+      "path": "datasets/hymars_v2/holden.mat",
+      "size": 401997791,
+      "sha256": "0d7d8debafe36e24c1717eca1f804347c080e259ca0cbc6399926daf133d49e2"
+    },
+    {
+      "path": "datasets/hymars_v2/holden_gt.mat",
+      "size": 4345,
+      "sha256": "ca83325a03a03e6644279837b3c5a9e0fe93672f4185584baea62eb9bf9ce2e5"
+    },
+    {
+      "path": "datasets/hymars_v2/source_metadata/plebani_lab.py",
+      "size": 3955,
+      "sha256": "d984d9829fa594607c0ac2449e2271cb13f9d86a3231addf70634667e38d6dc9"
+    },
+    {
+      "path": "finetuning/__init__.py",
+      "size": 74,
+      "sha256": "35127f533bbd922f933983e1bbf4400f1fb393ac179ee55272b7835c90fb6dbe"
+    },
+    {
+      "path": "finetuning/__main__.py",
+      "size": 68,
+      "sha256": "0587f38853c91162f866e3e4f8466fa9f79de3d248841ecd7b18b212e65d4778"
+    },
+    {
+      "path": "finetuning/activation.py",
+      "size": 5194,
+      "sha256": "8fc09d348516e35073c951eb1da8c265928cfa4ce28c58d8d895c67a95db5a42"
+    },
+    {
+      "path": "finetuning/configs/import_sources.json",
+      "size": 18258,
+      "sha256": "c937be02b221e950a60ca5c04418d33ac648259e7fdd0225227c221e696b18de"
+    },
+    {
+      "path": "finetuning/configs/lwnet_hymars_full.json",
+      "size": 1930,
+      "sha256": "b0fcb428a22e38cef15a882ba843b1e7718a16b709599e35217dbc62f6be15d9"
+    },
+    {
+      "path": "finetuning/configs/lwnet_plebani350.json",
+      "size": 1758,
+      "sha256": "abcb7c2f1bc4ddd1ca5fc55075b0e90faaa5b61fc09228838a7d1e3cb0f838bf"
+    },
+    {
+      "path": "finetuning/configs/n2_data_hymars.json",
+      "size": 1100,
+      "sha256": "467d85b3cc50174e5eb239dcd69dbe40d6ba98d8d3d1ccf1d348863fafd68f58"
+    },
+    {
+      "path": "finetuning/configs/n2_data_spectra.json",
+      "size": 570,
+      "sha256": "cc1dbbdce720f7ab28b50dd234642c69fae1ec5fa7086062d6c9d62d52fe06ce"
+    },
+    {
+      "path": "finetuning/configs/n2n4m_hymars_full.json",
+      "size": 1139,
+      "sha256": "b1a3ab730d3f2c6771c34a8571c6502e1f59a689c54eb89430b11b57dbe1a48e"
+    },
+    {
+      "path": "finetuning/configs/n2n4m_plebani350.json",
+      "size": 1134,
+      "sha256": "8579b8dce6a53d71768e7aff7cfa3b906cd2c498efacf11abae5c858cb739ac4"
+    },
+    {
+      "path": "finetuning/configs/plebani350_axis.json",
+      "size": 4774,
+      "sha256": "7b58d632080c483896e5202507c7505b60b3bc4f89675ce495570086396e458c"
+    },
+    {
+      "path": "finetuning/configs/prepare_hymars_pairs.json",
+      "size": 3069,
+      "sha256": "1325ec060c61be49a0826c6a0ea55ed4a6f3abf2be52352d79909a2a683405c3"
+    },
+    {
+      "path": "finetuning/configs/prepare_lwnet_spectra_v1.json",
+      "size": 1316,
+      "sha256": "efc5ccc8ecf79b112577b7c836f4c26361d43882b51c0cd15a217446e7172578"
+    },
+    {
+      "path": "finetuning/configs/research/hymars_hc_crism_v1.json",
+      "size": 62448,
+      "sha256": "f157bd4b187a7c500c691a36bfad43391755ecb4cc8d6c9d888794a44ad00d38"
+    },
+    {
+      "path": "finetuning/configs/research/hymars_hc_native_inputs.json",
+      "size": 13860,
+      "sha256": "00426d8ff61f97c61477c62a35c6fec0a273ba0c7e5d66b99784e6503fe4c042"
+    },
+    {
+      "path": "finetuning/configs/research/hymars_native_inputs.json",
+      "size": 25476,
+      "sha256": "acb42afaa084b6ac91a5d0f9cf2344dbdc1e99a858614d5abe50405321d53e3f"
+    },
+    {
+      "path": "finetuning/configs/research/hymars_nf_crism_v1.json",
+      "size": 56971,
+      "sha256": "a21b2e3a963ea896184c38d9c48774a7dcfe259e9af61d04a1ce56fddb1c0a00"
+    },
+    {
+      "path": "finetuning/configs/research/hymars_up_crism_v1.json",
+      "size": 57857,
+      "sha256": "344466894f044b59c45c54260da98d1716f538c808342793040530bcf54329eb"
+    },
+    {
+      "path": "finetuning/configs/research/taxonomy_hymars_plebani_v1.json",
+      "size": 38375,
+      "sha256": "8b5f9b7150ab67bd4c76466b52b01a74a582b544fa693946edc347a304651aae"
+    },
+    {
+      "path": "finetuning/configs/split_spatial_pairs_v1.json",
+      "size": 1589,
+      "sha256": "bce88f93bd3dd8a9c49dedea06670c4f7e6c112af3581626b6e9b2ce0e1da592"
+    },
+    {
+      "path": "finetuning/configuration.py",
+      "size": 11785,
+      "sha256": "ca2948a639a7d8887582cdc1ddd55334aae135991c5bbae848519e9caebdb1a8"
+    },
+    {
+      "path": "finetuning/data.py",
+      "size": 12795,
+      "sha256": "2aeca4c2e2b317ee40dc2d936d7f7056b00bb19f41a0215b3db65770d948b7ca"
+    },
+    {
+      "path": "finetuning/denoising_data.py",
+      "size": 20502,
+      "sha256": "f302ce87e7368377539b3d95099964518f6206d853d6d0b2d80a161fa5691114"
+    },
+    {
+      "path": "finetuning/export.py",
+      "size": 9787,
+      "sha256": "af1973d5b1db0974333207ecbe4393d91904d1797a534e5bb3fc64e97e38197d"
+    },
+    {
+      "path": "finetuning/io.py",
+      "size": 2007,
+      "sha256": "9eb570673db44c796f73c5550fd220acef5bf4745bd5e25ce8c7ef8643ddc460"
+    },
+    {
+      "path": "finetuning/models/__init__.py",
+      "size": 261,
+      "sha256": "7a407e54ecd92fa36a4742c34fceaccd8ad4503c4682c66fd0ba09a35b82774e"
+    },
+    {
+      "path": "finetuning/models/full_axis.py",
+      "size": 6111,
+      "sha256": "d0756dfe1f0d6d11b8836949ebf666bfcdfd156790af8d4685a3e21257c44208"
+    },
+    {
+      "path": "finetuning/models/spectral_spatial.py",
+      "size": 6339,
+      "sha256": "e5dc9bae3d589f4b02c4e5a578856c2ff2edd2c39efb486c76da6845a66e5dda"
+    },
+    {
+      "path": "finetuning/models/vendor/N2N4M_LICENSE",
+      "size": 1066,
+      "sha256": "b5420cfb842a150a08a84bfcaffa10be8ac90310219eb075bdd09c2e90fa047f"
+    },
+    {
+      "path": "finetuning/models/vendor/PROVENANCE.md",
+      "size": 1004,
+      "sha256": "8d4b69e724899f5a41902579fefd5585dc2b4a448634692d38cd2488cc578dce"
+    },
+    {
+      "path": "finetuning/models/vendor/__init__.py",
+      "size": 68,
+      "sha256": "38c3a2d74d69f9558c5d9e39a74a4413bfa68a2f830831ad8771b6c4a9e6498a"
+    },
+    {
+      "path": "finetuning/models/vendor/lwnet.py",
+      "size": 7364,
+      "sha256": "f2c57d24ed1d5c90e68109987d87e030fa5d98e6d2f80a2f448475ab1a3fde64"
+    },
+    {
+      "path": "finetuning/models/vendor/n2n4m.py",
+      "size": 7596,
+      "sha256": "6dcc893bce88346a76ec8f380a418962532d2ec0a84a6297d8b3af86c28abb5b"
+    },
+    {
+      "path": "finetuning/pair_split.py",
+      "size": 6350,
+      "sha256": "cc83bddcf7e9508522c2f4186b97404173a42ab4d4c71b7884bb5a10b4e28845"
+    },
+    {
+      "path": "finetuning/pairs.py",
+      "size": 14511,
+      "sha256": "ad15faad331e4e99283f68bdad50fbd212b94864dfb491fed04bc532bdeeef70"
+    },
+    {
+      "path": "finetuning/prepare.py",
+      "size": 7362,
+      "sha256": "64323f111c25fae611d657bc393fa75e34903164b762c16429ae14fb2f5ff146"
+    },
+    {
+      "path": "finetuning/smoke.py",
+      "size": 2144,
+      "sha256": "60602d9b2af255a9b2afcaff2db032c6b6b708928044ed8f2b745380e489445a"
+    },
+    {
+      "path": "finetuning/spectral_data.py",
+      "size": 9381,
+      "sha256": "90a05506e0a2bd7beb927044ad0752d94ff42b62a9817c3ec05b8b0c79a4248f"
+    },
+    {
+      "path": "finetuning/storage/cubes/hymars/NiliFossae.mat",
+      "size": 462366987,
+      "sha256": "8febf00273f3c8dbab730cb0f019b267efdc61d90d2d4ebc7374e4c388f3edac"
+    },
+    {
+      "path": "finetuning/storage/cubes/hymars/NiliFossae_gt.mat",
+      "size": 7730,
+      "sha256": "a78dd36f3e27831d96cb6f7284a5ed5a92a6ccc2413bf244c19470822aff0487"
+    },
+    {
+      "path": "finetuning/storage/cubes/hymars/Utopia.mat",
+      "size": 459498482,
+      "sha256": "367e772a80276ce17df5ea65cab4681162d57c1790baee0bece0ee795d4f78f4"
+    },
+    {
+      "path": "finetuning/storage/cubes/hymars/Utopia_gt.mat",
+      "size": 5637,
+      "sha256": "b36205d2961ea9b05ad0def060309d9351667ae23b39143e91e446c878685057"
+    },
+    {
+      "path": "finetuning/storage/cubes/hymars/holden.mat",
+      "size": 401997791,
+      "sha256": "0d7d8debafe36e24c1717eca1f804347c080e259ca0cbc6399926daf133d49e2"
+    },
+    {
+      "path": "finetuning/storage/cubes/hymars/holden_gt.mat",
+      "size": 4345,
+      "sha256": "ca83325a03a03e6644279837b3c5a9e0fe93672f4185584baea62eb9bf9ce2e5"
+    },
+    {
+      "path": "finetuning/storage/cubes/plebani/CRISM_labeled_pixels_ratioed.mat",
+      "size": 1523707264,
+      "sha256": "48be36bee0ec6276afdc6ed889f05e5443782d58bd8995dd4614ad46707f8e72"
+    },
+    {
+      "path": "finetuning/storage/initial/n2n4m/trained_model_weights.pt",
+      "size": 4448721,
+      "sha256": "8cac162c44891e372834d076b2ff7e0c10536f5e780632895ecae8251bd56bc9"
+    },
+    {
+      "path": "finetuning/storage/pairs/hymars_v1/hymars_v2_HC/cube.npy",
+      "size": 875459328,
+      "sha256": "30bb9e2fefc19cc946df21a4475b607eb17bbf35eee9034ec708bba9baa4aeda"
+    },
+    {
+      "path": "finetuning/storage/pairs/hymars_v1/hymars_v2_HC/labels.npy",
+      "size": 994968,
+      "sha256": "c27eb505e860a5c11db45f6f78e6ba5367bf7d1aecb9180bc967668d7efa1d10"
+    },
+    {
+      "path": "finetuning/storage/pairs/hymars_v1/hymars_v2_HC/pair.json",
+      "size": 3149,
+      "sha256": "859b525756ca09fcac951c8542c2c16f8528c9fd7ea7a4a30672689355366975"
+    },
+    {
+      "path": "finetuning/storage/pairs/hymars_v1/hymars_v2_HC/source_labels.npy",
+      "size": 248838,
+      "sha256": "6b1a15c10151f8ab3c41cfdd898b9f75c6d0118c8b622d6d620f0d257012c0b3"
+    },
+    {
+      "path": "finetuning/storage/pairs/hymars_v1/hymars_v2_HC/valid.npy",
+      "size": 109432528,
+      "sha256": "9c7af7212935ed30ca030d7353eae34f9f5d9da9769335876d372f259c3a6c51"
+    },
+    {
+      "path": "finetuning/storage/pairs/hymars_v1/hymars_v2_NF/cube.npy",
+      "size": 963743728,
+      "sha256": "391e6caf49a87d11d39cca43dba7d9206c40fab19363c30806a63b776c60ad04"
+    },
+    {
+      "path": "finetuning/storage/pairs/hymars_v1/hymars_v2_NF/labels.npy",
+      "size": 1133944,
+      "sha256": "bb078c72398c8cf6fbe69f71622eecf7a02960be28965f7c2bd261a577b7a674"
+    },
+    {
+      "path": "finetuning/storage/pairs/hymars_v1/hymars_v2_NF/pair.json",
+      "size": 2977,
+      "sha256": "67cc0ea281af49a376e8cc98d1b405f11464b4872344740128ae3ff6a23bfa4d"
+    },
+    {
+      "path": "finetuning/storage/pairs/hymars_v1/hymars_v2_NF/source_labels.npy",
+      "size": 283582,
+      "sha256": "826c4e7c7cf6d59b0c84df9a65877f7d24d4d8752999dffb94a051e158bb7955"
+    },
+    {
+      "path": "finetuning/storage/pairs/hymars_v1/hymars_v2_NF/valid.npy",
+      "size": 120468078,
+      "sha256": "605aa6d06f0b769ae029e0aaf112bbd8c42898c7897e03bc0a80b0ad7f2abc0e"
+    },
+    {
+      "path": "finetuning/storage/pairs/hymars_v1/hymars_v2_UP/cube.npy",
+      "size": 982921088,
+      "sha256": "d716a46950ef4c9b69b2854b7bafca656d15ccc376e8013cd5a21d0ad406e7fb"
+    },
+    {
+      "path": "finetuning/storage/pairs/hymars_v1/hymars_v2_UP/labels.npy",
+      "size": 1137768,
+      "sha256": "3892034ee0c227a750e3725c09c110d97a28f900307d7f012fa237259ac42ad7"
+    },
+    {
+      "path": "finetuning/storage/pairs/hymars_v1/hymars_v2_UP/pair.json",
+      "size": 2959,
+      "sha256": "915e2f9ffccc53cbf31816b3e3db3bfed9cd8c5e90830ff8376750893704a8ed"
+    },
+    {
+      "path": "finetuning/storage/pairs/hymars_v1/hymars_v2_UP/source_labels.npy",
+      "size": 284538,
+      "sha256": "094507ec126901242ade813a63b388b417533d146550588613ebbaafe79f3a96"
+    },
+    {
+      "path": "finetuning/storage/pairs/hymars_v1/hymars_v2_UP/valid.npy",
+      "size": 122865248,
+      "sha256": "42b9df147c2fc4c96a1e5ff6e33c0a0dbb31ab1cdda621dbb14ac107b911d5b5"
+    },
+    {
+      "path": "finetuning/storage/pairs/split_v1/hymars_v2_HC/test_centers.npy",
+      "size": 248838,
+      "sha256": "9b31995c928efeb26a23ed659df56a4ad036edb76be88d8b7cc496965ee3d47a"
+    },
+    {
+      "path": "finetuning/storage/pairs/split_v1/hymars_v2_HC/test_roi.npy",
+      "size": 248838,
+      "sha256": "18f492aa554408c321b12476bbe77376ed414c27f5018f92293d5b6d45364b79"
+    },
+    {
+      "path": "finetuning/storage/pairs/split_v1/hymars_v2_NF/train_centers.npy",
+      "size": 283582,
+      "sha256": "9d0b3be5c9e8fb97a211bfe5fcebddd0d529e3cef20e23fdc4d48fa90d2e429f"
+    },
+    {
+      "path": "finetuning/storage/pairs/split_v1/hymars_v2_NF/train_roi.npy",
+      "size": 283582,
+      "sha256": "c7ee6ef65ce5f70ac01da3a0740794b4fba2d10fccbafee627972a5a48fee5a9"
+    },
+    {
+      "path": "finetuning/storage/pairs/split_v1/hymars_v2_NF/validation_centers.npy",
+      "size": 283582,
+      "sha256": "b484d7a6281604e22614f26f66fbda1001044cb4bf0eb9d7b0b9f39f007ad542"
+    },
+    {
+      "path": "finetuning/storage/pairs/split_v1/hymars_v2_NF/validation_roi.npy",
+      "size": 283582,
+      "sha256": "8a5fb0ddd137fe91199e7146a630e5c1f7b157ce44acaaaef402050121b2f92e"
+    },
+    {
+      "path": "finetuning/storage/pairs/split_v1/hymars_v2_UP/train_centers.npy",
+      "size": 284538,
+      "sha256": "efa70d6eaa58ddabdf09d1dd3af8539080740f0a26ce6c072bd469f9e5044ca0"
+    },
+    {
+      "path": "finetuning/storage/pairs/split_v1/hymars_v2_UP/train_roi.npy",
+      "size": 284538,
+      "sha256": "956e45e69a40c11d0ccb89a76fdf475001aafc0944ee9eb7b332e7408be3588e"
+    },
+    {
+      "path": "finetuning/storage/pairs/split_v1/hymars_v2_UP/validation_centers.npy",
+      "size": 284538,
+      "sha256": "8578cb25412183e1c109aa03be76bf0366783e621da7aa484aa3d1c7ac694184"
+    },
+    {
+      "path": "finetuning/storage/pairs/split_v1/hymars_v2_UP/validation_roi.npy",
+      "size": 284538,
+      "sha256": "1557e129e845a229475c33c87f4639cf0b4c9eb459c5a8b633092843f9caedc8"
+    },
+    {
+      "path": "finetuning/storage/pairs/split_v1/split.json",
+      "size": 7472,
+      "sha256": "9abe61b42311729f972e9cb643439e4d10ea9512bdf969094b9cee2654a5f32a"
+    },
+    {
+      "path": "finetuning/storage/prepared/hymars_crism_v1/denoising.json",
+      "size": 2615,
+      "sha256": "8c7150e38c22410846703cbc2ed266c36169deeb751215d1d0332fc71ebc5373"
+    },
+    {
+      "path": "finetuning/storage/prepared/hymars_crism_v1/hymars_v2_NF/labels.npy",
+      "size": 1133944,
+      "sha256": "bb078c72398c8cf6fbe69f71622eecf7a02960be28965f7c2bd261a577b7a674"
+    },
+    {
+      "path": "finetuning/storage/prepared/hymars_crism_v1/hymars_v2_NF/lwnet_train.json",
+      "size": 31184,
+      "sha256": "78bf8e726a605686dcad288b303aca6a28dcf720ed95343797cc323ce06ab4b6"
+    },
+    {
+      "path": "finetuning/storage/prepared/hymars_crism_v1/hymars_v2_NF/lwnet_validation.json",
+      "size": 31194,
+      "sha256": "fc5c5e2bf991cdabdc9eb9ac0271d6cb861159bf856b7df9fb879b1d520a5eb7"
+    },
+    {
+      "path": "finetuning/storage/prepared/hymars_crism_v1/hymars_v2_NF/train.json",
+      "size": 30516,
+      "sha256": "fc5abb10fc237c91872336b27964357bd6ed417b938bb0525d72bbdedea7b60f"
+    },
+    {
+      "path": "finetuning/storage/prepared/hymars_crism_v1/hymars_v2_NF/train_roi.npy",
+      "size": 283582,
+      "sha256": "c7ee6ef65ce5f70ac01da3a0740794b4fba2d10fccbafee627972a5a48fee5a9"
+    },
+    {
+      "path": "finetuning/storage/prepared/hymars_crism_v1/hymars_v2_NF/valid.npy",
+      "size": 120468078,
+      "sha256": "605aa6d06f0b769ae029e0aaf112bbd8c42898c7897e03bc0a80b0ad7f2abc0e"
+    },
+    {
+      "path": "finetuning/storage/prepared/hymars_crism_v1/hymars_v2_NF/validation.json",
+      "size": 30526,
+      "sha256": "bd1115d9ba5ae00001c521ad6ea898a154d268388ad01079aff42ac207321d1a"
+    },
+    {
+      "path": "finetuning/storage/prepared/hymars_crism_v1/hymars_v2_NF/validation_roi.npy",
+      "size": 283582,
+      "sha256": "8a5fb0ddd137fe91199e7146a630e5c1f7b157ce44acaaaef402050121b2f92e"
+    },
+    {
+      "path": "finetuning/storage/prepared/hymars_crism_v1/hymars_v2_NF/values.npy",
+      "size": 963743728,
+      "sha256": "391e6caf49a87d11d39cca43dba7d9206c40fab19363c30806a63b776c60ad04"
+    },
+    {
+      "path": "finetuning/storage/prepared/hymars_crism_v1/hymars_v2_UP/labels.npy",
+      "size": 1137768,
+      "sha256": "3892034ee0c227a750e3725c09c110d97a28f900307d7f012fa237259ac42ad7"
+    },
+    {
+      "path": "finetuning/storage/prepared/hymars_crism_v1/hymars_v2_UP/lwnet_train.json",
+      "size": 31663,
+      "sha256": "08e63a3016d6e79ae626eff397ac244088804d7ae7583beb4fec6414b3fd7687"
+    },
+    {
+      "path": "finetuning/storage/prepared/hymars_crism_v1/hymars_v2_UP/lwnet_validation.json",
+      "size": 31673,
+      "sha256": "cf5bcf18309ca5f139e0e8c033768d8be8cdc554f4fa1bf158380aff86746090"
+    },
+    {
+      "path": "finetuning/storage/prepared/hymars_crism_v1/hymars_v2_UP/train.json",
+      "size": 30995,
+      "sha256": "d30be8d71233e4452f50c0b6952f6b3d620417b61b17f02a397302bb85ef3d7d"
+    },
+    {
+      "path": "finetuning/storage/prepared/hymars_crism_v1/hymars_v2_UP/train_roi.npy",
+      "size": 284538,
+      "sha256": "956e45e69a40c11d0ccb89a76fdf475001aafc0944ee9eb7b332e7408be3588e"
+    },
+    {
+      "path": "finetuning/storage/prepared/hymars_crism_v1/hymars_v2_UP/valid.npy",
+      "size": 122865248,
+      "sha256": "42b9df147c2fc4c96a1e5ff6e33c0a0dbb31ab1cdda621dbb14ac107b911d5b5"
+    },
+    {
+      "path": "finetuning/storage/prepared/hymars_crism_v1/hymars_v2_UP/validation.json",
+      "size": 31005,
+      "sha256": "fea5540e0aec6342d23acb1fd09d01c9ab00df147c564ff18d89118ba2a103d8"
+    },
+    {
+      "path": "finetuning/storage/prepared/hymars_crism_v1/hymars_v2_UP/validation_roi.npy",
+      "size": 284538,
+      "sha256": "1557e129e845a229475c33c87f4639cf0b4c9eb459c5a8b633092843f9caedc8"
+    },
+    {
+      "path": "finetuning/storage/prepared/hymars_crism_v1/hymars_v2_UP/values.npy",
+      "size": 982921088,
+      "sha256": "d716a46950ef4c9b69b2854b7bafca656d15ccc376e8013cd5a21d0ad406e7fb"
+    },
+    {
+      "path": "finetuning/storage/prepared/lwnet_spectra_v1/train/labels.npy",
+      "size": 1864028,
+      "sha256": "594061d68d18e201011ef84afd9209fc3a4e436d11d51e7c3c664f4240ee7974"
+    },
+    {
+      "path": "finetuning/storage/prepared/lwnet_spectra_v1/train/manifest.json",
+      "size": 20567,
+      "sha256": "20140aae3d8312164ec526a332e2933cafc97f54b281e18d9234bc3bfec48273"
+    },
+    {
+      "path": "finetuning/storage/prepared/lwnet_spectra_v1/train/roi.npy",
+      "size": 466103,
+      "sha256": "4a87bdd2881495eb18da107907ce25fa6b9ce455cfc8bca23046c254cc62caee"
+    },
+    {
+      "path": "finetuning/storage/prepared/lwnet_spectra_v1/train/source_rows.npy",
+      "size": 3727928,
+      "sha256": "4f48d70ccc13cf3b7add387487a705bf2ee00c9bc9470e5e9c9c2135b65b20b0"
+    },
+    {
+      "path": "finetuning/storage/prepared/lwnet_spectra_v1/train/valid.npy",
+      "size": 163091378,
+      "sha256": "9ec40c95fe54d027cb33c4a41c6adf7e95a9cb71ceb72fc3268fdde5f7c82a1e"
+    },
+    {
+      "path": "finetuning/storage/prepared/lwnet_spectra_v1/train/values.npy",
+      "size": 652365128,
+      "sha256": "dd148bf103300da1c07e531ed83f8240948190a4d1cab5fe63c06df8268108fd"
+    },
+    {
+      "path": "finetuning/storage/prepared/lwnet_spectra_v1/validation/labels.npy",
+      "size": 464360,
+      "sha256": "2fe93606f9f69766ed953a8f765294d4a48e124dfeb62aa679749a1518539acb"
+    },
+    {
+      "path": "finetuning/storage/prepared/lwnet_spectra_v1/validation/manifest.json",
+      "size": 19837,
+      "sha256": "05f4f80a9ae86b7a5891b1ddfe279f1b93774d5f6600a914616c3ff1fc905766"
+    },
+    {
+      "path": "finetuning/storage/prepared/lwnet_spectra_v1/validation/roi.npy",
+      "size": 116186,
+      "sha256": "33080598cffc75f141ec90f74aee4a987ec6402ab8802f083e17d871dec46999"
+    },
+    {
+      "path": "finetuning/storage/prepared/lwnet_spectra_v1/validation/source_rows.npy",
+      "size": 928592,
+      "sha256": "820a9778b84760bf903e508fd860550bdcbb5642a1ce744474632c98bd6d9e0f"
+    },
+    {
+      "path": "finetuning/storage/prepared/lwnet_spectra_v1/validation/valid.npy",
+      "size": 40620428,
+      "sha256": "0e23b704268026cf301d1d2c9dc641f0f4900829c31cf45cf82ac87635ae9552"
+    },
+    {
+      "path": "finetuning/storage/prepared/lwnet_spectra_v1/validation/values.npy",
+      "size": 162481328,
+      "sha256": "a0043e085c03fa4f59da10bfe6519367276d6971d1dd8c315e9aa8a6c542aac5"
+    },
+    {
+      "path": "finetuning/storage/prepared/n2_spectra_v1/denoising.json",
+      "size": 2674,
+      "sha256": "7774649a057cea2fe55893dafb2a0da832c59aaeb2d33a71b57181cb39a53f86"
+    },
+    {
+      "path": "finetuning/storage/prepared/n2_spectra_v1/train/manifest.json",
+      "size": 19997,
+      "sha256": "8333bce089b68d57bb14212efc6b89577766af421c161245d05e861406a5b5f2"
+    },
+    {
+      "path": "finetuning/storage/prepared/n2_spectra_v1/train/roi.npy",
+      "size": 466103,
+      "sha256": "4a87bdd2881495eb18da107907ce25fa6b9ce455cfc8bca23046c254cc62caee"
+    },
+    {
+      "path": "finetuning/storage/prepared/n2_spectra_v1/train/source_rows.npy",
+      "size": 3727928,
+      "sha256": "4f48d70ccc13cf3b7add387487a705bf2ee00c9bc9470e5e9c9c2135b65b20b0"
+    },
+    {
+      "path": "finetuning/storage/prepared/n2_spectra_v1/train/valid.npy",
+      "size": 163091378,
+      "sha256": "9ec40c95fe54d027cb33c4a41c6adf7e95a9cb71ceb72fc3268fdde5f7c82a1e"
+    },
+    {
+      "path": "finetuning/storage/prepared/n2_spectra_v1/train/values.npy",
+      "size": 652365128,
+      "sha256": "dd148bf103300da1c07e531ed83f8240948190a4d1cab5fe63c06df8268108fd"
+    },
+    {
+      "path": "finetuning/storage/prepared/n2_spectra_v1/validation/manifest.json",
+      "size": 19267,
+      "sha256": "7205901d24dd1bebaa44628c6ab46cb35bfa3868d272738d3395e10b0b9b498f"
+    },
+    {
+      "path": "finetuning/storage/prepared/n2_spectra_v1/validation/roi.npy",
+      "size": 116186,
+      "sha256": "33080598cffc75f141ec90f74aee4a987ec6402ab8802f083e17d871dec46999"
+    },
+    {
+      "path": "finetuning/storage/prepared/n2_spectra_v1/validation/source_rows.npy",
+      "size": 928592,
+      "sha256": "820a9778b84760bf903e508fd860550bdcbb5642a1ce744474632c98bd6d9e0f"
+    },
+    {
+      "path": "finetuning/storage/prepared/n2_spectra_v1/validation/valid.npy",
+      "size": 40620428,
+      "sha256": "0e23b704268026cf301d1d2c9dc641f0f4900829c31cf45cf82ac87635ae9552"
+    },
+    {
+      "path": "finetuning/storage/prepared/n2_spectra_v1/validation/values.npy",
+      "size": 162481328,
+      "sha256": "a0043e085c03fa4f59da10bfe6519367276d6971d1dd8c315e9aa8a6c542aac5"
+    },
+    {
+      "path": "finetuning/training.py",
+      "size": 19444,
+      "sha256": "a5a96ce49f6173be17521de2cc87966705269dfbd50e9fdb3c83800b3b3a432f"
+    },
+    {
+      "path": "finetuning/transfer.py",
+      "size": 3190,
+      "sha256": "5ce4414e8e6a89dc557a1ac71f1c6da62f2c2b0e31603fef669dc808643a3c03"
+    },
+    {
+      "path": "main.py",
+      "size": 696,
+      "sha256": "6aa617b86562d0029c7ca5c1140dde244c2ee106555bdaa98ce6b0b84910728d"
+    },
+    {
+      "path": "models/mica_crism_corrected_if_v1/library.json",
+      "size": 23853,
+      "sha256": "3e43946a34553fd88f216ae96b69d10604722fbb5d1c7b63112d88df64300292"
+    },
+    {
+      "path": "models/mica_crism_corrected_if_v1/provenance.json",
+      "size": 19300,
+      "sha256": "efda2e3514941a0d174798131915529f6a225559ebd53c227cc2f354c5e20b99"
+    },
+    {
+      "path": "models/mica_crism_corrected_if_v1/spectra.npy",
+      "size": 107648,
+      "sha256": "68d89ad720260aabb509e888e618aa8d68c7658cce32580aa0be0a42c7233b31"
+    },
+    {
+      "path": "models/mica_crism_corrected_if_v1/valid_samples.npy",
+      "size": 13568,
+      "sha256": "59f95b2b6199a435c4ef438438d81ceeeb92db11e14e9bd1acc6d6e3d5403f4f"
+    },
+    {
+      "path": "modules/__init__.py",
+      "size": 102,
+      "sha256": "c9820f3f9999bb4dc5853680286259702831879a34e94077735cec95e88ee701"
+    },
+    {
+      "path": "modules/analysis_inputs.py",
+      "size": 8043,
+      "sha256": "4521faf1ba651523198113e6fe80383df24b668022296c41dc4e3579ec2e0d92"
+    },
+    {
+      "path": "modules/class_names_ru.py",
+      "size": 5294,
+      "sha256": "3e5389e05bf1ac75441e6fb10ff3e21e5c27116e9f877ac0b9196a4af056dbab"
+    },
+    {
+      "path": "modules/comparison_metrics.py",
+      "size": 6159,
+      "sha256": "d983d89c01112c65fb571deebd392cd2c9ea6c604f6a026794d8a09a3e69a43b"
+    },
+    {
+      "path": "modules/comparison_plots.py",
+      "size": 9846,
+      "sha256": "14e9052947d8268291eeb9e8ed9814a94d3c2236ed0b505530fdda56929053cf"
+    },
+    {
+      "path": "modules/cube_adapters/__init__.py",
+      "size": 81,
+      "sha256": "60c87a8a75e07d762808264a470f25f4b49a58fc672e4f9e01500cbac08baa4d"
+    },
+    {
+      "path": "modules/cube_adapters/backends.py",
+      "size": 12515,
+      "sha256": "f008d9f16fb49e9dc623401d95abaec4bde0a8ce62b7564bbde4bfc8d9e6fd5d"
+    },
+    {
+      "path": "modules/cube_adapters/common.py",
+      "size": 8611,
+      "sha256": "ecb606e81a135835db053c351f70a0d79e739ee901b47d1f1ddbe16cb72f8bbf"
+    },
+    {
+      "path": "modules/cube_adapters/neural.py",
+      "size": 9576,
+      "sha256": "dfa263f818d9d963b882cd35dfdf5bc8e43fb5154a8f76e06797b03821e57862"
+    },
+    {
+      "path": "modules/cube_adapters/pretrained_n2n4m.py",
+      "size": 7935,
+      "sha256": "4b0bd5cfa55e4fdf9ac7e8d660e9b194db3dfba5ab267441178a8846e43b4f2e"
+    },
+    {
+      "path": "modules/cube_adapters/salinas.py",
+      "size": 7829,
+      "sha256": "65b4b662367c39c611b3ee15c611b1502c7d6fbc15b9c9c3478690921fc4f270"
+    },
+    {
+      "path": "modules/cube_adapters/sam.py",
+      "size": 7869,
+      "sha256": "b9d7d33212d257e137e612d9880f2c6b10c5d51db3b801c418f883d81a7ef3e0"
+    },
+    {
+      "path": "modules/data_preparation.py",
+      "size": 16491,
+      "sha256": "8c8ec19db88023db246e817da1390fde52cdaba6c444ac2cd53b44b1e81b74e0"
+    },
+    {
+      "path": "modules/ground_truth.py",
+      "size": 6058,
+      "sha256": "ae249248bcd105e94e9266243bb0312502a0db08b14e5ca93ba00c433033f1f6"
+    },
+    {
+      "path": "modules/metrics.py",
+      "size": 4506,
+      "sha256": "a534e153c65d16ef9540ced9c801d5e891055dd4989e906b018c558fe60c977b"
+    },
+    {
+      "path": "modules/pipeline_config.py",
+      "size": 9693,
+      "sha256": "31be9002b1e104a470a6fea5b26c2f9fa4c09f4b54a01ce12769a25681520248"
+    },
+    {
+      "path": "modules/pipeline_contracts.py",
+      "size": 22163,
+      "sha256": "890688a7086cf24fd365e8d5634bfb1834c954e101d3e9ce80859c1cf6a1c077"
+    },
+    {
+      "path": "modules/pipeline_run_store.py",
+      "size": 9536,
+      "sha256": "c2ae57ac33c6056ca9d1bc8079380af37240b00649bf086572f3005c6abf5e5e"
+    },
+    {
+      "path": "modules/pipeline_runner.py",
+      "size": 16916,
+      "sha256": "210b5efa2049a7268acc1a9414f3d3bdce072dd3c3cb0b69aa59b0e552016f5a"
+    },
+    {
+      "path": "modules/resource_store.py",
+      "size": 7938,
+      "sha256": "996ff0604ffd643df1cac424b94d065cc7140d8ceed1b336a55cc2b2a290255e"
+    },
+    {
+      "path": "modules/run_store.py",
+      "size": 3444,
+      "sha256": "a46ea6715465ed1e7808a620cb6227d6a9824ae127142f9b727e8bdabd6647c8"
+    },
+    {
+      "path": "modules/sam_core.py",
+      "size": 4036,
+      "sha256": "cd65692b18c467443cb0052d834e6cab4e816c82d2389e753b5cb2168d8a4eae"
+    },
+    {
+      "path": "modules/validity.py",
+      "size": 1111,
+      "sha256": "f5cbda5a5fc494237c1bd449131798053faa2893d61f05d15a6a192c5f244984"
+    },
+    {
+      "path": "modules/visualization_inputs.py",
+      "size": 12189,
+      "sha256": "b6eb9e0f105a1856cf1c2599f14607dccadb94bd5f73bafd7be6cdd6e6cb2aaa"
+    },
+    {
+      "path": "n2n4m-main/LICENSE",
+      "size": 1066,
+      "sha256": "b5420cfb842a150a08a84bfcaffa10be8ac90310219eb075bdd09c2e90fa047f"
+    },
+    {
+      "path": "n2n4m-main/n2n4m/data/n2n4m_feature_scaler.joblib",
+      "size": 13719,
+      "sha256": "3882e60f38016b8d37fb89f859ed160308f40b57dd7cd8cf4d489396b70ea45c"
+    },
+    {
+      "path": "n2n4m-main/n2n4m/data/trained_model_weights.pt",
+      "size": 4448721,
+      "sha256": "8cac162c44891e372834d076b2ff7e0c10536f5e780632895ecae8251bd56bc9"
+    },
+    {
+      "path": "n2n4m-main/n2n4m/model.py",
+      "size": 7596,
+      "sha256": "6dcc893bce88346a76ec8f380a418962532d2ec0a84a6297d8b3af86c28abb5b"
+    },
+    {
+      "path": "n2n4m-main/n2n4m/wavelengths.py",
+      "size": 8018,
+      "sha256": "af36e4f0278def9ce88b9cac20efe83265f93f7f6bf97d2f2f4513a92140f502"
+    },
+    {
+      "path": "output/hymars_metadata_20261115/frt0000580c_07_wv164j_ter3.tab",
+      "size": 16350,
+      "sha256": "30cc6e5c1e36ef72956bac3dfd7272f135fb13c7e18a170bfa7aecdd6b6c2105"
+    },
+    {
+      "path": "output/hymars_source_control/CDR410803692813_WA0000000L_3.IMG",
+      "size": 1123840,
+      "sha256": "f96c49302e852628316f79cb10976820ad7a21c79eb6a18a3d6b3b9f92306c15"
+    },
+    {
+      "path": "output/hymars_source_control/CDR410803692813_WA0000000L_3.LBL",
+      "size": 6321,
+      "sha256": "fbe551ae6913879b3a72e490eacb47642dbef9e01fbc65413348ee0e75936192"
+    },
+    {
+      "path": "output/hymars_source_control/CDR420850327000_WA0000000S_2.IMG",
+      "size": 276480,
+      "sha256": "a5c3cd7f0f75401375f6e4c5e5fee3d46bc1d5c574dda0cc64a4e77f294f959e"
+    },
+    {
+      "path": "output/hymars_source_control/CDR420850327000_WA0000000S_2.LBL",
+      "size": 6064,
+      "sha256": "7ed0632edc099996de0be00fb77ef295b10eed8cfdf826f2760146d40ba1b20b"
+    },
+    {
+      "path": "output/hymars_source_control/CDR6_1_0000000000_SW_L_3.LBL",
+      "size": 6442,
+      "sha256": "5a4e21770f0f6ef8ecd0f222e137618449deec9aa1b9b0fb49c6692a5a4dca88"
+    },
+    {
+      "path": "output/hymars_source_control/CDR6_1_0000000000_SW_L_3.TAB",
+      "size": 6720,
+      "sha256": "deebb45b0e8eac0902ce0dd43e3dd21709e14e93f95b68ee02272552cdb95e0d"
+    },
+    {
+      "path": "output/hymars_source_control/CDR6_2_0850327000_SW_S_2.LBL",
+      "size": 6250,
+      "sha256": "9778fc1a55fc830cc46c973dac40f8423daff0597093c9decb04498c55b6ac33"
+    },
+    {
+      "path": "output/hymars_source_control/CDR6_2_0850327000_SW_S_2.TAB",
+      "size": 6720,
+      "sha256": "82f68fdbcd5e9e71b6c25ab7e29b0d27a941d940fd9829e1bfbfebdfb658dc81"
+    },
+    {
+      "path": "output/hymars_source_control/FRT00003E12_07_DE166L_DDR1.IMG",
+      "size": 17203200,
+      "sha256": "7f9ad5035d256b06bdc06fd0d5eeec7ff08e5cfc835e09cb44321d14f2d88031"
+    },
+    {
+      "path": "output/hymars_source_control/FRT00003E12_07_DE166L_DDR1.LBL",
+      "size": 4740,
+      "sha256": "83b11566e60f92a787e3c56531119a354e7ce6214a64b14aee986ef95f4a71e4"
+    },
+    {
+      "path": "output/hymars_source_control/FRT00003E12_07_DE166S_DDR1.IMG",
+      "size": 17203200,
+      "sha256": "58d5e3b2d1e8289b8f09dc34cfdb473cdf4bbe622679cea513322bc617979907"
+    },
+    {
+      "path": "output/hymars_source_control/FRT00003E12_07_DE166S_DDR1.LBL",
+      "size": 4740,
+      "sha256": "63b537dd975e7a8c51e3b049ff35fb8dfa0299bfdb87a99055e00cfa6c47df0c"
+    },
+    {
+      "path": "output/hymars_source_control/FRT00003E12_07_IF166L_TRR3.LBL",
+      "size": 9448,
+      "sha256": "eda554635288c72df9631857e8d44255f41f70c37ea8f7ae683c8f4de830d228"
+    },
+    {
+      "path": "output/hymars_source_control/FRT00003E12_07_IF166L_TRR3_rownum.bin",
+      "size": 876,
+      "sha256": "506427c76593292b70e1bf1a6c643a948b4bfb6187df94fea5260efdfbc9a162"
+    },
+    {
+      "path": "output/hymars_source_control/FRT00003E12_07_IF166L_TRR3_rows120.bin",
+      "size": 6727680,
+      "sha256": "fbe7fd017d584205401ab01003ff9e170b86b8bc8077cf0f9d1b07e140b1f5c6"
+    },
+    {
+      "path": "output/hymars_source_control/FRT00003E12_07_IF166L_TRR3_rows155.bin",
+      "size": 4485120,
+      "sha256": "751e3a6f10b97fce1c6fe0b49e3921b2a05ec13d614e8be9044fcbfdb8526e4d"
+    },
+    {
+      "path": "output/hymars_source_control/FRT00003E12_07_IF166L_TRR3_rows190.bin",
+      "size": 4485120,
+      "sha256": "8a78ff0872b54f0a66515f5c7689da6b51250d6e083e56eb0ed3ff5daf821fd0"
+    },
+    {
+      "path": "output/hymars_source_control/FRT00003E12_07_IF166L_TRR3_rows225.bin",
+      "size": 4485120,
+      "sha256": "781ef23acea369a2b769750ec781a334a4e221c3c20408bb3c78f739c4634ac3"
+    },
+    {
+      "path": "output/hymars_source_control/FRT00003E12_07_IF166L_TRR3_rows25.bin",
+      "size": 4485120,
+      "sha256": "f62e574bd665e816617da2efb9156a328868d4c62b3114a07badfe97d928d0de"
+    },
+    {
+      "path": "output/hymars_source_control/FRT00003E12_07_IF166L_TRR3_rows260.bin",
+      "size": 4485120,
+      "sha256": "b8431c1a4549058cff9305d486898019ee1b5b9a16fde9a75098ab9579752c6a"
+    },
+    {
+      "path": "output/hymars_source_control/FRT00003E12_07_IF166L_TRR3_rows295.bin",
+      "size": 4485120,
+      "sha256": "cc0c86ed38bd65e79a9bc03874fc0336a0afb473c29c89c78c4e4f86b6c4d2f3"
+    },
+    {
+      "path": "output/hymars_source_control/FRT00003E12_07_IF166L_TRR3_rows330.bin",
+      "size": 6727680,
+      "sha256": "cbc042ae42e4e651dcd4f1f3e6186b991bc2c70d5f9de744fe3b5bfad2d0438a"
+    },
+    {
+      "path": "output/hymars_source_control/FRT00003E12_07_IF166L_TRR3_rows365.bin",
+      "size": 4485120,
+      "sha256": "b0fa7702be7dd4cdbac7815a4738db9cd26f2afa42f60f5d0cf8eea5f7ac5caf"
+    },
+    {
+      "path": "output/hymars_source_control/FRT00003E12_07_IF166L_TRR3_rows400.bin",
+      "size": 4485120,
+      "sha256": "ff5fe9193527a3c3303650f6f6f148065968a53c916b44d2b95dd113e952df20"
+    },
+    {
+      "path": "output/hymars_source_control/FRT00003E12_07_IF166L_TRR3_rows435.bin",
+      "size": 4485120,
+      "sha256": "6078129a689c79af3b3fd50050337fe663d16c2b06c8dfd9e36d75db61e1cc19"
+    },
+    {
+      "path": "output/hymars_source_control/FRT00003E12_07_IF166L_TRR3_rows60.bin",
+      "size": 4485120,
+      "sha256": "19471b0f1dd574dbb7f2807308668d75c53d7b29499cff500bcdc00554552186"
+    },
+    {
+      "path": "output/hymars_source_control/FRT00003E12_07_IF166L_TRR3_rows95.bin",
+      "size": 4485120,
+      "sha256": "28f8061011cf24c79aa69a9c6d92525f21b50ff29c488ce6ed9218adb1d1dfdb"
+    },
+    {
+      "path": "output/hymars_source_control/FRT00003E12_07_IF166S_TRR3.LBL",
+      "size": 8726,
+      "sha256": "a80d5155568ae42bcc8637ede9daf8d16816d3864c05adfcb49b898f70ee9a27"
+    },
+    {
+      "path": "output/hymars_source_control/FRT00003E12_07_IF166S_TRR3_rownum.bin",
+      "size": 214,
+      "sha256": "4080e7212b4574a7c6709f15c4c876f252839fc9180bcae5b335fac3e2c04f27"
+    },
+    {
+      "path": "output/hymars_source_control/FRT00003E12_07_IF166S_TRR3_rows120.bin",
+      "size": 1643520,
+      "sha256": "c6e9d8e82ed49ac04f46c2531e7e3c264b41e9f27f85fd388c8727ad7f7d01b6"
+    },
+    {
+      "path": "output/hymars_source_control/FRT00003E12_07_IF166S_TRR3_rows155.bin",
+      "size": 1095680,
+      "sha256": "c5dcb7615d831a217de1211d0a9b982db8ca0ca82141a78cd738d997e7bee872"
+    },
+    {
+      "path": "output/hymars_source_control/FRT00003E12_07_IF166S_TRR3_rows190.bin",
+      "size": 1095680,
+      "sha256": "f30adb30cf0e9b1015920e2fe738365414be5ba40ae15e26e06fd90f1538b343"
+    },
+    {
+      "path": "output/hymars_source_control/FRT00003E12_07_IF166S_TRR3_rows225.bin",
+      "size": 1095680,
+      "sha256": "48dc5eb937fe351b33202a09d85e4c87db5dc040ba0e7c608fee9782b8023098"
+    },
+    {
+      "path": "output/hymars_source_control/FRT00003E12_07_IF166S_TRR3_rows25.bin",
+      "size": 1095680,
+      "sha256": "6c4f18d7d50875e98859b177e1975096cd469b0af3b80a36544e0d08f5a11834"
+    },
+    {
+      "path": "output/hymars_source_control/FRT00003E12_07_IF166S_TRR3_rows260.bin",
+      "size": 1095680,
+      "sha256": "824e09d4223e6601041ff7ebae9cd5c2634d48c89898bbfeabfe2facd7c17487"
+    },
+    {
+      "path": "output/hymars_source_control/FRT00003E12_07_IF166S_TRR3_rows295.bin",
+      "size": 1095680,
+      "sha256": "57eabcfcae9ebc90aa7395c5cf87ac55613332f46c9b7eedd56a4b199ffd6c7a"
+    },
+    {
+      "path": "output/hymars_source_control/FRT00003E12_07_IF166S_TRR3_rows330.bin",
+      "size": 1643520,
+      "sha256": "89fb2d045ce54a6970af3fb40feb86b73eb8b941c1bda83c45847f4b5f80f61f"
+    },
+    {
+      "path": "output/hymars_source_control/FRT00003E12_07_IF166S_TRR3_rows365.bin",
+      "size": 1095680,
+      "sha256": "8ddbcba125ef9ace614838d42dcde21cd45d56b110bfc95e874240e6382cf92e"
+    },
+    {
+      "path": "output/hymars_source_control/FRT00003E12_07_IF166S_TRR3_rows400.bin",
+      "size": 1095680,
+      "sha256": "bbf5eee607809560c536699ed97ad9c0b14f94a2464ee5365706759d7934a74e"
+    },
+    {
+      "path": "output/hymars_source_control/FRT00003E12_07_IF166S_TRR3_rows435.bin",
+      "size": 1095680,
+      "sha256": "253b51370bc21473ff8756b96d4fe513d470de5ca4f8742725f4d3f8069157c1"
+    },
+    {
+      "path": "output/hymars_source_control/FRT00003E12_07_IF166S_TRR3_rows60.bin",
+      "size": 1095680,
+      "sha256": "e403e80fe756bd2381b9250968dbd983be87726ffd95cf8aa7766210fca1c38b"
+    },
+    {
+      "path": "output/hymars_source_control/FRT00003E12_07_IF166S_TRR3_rows95.bin",
+      "size": 1095680,
+      "sha256": "ae6563bfd6848c82084805f0bb7c76543cdd8089ef3d8f46279e67a7ce15e4c7"
+    },
+    {
+      "path": "output/hymars_source_control/FRT0000527D_07_DE166L_DDR1.IMG",
+      "size": 17203200,
+      "sha256": "cc0c382653b16baa1abcf6733fafccd9978b2821f65df56728afbba64823658d"
+    },
+    {
+      "path": "output/hymars_source_control/FRT0000527D_07_DE166L_DDR1.LBL",
+      "size": 4926,
+      "sha256": "5c93bd850e2d506ee494c132402d2e2b3554f9534ac1e0f93f884bf3524437e2"
+    },
+    {
+      "path": "output/hymars_source_control/FRT0000527D_07_DE166S_DDR1.IMG",
+      "size": 17203200,
+      "sha256": "c49aa41b25331154a0e166e15d67d853d1f89440f1f0aaf47f15dafa7abfca6a"
+    },
+    {
+      "path": "output/hymars_source_control/FRT0000527D_07_DE166S_DDR1.LBL",
+      "size": 4926,
+      "sha256": "b98db3f77faf0856b95590370f5d5b51c12bfb0f6470115fc5461a538142a3ea"
+    },
+    {
+      "path": "output/hymars_source_control/FRT0000527D_07_IF166L_TRR3.LBL",
+      "size": 9448,
+      "sha256": "803409dd3796ee355f5606a12dc329b4c98021f254739627fa89b1ada99788c1"
+    },
+    {
+      "path": "output/hymars_source_control/FRT0000527D_07_IF166L_TRR3_rownum.bin",
+      "size": 876,
+      "sha256": "506427c76593292b70e1bf1a6c643a948b4bfb6187df94fea5260efdfbc9a162"
+    },
+    {
+      "path": "output/hymars_source_control/FRT0000527D_07_IF166L_TRR3_rows120.bin",
+      "size": 6727680,
+      "sha256": "e9425a4ee31c6d0a679d8a4afd3a44f5263e644c4fc155a7fefd36cea6883d2b"
+    },
+    {
+      "path": "output/hymars_source_control/FRT0000527D_07_IF166L_TRR3_rows155.bin",
+      "size": 4485120,
+      "sha256": "ba900883380871e2a0a536afaf98668217a9b5b9e09edcc8b3d69c4c7e7e09b1"
+    },
+    {
+      "path": "output/hymars_source_control/FRT0000527D_07_IF166L_TRR3_rows190.bin",
+      "size": 4485120,
+      "sha256": "e50d588ba570dfb048ff168acd6cbaaabab649cf02e0427bcf14c4155389917f"
+    },
+    {
+      "path": "output/hymars_source_control/FRT0000527D_07_IF166L_TRR3_rows225.bin",
+      "size": 4485120,
+      "sha256": "c9d62dd16cb56aff4590f5016336ba3040462d280dceb4948ca2d7f59ddc25b1"
+    },
+    {
+      "path": "output/hymars_source_control/FRT0000527D_07_IF166L_TRR3_rows25.bin",
+      "size": 4485120,
+      "sha256": "982e099d50036a80afa2d0582c5cc7f24b97f39549643b250a3175db0808b8fa"
+    },
+    {
+      "path": "output/hymars_source_control/FRT0000527D_07_IF166L_TRR3_rows260.bin",
+      "size": 4485120,
+      "sha256": "172143abdb94b250aefa0ce5d9039efb390c65c4f2228daebc50384fd84b207b"
+    },
+    {
+      "path": "output/hymars_source_control/FRT0000527D_07_IF166L_TRR3_rows295.bin",
+      "size": 4485120,
+      "sha256": "9eed194dc272becfe0d8600166d1a642f1b569783970bd8d2aa8d1e1edb039b2"
+    },
+    {
+      "path": "output/hymars_source_control/FRT0000527D_07_IF166L_TRR3_rows330.bin",
+      "size": 6727680,
+      "sha256": "6740212d4a7bc62dd472a958811b3342e74d6a3f74cfb26fa5343177f3f65666"
+    },
+    {
+      "path": "output/hymars_source_control/FRT0000527D_07_IF166L_TRR3_rows365.bin",
+      "size": 4485120,
+      "sha256": "4e665a7f2a9f874bbd158cf9a3f97713287bdeab9397e06cfa25bf66ebd28da1"
+    },
+    {
+      "path": "output/hymars_source_control/FRT0000527D_07_IF166L_TRR3_rows400.bin",
+      "size": 4485120,
+      "sha256": "7d57355348eaade33c95499af3b3e9bf8303a7f02a2cd99cb69d1c602a87375f"
+    },
+    {
+      "path": "output/hymars_source_control/FRT0000527D_07_IF166L_TRR3_rows435.bin",
+      "size": 4485120,
+      "sha256": "e03b55053bb2d652a712e53faeca656ce17a9ed7f5a25286f798cfd066b51409"
+    },
+    {
+      "path": "output/hymars_source_control/FRT0000527D_07_IF166L_TRR3_rows60.bin",
+      "size": 4485120,
+      "sha256": "9cc33022f710badb7cce4b31e37b3131275e7380b924336138c99a92c54f3e7f"
+    },
+    {
+      "path": "output/hymars_source_control/FRT0000527D_07_IF166L_TRR3_rows95.bin",
+      "size": 4485120,
+      "sha256": "ccab6854321d16642240e8cb2284bf3697bdbf57d3622198d870dec461823b75"
+    },
+    {
+      "path": "output/hymars_source_control/FRT0000527D_07_IF166S_TRR3.LBL",
+      "size": 8726,
+      "sha256": "88eeeed6e320d9b315048fb083be9a0c97329794d6f1e847aada7431566b1a87"
+    },
+    {
+      "path": "output/hymars_source_control/FRT0000527D_07_IF166S_TRR3_rownum.bin",
+      "size": 214,
+      "sha256": "4080e7212b4574a7c6709f15c4c876f252839fc9180bcae5b335fac3e2c04f27"
+    },
+    {
+      "path": "output/hymars_source_control/FRT0000527D_07_IF166S_TRR3_rows120.bin",
+      "size": 1643520,
+      "sha256": "31ff5a40d12935b015b608e468d284346c472b2f7b4e056978a7f1cdae772f6e"
+    },
+    {
+      "path": "output/hymars_source_control/FRT0000527D_07_IF166S_TRR3_rows155.bin",
+      "size": 1095680,
+      "sha256": "ba4971535160bd259763af264ed747d6771857f9e0467df09fbc7fc5ea8ec1f2"
+    },
+    {
+      "path": "output/hymars_source_control/FRT0000527D_07_IF166S_TRR3_rows190.bin",
+      "size": 1095680,
+      "sha256": "5f2b559ec132287d6182cba67237c4fbefcf1e31436f61c9cf1d6b65b4d2e282"
+    },
+    {
+      "path": "output/hymars_source_control/FRT0000527D_07_IF166S_TRR3_rows225.bin",
+      "size": 1095680,
+      "sha256": "626067d161a803fc6cef6b2450a1a3497ab6b2a43062c74dfdc8cc9783898773"
+    },
+    {
+      "path": "output/hymars_source_control/FRT0000527D_07_IF166S_TRR3_rows25.bin",
+      "size": 1095680,
+      "sha256": "ed018a30ee9a5400cdff75389bba5366c784810dba2823c1111ff2859766ad47"
+    },
+    {
+      "path": "output/hymars_source_control/FRT0000527D_07_IF166S_TRR3_rows260.bin",
+      "size": 1095680,
+      "sha256": "9a0e3bbb167152815c0162fd8e057487adf48e78a71873cb0ee3acb24a2df2aa"
+    },
+    {
+      "path": "output/hymars_source_control/FRT0000527D_07_IF166S_TRR3_rows295.bin",
+      "size": 1095680,
+      "sha256": "107f789fe348a3b9ad6b04ca3b02044c5874eba873bb8191c8ce377737fafac9"
+    },
+    {
+      "path": "output/hymars_source_control/FRT0000527D_07_IF166S_TRR3_rows330.bin",
+      "size": 1643520,
+      "sha256": "7e662341210f731971148262f1e8d2b4b589e1a26f9eaa255c2d68942a0d3531"
+    },
+    {
+      "path": "output/hymars_source_control/FRT0000527D_07_IF166S_TRR3_rows365.bin",
+      "size": 1095680,
+      "sha256": "bb18ee05a78b622c46cfd371d23e2532241eccfee36fa5be2fe5af16930c6e10"
+    },
+    {
+      "path": "output/hymars_source_control/FRT0000527D_07_IF166S_TRR3_rows400.bin",
+      "size": 1095680,
+      "sha256": "cd5f49e193d14100b0952d6ed637d8a8ea191bc52f00bc73e20b7bdb1cfb448f"
+    },
+    {
+      "path": "output/hymars_source_control/FRT0000527D_07_IF166S_TRR3_rows435.bin",
+      "size": 1095680,
+      "sha256": "01ca680d19c4e66d6227df025b7aa213280fee77c25b37363277f42b133ca17a"
+    },
+    {
+      "path": "output/hymars_source_control/FRT0000527D_07_IF166S_TRR3_rows60.bin",
+      "size": 1095680,
+      "sha256": "7918dced88fe2e2119aa64b2a82f8e206074272126a056aa46d266b2287e6df9"
+    },
+    {
+      "path": "output/hymars_source_control/FRT0000527D_07_IF166S_TRR3_rows95.bin",
+      "size": 1095680,
+      "sha256": "cd388a5d4b495a8825bebf8dab1959a0a7f44d5127e13b6ec8a13480b14a2eca"
+    },
+    {
+      "path": "output/hymars_source_control/FRT0000580C_07_DE164L_DDR1.IMG",
+      "size": 15052800,
+      "sha256": "d0e1c8412e606dcf1532cd4bafba967d3eba025b7711a9ffbe281bb968d6c664"
+    },
+    {
+      "path": "output/hymars_source_control/FRT0000580C_07_DE164L_DDR1.LBL",
+      "size": 4763,
+      "sha256": "9f277dae302d48e51f2e2d06574eef372e5a367e0405d76750d7ebafcda9314b"
+    },
+    {
+      "path": "output/hymars_source_control/FRT0000580C_07_DE164S_DDR1.IMG",
+      "size": 15052800,
+      "sha256": "b6a769e89af7601587b6c7ffe8beb42dff21a986f3beb9e724aa7d6dcab97810"
+    },
+    {
+      "path": "output/hymars_source_control/FRT0000580C_07_DE164S_DDR1.LBL",
+      "size": 4763,
+      "sha256": "609e41dc4e0d6caeb7c3c28f13899d27dc67dbcdb75a142e7fa13af959c7dc97"
+    },
+    {
+      "path": "output/hymars_source_control/FRT0000580C_07_IF164L_TRR3.LBL",
+      "size": 9448,
+      "sha256": "3a8817c7048e816076b97f85dc55c33314d874ebc930e7cc2d69c2f01ec80e4c"
+    },
+    {
+      "path": "output/hymars_source_control/FRT0000580C_07_IF164L_TRR3_rownum.bin",
+      "size": 876,
+      "sha256": "506427c76593292b70e1bf1a6c643a948b4bfb6187df94fea5260efdfbc9a162"
+    },
+    {
+      "path": "output/hymars_source_control/FRT0000580C_07_IF164L_TRR3_rows115.bin",
+      "size": 4485120,
+      "sha256": "a4b7953be109592678e429f856c6b094ff644ba76462a053e1a2cf689662e66c"
+    },
+    {
+      "path": "output/hymars_source_control/FRT0000580C_07_IF164L_TRR3_rows145.bin",
+      "size": 4485120,
+      "sha256": "1789b00d8b1ea46652b25eeca9dbcb600ed65f4fb7dc649001f8faf71d3cbd7f"
+    },
+    {
+      "path": "output/hymars_source_control/FRT0000580C_07_IF164L_TRR3_rows175.bin",
+      "size": 4485120,
+      "sha256": "bc4831eec6a4868e83efe780fb795776530bf0439cf64cd245fec932dffd4898"
+    },
+    {
+      "path": "output/hymars_source_control/FRT0000580C_07_IF164L_TRR3_rows205.bin",
+      "size": 4485120,
+      "sha256": "a64fe0ae78af7814db38caeb678d8aa7ed1438925b263e07abe61f5c3fc2331a"
+    },
+    {
+      "path": "output/hymars_source_control/FRT0000580C_07_IF164L_TRR3_rows235.bin",
+      "size": 4485120,
+      "sha256": "eec809bcaf484b815c642d92a232638f4d1cf1934b960422de3447eeb8d515bf"
+    },
+    {
+      "path": "output/hymars_source_control/FRT0000580C_07_IF164L_TRR3_rows25.bin",
+      "size": 4485120,
+      "sha256": "e3b4983ba7fb52babf8e0ed9b7b1422246753e19881d76d8b46e80758b277d10"
+    },
+    {
+      "path": "output/hymars_source_control/FRT0000580C_07_IF164L_TRR3_rows265.bin",
+      "size": 4485120,
+      "sha256": "1e96607dd9daa12ca2a923eebf16f9d440631e854323acd41c72076edbdf7858"
+    },
+    {
+      "path": "output/hymars_source_control/FRT0000580C_07_IF164L_TRR3_rows295.bin",
+      "size": 4485120,
+      "sha256": "45817fa4f809071093b0080f18dff8538fd384b4841b3af1f3ad7fcd00a87d6c"
+    },
+    {
+      "path": "output/hymars_source_control/FRT0000580C_07_IF164L_TRR3_rows325.bin",
+      "size": 4485120,
+      "sha256": "2248e8907892f4e391724b7afedb440057229bff4d6146f202a7db34721def87"
+    },
+    {
+      "path": "output/hymars_source_control/FRT0000580C_07_IF164L_TRR3_rows355.bin",
+      "size": 4485120,
+      "sha256": "4790ef8dc260828b23864517070a760be4d8e83cf4d33586a0d262d831f1800f"
+    },
+    {
+      "path": "output/hymars_source_control/FRT0000580C_07_IF164L_TRR3_rows385.bin",
+      "size": 4485120,
+      "sha256": "097197e3ea958e49fe7e7f08197c4b9bee24416e9d64f671fd23b4cf84dff602"
+    },
+    {
+      "path": "output/hymars_source_control/FRT0000580C_07_IF164L_TRR3_rows55.bin",
+      "size": 4485120,
+      "sha256": "d348007af50ce46073c5bfc14b8e01f5f0dcbec30a0459b2b5a628d9fd6fb57b"
+    },
+    {
+      "path": "output/hymars_source_control/FRT0000580C_07_IF164L_TRR3_rows85.bin",
+      "size": 4485120,
+      "sha256": "741c484e672b2b6d431465c2d89c9c842ea2fb19840da303fc119a7a2b08b54b"
+    },
+    {
+      "path": "output/hymars_source_control/FRT0000580C_07_IF164S_TRR3.LBL",
+      "size": 8726,
+      "sha256": "b63a82e6a5e16c475b4bc61acd50e8a92c7cc9266afc94968839d93c166b6d72"
+    },
+    {
+      "path": "output/hymars_source_control/FRT0000580C_07_IF164S_TRR3_rownum.bin",
+      "size": 214,
+      "sha256": "4080e7212b4574a7c6709f15c4c876f252839fc9180bcae5b335fac3e2c04f27"
+    },
+    {
+      "path": "output/hymars_source_control/FRT0000580C_07_IF164S_TRR3_rows115.bin",
+      "size": 1095680,
+      "sha256": "01902efd3309bc3ee85643ee90c98bd271a49658bbdc8ee5f5c1c93432ac4d46"
+    },
+    {
+      "path": "output/hymars_source_control/FRT0000580C_07_IF164S_TRR3_rows145.bin",
+      "size": 1095680,
+      "sha256": "7bcb72c066fb796f2c06234fe405ee7bdddbcde2c997a90b014060478ecf0b7c"
+    },
+    {
+      "path": "output/hymars_source_control/FRT0000580C_07_IF164S_TRR3_rows175.bin",
+      "size": 1095680,
+      "sha256": "3d7b9278d2f4a2be87b13a20ba0070cef08257524ba529972057156ff6bd60d6"
+    },
+    {
+      "path": "output/hymars_source_control/FRT0000580C_07_IF164S_TRR3_rows205.bin",
+      "size": 1095680,
+      "sha256": "2950135367f60da9e58ed594e8a8684820f288f739cac0cbef468fa5ac4a8cb0"
+    },
+    {
+      "path": "output/hymars_source_control/FRT0000580C_07_IF164S_TRR3_rows235.bin",
+      "size": 1095680,
+      "sha256": "2364bcd6fcad3d3c8a8e68d23a199a9b36ecbe5e03df5600db6fce9e21567c97"
+    },
+    {
+      "path": "output/hymars_source_control/FRT0000580C_07_IF164S_TRR3_rows25.bin",
+      "size": 1095680,
+      "sha256": "d0084a9133a3d945a318966bb3fdb2de78096e8c7fc20916ffdfbae71242ee37"
+    },
+    {
+      "path": "output/hymars_source_control/FRT0000580C_07_IF164S_TRR3_rows265.bin",
+      "size": 1095680,
+      "sha256": "2227832688a109f8e0c822fa31c94403e4f277af80117d97e8d439c921e6e348"
+    },
+    {
+      "path": "output/hymars_source_control/FRT0000580C_07_IF164S_TRR3_rows295.bin",
+      "size": 1095680,
+      "sha256": "ffd2d2d0b59c7c49b65b0528192eb4e60e4c2f89374036b79ae6fa008e64c44a"
+    },
+    {
+      "path": "output/hymars_source_control/FRT0000580C_07_IF164S_TRR3_rows325.bin",
+      "size": 1095680,
+      "sha256": "a1ad27e9c871b2bc34895d555a98f9086647624693b36af21b021c29b7b9a060"
+    },
+    {
+      "path": "output/hymars_source_control/FRT0000580C_07_IF164S_TRR3_rows355.bin",
+      "size": 1095680,
+      "sha256": "cce3c3c192f1fc72b7d50518d45642aae64834e1ed22805ab63519a5be86dd0b"
+    },
+    {
+      "path": "output/hymars_source_control/FRT0000580C_07_IF164S_TRR3_rows385.bin",
+      "size": 1095680,
+      "sha256": "8eed94a196066506602f1da8cfd0b9de5c081f0661df673c431f703e66df861e"
+    },
+    {
+      "path": "output/hymars_source_control/FRT0000580C_07_IF164S_TRR3_rows55.bin",
+      "size": 1095680,
+      "sha256": "853c864dd4f40615671b00d5bf1779ffe46cc73eea9e86f1f9d2937152f9be85"
+    },
+    {
+      "path": "output/hymars_source_control/FRT0000580C_07_IF164S_TRR3_rows85.bin",
+      "size": 1095680,
+      "sha256": "19f8f1da0ca5d98ef51503311b1efbac940f2cc60d8aa7fd70deb51da7a94db7"
+    },
+    {
+      "path": "run_analysis.py",
+      "size": 2792,
+      "sha256": "2a4ea0bcf83e17c4bbcb3d38fd38322784c22457f936ce89b87e99c57b7b522f"
+    },
+    {
+      "path": "tests/test_class_names_ru.py",
+      "size": 1762,
+      "sha256": "3dd8eaa5ff1de8ac5b12d3a67e6625ba8327a0cfdeb2a03011dffbf45767d801"
+    },
+    {
+      "path": "tests/test_hc_full_axis_inference.py",
+      "size": 6224,
+      "sha256": "bafb471a251abd6b28d1bcf52008006eb13ee69fbc5e55f5610efc408041906e"
+    },
+    {
+      "path": "tests/test_pipeline_contracts.py",
+      "size": 12005,
+      "sha256": "2bb581572ae874097a733f00714afb4ec3fa60d58bb575755505ff60680a6346"
+    },
+    {
+      "path": "tests/test_pipeline_runner.py",
+      "size": 19903,
+      "sha256": "fe4ee6aba5cfe3192bf68a70ce4c688ca4ca9af51701d119219f39c48121fa36"
+    },
+    {
+      "path": "tests/test_pretrained_n2n4m.py",
+      "size": 4360,
+      "sha256": "ad5b73bf36d82213f245f8c8736afb56a88e985445d50c51f6b9c978473d7fcd"
+    },
+    {
+      "path": "tests/test_salinas_transfer.py",
+      "size": 3604,
+      "sha256": "425bc7051cd34be0276f40b9067e9e4aabb84284d93025c24b97c71b3d8d5d42"
+    },
+    {
+      "path": "tests/test_sam_adapter.py",
+      "size": 7911,
+      "sha256": "ff02e94e708835719c410315be3e0178b15ac5994c03ddd6d1502e8b4443cab9"
+    },
+    {
+      "path": "tests/test_whole_cube_analysis.py",
+      "size": 13645,
+      "sha256": "8263fc6844c55a41a59fe834ff62e8959fea5e0502877b1aec127e36bda637b5"
+    },
+    {
+      "path": "tests/test_whole_cube_visualization.py",
+      "size": 9820,
+      "sha256": "fdb1e0f2cfe5975e7eabd7e5e9294829139cd594db48ea495b01ddc360dcd978"
+    }
+  ]
+}

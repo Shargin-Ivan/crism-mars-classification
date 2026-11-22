@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "layout": "plebani_ratioed_pixspec_mat5",
+  "mat": {
+    "path": "storage/cubes/plebani/CRISM_labeled_pixels_ratioed.mat",
+    "sha256": "48be36bee0ec6276afdc6ed889f05e5443782d58bd8995dd4614ad46707f8e72"
+  },
+  "axis": {
+    "path": "configs/plebani350_axis.json",
+    "sha256": "7b58d632080c483896e5202507c7505b60b3bc4f89675ce495570086396e458c"
+  },
+  "taxonomy": {
+    "path": "configs/research/taxonomy_hymars_plebani_v1.json",
+    "sha256": "8b5f9b7150ab67bd4c76466b52b01a74a582b544fa693946edc347a304651aae"
+  },
+  "hymars_scenes": {
+    "path": "configs/prepare_hymars_pairs.json",
+    "sha256": "1325ec060c61be49a0826c6a0ea55ed4a6f3abf2be52352d79909a2a683405c3"
+  },
+  "validation_observation_suffixes": [
+    "02885", "043EC", "064D9", "08F68", "097E2", "0A546", "0A91C", "0AA03",
+    "0B868", "0BAD4", "0C26C", "0CBAC", "1187B", "1212A", "19DAA"
+  ],
+  "split_policy": "Fixed whole observations. Hold all three HyMars identifiers out of both roles. Retain every observed class in training and every class with at least two eligible observations in validation. Validation includes about 20% of eligible rows.",
+  "quality_policy": "Use finite measurements except the CRISM fill value 65535. Keep measured zeros. No interpolation, spatial synthesis or implicit positivity filter."
+}

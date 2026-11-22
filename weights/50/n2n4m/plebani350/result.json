@@ -1,0 +1,19 @@
+{
+  "status": "completed",
+  "best_epoch": 42,
+  "best_validation_loss": 0.01675403792336583,
+  "checkpoint": {
+    "path": "best_epoch_0042.pt",
+    "sha256": "dc0596a38a62bc655f41896b7fd4eb4999de91a7ae2b579ee99420f545563bbc"
+  },
+  "last_checkpoint": {
+    "path": "last.pt",
+    "sha256": "24fc6872a39b30e037d499cdee8a6ac1ee7f63e921024a50a5b106fda4c3742d"
+  },
+  "export": {
+    "path": "model.ts",
+    "sha256": "333dcde801a50b27e0c412de4650bb21ffc439cb331ad5332a7434ab8bcff185"
+  },
+  "metric_scope": "development_validation_only",
+  "epochs": 50
+}

@@ -1,0 +1,131 @@
+{
+  "schema_version": 1,
+  "format": "spatial_cube_label_pair",
+  "scene_id": "hymars_v2_NF",
+  "role": "development",
+  "pair_ready": true,
+  "shape_hwc": [
+    478,
+    593,
+    425
+  ],
+  "dtype": "<f8",
+  "class_names": [
+    "CO2 Ice",
+    "H2O Ice",
+    "Gypsum",
+    "Ferric Hydroxysulfate",
+    "Hematite",
+    "Nontronite",
+    "Mg-Smectite",
+    "Prehnite",
+    "Jarosite",
+    "Serpentine",
+    "Alunite",
+    "Akaganeite",
+    "Ca/Fe CO3",
+    "Beidellite",
+    "Kaolinite",
+    "Bassanite",
+    "Epidote",
+    "Montmorillonite",
+    "Rosenite",
+    "Mg Cl salt",
+    "Halloysite",
+    "Illite/Muscovite",
+    "Margarite",
+    "Analcime",
+    "Monohydrated sulfate",
+    "Opal 1",
+    "Opal 2",
+    "Iron Oxide Silicate Sulfate",
+    "MgCO3",
+    "Chlorite",
+    "Clinochlore",
+    "Low Ca Pyroxene",
+    "Olivine Forsterite",
+    "High Ca Pyroxene",
+    "Fe-Olivine",
+    "Chloride",
+    "Artifact",
+    "Neutral",
+    "Plagioclase"
+  ],
+  "ignore_index": -1,
+  "cube": {
+    "path": "cube.npy",
+    "sha256": "391e6caf49a87d11d39cca43dba7d9206c40fab19363c30806a63b776c60ad04"
+  },
+  "labels": {
+    "path": "labels.npy",
+    "sha256": "bb078c72398c8cf6fbe69f71622eecf7a02960be28965f7c2bd261a577b7a674"
+  },
+  "source_labels": {
+    "path": "source_labels.npy",
+    "sha256": "826c4e7c7cf6d59b0c84df9a65877f7d24d4d8752999dffb94a051e158bb7955"
+  },
+  "valid": {
+    "path": "valid.npy",
+    "sha256": "605aa6d06f0b769ae029e0aaf112bbd8c42898c7897e03bc0a80b0ad7f2abc0e"
+  },
+  "source_to_class": {
+    "0": -1,
+    "1": 34,
+    "2": 16,
+    "3": 29,
+    "4": 15,
+    "5": 21,
+    "6": 28,
+    "7": 38,
+    "8": 7,
+    "9": 9
+  },
+  "label_counts": {
+    "-1": 256744,
+    "7": 1161,
+    "9": 6166,
+    "15": 3286,
+    "16": 996,
+    "21": 228,
+    "28": 4867,
+    "29": 386,
+    "34": 8563,
+    "38": 1057
+  },
+  "invalid_measurements": 0,
+  "spectral_axis": null,
+  "spectral_axis_status": "pending_channel_mapping",
+  "spatial_context": "real",
+  "provenance": {
+    "sources": {
+      "scene_id": "hymars_v2_NF",
+      "cube": {
+        "path": "storage/cubes/hymars/NiliFossae.mat",
+        "sha256": "8febf00273f3c8dbab730cb0f019b267efdc61d90d2d4ebc7374e4c388f3edac",
+        "format": "mat",
+        "variable": "NiliFossae"
+      },
+      "labels": {
+        "path": "storage/cubes/hymars/NiliFossae_gt.mat",
+        "sha256": "a78dd36f3e27831d96cb6f7284a5ed5a92a6ccc2413bf244c19470822aff0487",
+        "format": "mat",
+        "variable": "NiliFossae_gt"
+      },
+      "expected_shape_hwc": [
+        478,
+        593,
+        425
+      ],
+      "observation_id": "FRT00003E12",
+      "observation_id_source": "user_2026-11-15; PDS product exists; numerical mapping pending",
+      "invalid_values": [
+        65535
+      ],
+      "empty_pixel_all_zero": true,
+      "excluded_measurements": []
+    },
+    "values_changed": false,
+    "geometry_changed": false,
+    "taxonomy_sha256": "8b5f9b7150ab67bd4c76466b52b01a74a582b544fa693946edc347a304651aae"
+  }
+}
